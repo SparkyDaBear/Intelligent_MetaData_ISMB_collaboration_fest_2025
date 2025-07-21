@@ -1,0 +1,22 @@
+AssayName: label-free HPLC-tandem mass spectrometry  
+AssayName: Reverse phase LC-MS/MS  
+AssayName: selected reaction monitoring MS  
+OrganismPart: left posterior inferior cerebellar hemispheric cortex  
+OrganismPart: BA19 (occipital) cortex  
+NumberOfSamples: a total of 9 ASD and 9 control subjects  
+Compound: 100 mM Tris pH 8.0  
+Compound: 2% SDS  
+Compound: 0.1% protease inhibitor cocktail  
+CleavageAgent: LysC  
+CleavageAgent: trypsin  
+Temperature: 37 °C  
+Time: 1 hour  
+Time: overnight  
+GradientTime: 210 min  
+PrecursorMassTolerance: 25 ppm  
+FragmentMassTolerance: 0.8 Da  
+Modification: carbamidomethlylation of cysteines  
+NumberOfMissedCleavages: one missed cleavage  
+Modification: oxidation of methionine  
+SpikedCompound: labeled internal standard  
+Disease: idiopathic autism

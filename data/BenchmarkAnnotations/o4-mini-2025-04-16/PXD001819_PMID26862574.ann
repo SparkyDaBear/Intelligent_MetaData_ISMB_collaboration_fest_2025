@@ -1,0 +1,46 @@
+AssayName: LC-MS analysis  
+OrganismPart: yeast lysate  
+SpikedCompound: UPS1 mixture of 48 recombinant proteins  
+SupplementaryFile: PXD001819  
+OrganismPart: yeast cell lysate samples  
+Instrument: LTQ-Velos Orbitrap  
+Compound: Sigma UPS1  
+Compound: 8 M urea/0.1 M ammonium bicarbonate buffer  
+ConcentrationOfCompound: 8 µg/µL  
+AssayName: Bradford assay  
+SpikedCompound: UPS1 standard mixture (Sigma)  
+ConcentrationOfCompound: 0.05–0.125–0.250–0.5–2.5–5–12.5–25–50 fmol of UPS1/µg of yeast lysate  
+ReductionReagent: DTT  
+AlkylationReagent: iodoacetamide  
+ConcentrationOfCompound: 1 M  
+CleavageAgent: trypsin  
+ConcentrationOfCompound: 2% of trypsin  
+Time: overnight  
+Compound: TFA  
+ConcentrationOfCompound: 0.5% final concentration  
+AssayName: nanoLC-MS/MS  
+Instrument: nanoRS UHPLC system  
+Instrument: LTQ-Orbitrap Velos mass spectrometer  
+Separation: C-18 precolumn (300 µm IDx5 mm, Dionex)  
+FlowRateChromatogram: 20 µL/min  
+Time: 5 min  
+Separation: analytical C-18 column (75 µm IDx15 cm, in-house packed with C-18 Reprosil)  
+FlowRateChromatogram: 300 nL/min  
+GradientTime: 75 min  
+GradientTime: 30 min  
+GradientTime: 10 min  
+AcquisitionMethod: data-dependent acquisition mode  
+FragmentationMethod: CID fragmentation  
+MS2MassAnalyzer: linear trap (LTQ)  
+Instrument: ESI-TRAP  
+CleavageAgent: trypsin/P  
+NumberOfMissedCleavages: 2  
+PrecursorMassTolerance: 5 ppm  
+FragmentMassTolerance: 0.8 Da  
+Modification: acetyl (Protein N-ter)  
+Modification: oxidation (M)  
+Modification: carbamidomethyl (C)  
+PrecursorMassTolerance: 20 ppm  
+PrecursorMassTolerance: 6 ppm  
+FragmentMassTolerance: 0.5 Da  
+NumberOfTechnicalReplicates: triplicate

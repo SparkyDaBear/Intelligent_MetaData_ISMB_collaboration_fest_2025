@@ -1,0 +1,26 @@
+AssayName: data-dependent acquisition (DDA)
+AssayName: data-independent acquisition (DIA)
+CellLine: C2C12 cells
+CleavageAgent: trypsin (Serva, Heidelberg, Germany)
+NumberOfMissedCleavages: two missed cleavages
+Instrument: Q Exactive HF mass spectrometer
+IonizationType: electrospray ionization
+GradientTime: 120 min gradient
+Temperature: 37 °C
+Temperature: 56 °C
+ReductionReagent: dithiothreitol (DTT, final concentration of 5 mm)
+AlkylationReagent: iodoacetamide (13.75 mm final concentration)
+FractionationMethod: Protein Fractionation by SDS-PAGE
+FractionationMethod: Peptide Fractionation by High pH Reversed Phase Chromatography
+NumberOfFractions: 10 slices
+NumberOfFractions: 8 fractions
+SpikedCompound: human α-synuclein
+SpikedCompound: β-lactoglobulin from bovine milk
+SpikedCompound: fibrinogen α, β and γ from human plasma
+SpikedCompound: glucose oxidase from Aspergillus niger
+SpikedCompound: human hemoglobin α and β
+SpikedCompound: lipases 1, 2 and 3 from Candida rugosa
+SpikedCompound: lysozyme from chicken egg white
+SpikedCompound: myoglobin from equine skeletal muscle
+Experiment: gold standard spike-in sample set (GS)
+PooledSample: master mix, MM

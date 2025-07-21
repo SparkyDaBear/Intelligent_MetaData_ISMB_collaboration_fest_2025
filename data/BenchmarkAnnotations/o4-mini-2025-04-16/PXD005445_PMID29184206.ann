@@ -1,0 +1,54 @@
+AssayName: label-free quantitative tandem mass-spectrometry proteomics  
+Specimen: frozen post-mortem human brain specimens  
+Organism: human  
+Age: one year post conception  
+Age: 40 years  
+SampleTreatment: pulverized in liquid nitrogen  
+Compound: Urea  
+ConcentrationOfCompound: 8 M Urea  
+Compound: ammonium bicarbonate  
+ConcentrationOfCompound: 0.4 M ammonium bicarbonate  
+Compound: Complete Protease inhibitor (Roche)  
+SampleTreatment: homogenised by sonication  
+Separation: centrifugation at 14,000 rpm, 4°C, 10 min on a desktop centrifuge  
+AssayName: BCA assay  
+ReductionReagent: Dithiothreitol  
+ConcentrationOfCompound: 45 mM  
+AlkylationReagent: iodoacetamide  
+ConcentrationOfCompound: 100 mM  
+CleavageAgent: trypsin  
+Time: 16 hours  
+Temperature: 37°C  
+Compound: trifluoroacetic acid  
+ConcentrationOfCompound: 20% trifluoroacetic acid  
+Separation: C18 Macro Spin Columns (Nest Group)  
+Temperature: −20°C  
+Compound: formic acid  
+ConcentrationOfCompound: 3.5% formic acid  
+ConcentrationOfCompound: 0.1% trifluoroacetic acid  
+ConcentrationOfCompound: 0.04 µg/µl  
+ConcentrationOfCompound: 0.2 µg loaded on column  
+FractionIdentifier: 48 fractions  
+NumberOfFractions: 48  
+FractionIdentifier: 15 pools  
+NumberOfFractions: 15  
+AssayName: LC MS/MS  
+Instrument: Q Exactive Plus mass spectrometer (ThermoFisher Scientific)  
+Separation: Waters ACQUITY UPLC (BEH) C18 column (130 Angstrom, 1.7 µm, 2.1 mm id × 100 mm)  
+FlowRateChromatogram: 0.4 mL/min  
+Separation: Waters Symmetry C18 trap (1.7 µm, 180 µm × 20 mm)  
+Separation: ACQUITY UPLC PST (BEH) C18 column (130 Angstrom, 1.7 µm × 75 µm id × 250 mm)  
+FlowRateChromatogram: 5 µL/min  
+GradientTime: 0.0 min – 1% B  
+GradientTime: 140 min - 30% B  
+GradientTime: 155 min - 40% B  
+GradientTime: 160 min - 85% B  
+FlowRateChromatogram: 300 nL/min  
+FragmentationMethod: higher energy collisional dissociation  
+CollisionEnergy: normalised collision energy 28  
+FragmentMassTolerance: isolation window 1.7 m/z  
+MS2MassAnalyzer: resolution of 17,500 at m/z 200  
+Modification: cysteine carbamidomethylation  
+Modification: N-acetylation  
+Modification: methionine oxidation  
+SupplementaryFile: PXD005445

@@ -1,0 +1,69 @@
+AlkylationReagent: 55 mM iodoacetamide  
+AssayName: mass spectrometry (MS)-based proteomics  
+AssayName: MS analysis  
+AssayName: MTT assay  
+AssayName: Click-iT® assay  
+CellLine: MDA-MB-435S  
+CleavageAgent: trypsin  
+Compound: paclitaxel  
+Compound: vincristine  
+Compound: Cis-diamminedichloroplatinum (cisplatin, CDDP)  
+Compound: phosphate-buffered saline (PBS)  
+Compound: DMSO  
+Compound: 3-((4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide) (MTT)  
+Compound: EDTA  
+Compound: Annexin V-FITC  
+Compound: PI  
+Compound: 5-ethynyl-2′-deoxyuridine  
+Compound: rhodamine phalloidin  
+Compound: antibody against α-tubulin  
+Compound: DAPI Fluoromount-G  
+Compound: Wang and Richard’s reagent  
+Compound: acetone  
+Compound: Laemmli buffer  
+Compound: horseradish peroxidase-coupled secondary antibody  
+ConcentrationOfCompound: 10% (v/v) FBS  
+ConcentrationOfCompound: 20 nM  
+ConcentrationOfCompound: 0.1% (w/v) BSA  
+ConcentrationOfCompound: 1% (w/v) crystal violet  
+ConcentrationOfCompound: 0.004 μg/mL  
+ConcentrationOfCompound: 10 μM  
+ConcentrationOfCompound: 6 mM DTBP  
+ConcentrationOfCompound: 1.25 ng/μL  
+ConcentrationOfCompound: 0.1% formic acid in water  
+ConcentrationOfCompound: 0.1% formic acid in acetonitrile  
+ConcentrationOfCompound: 5% (w/v) non-fat dry milk  
+FlowRateChromatogram: 300 nL per minute  
+FragmentMassTolerance: 0.50 Da  
+GeneticModification: MDA-MB-435S-derived integrin αV-specific shRNA-expressing cell clones  
+GeneticModification: Single siRNA specific for KANK2 (target sequence ATGTCAACGTGCAAGATGA; Sigma-Aldrich)  
+GradientTime: 44 min  
+IonizationType: electrospray ionization  
+Instrument: Olympus BX51TF microscope  
+Instrument: FACSCalibur  
+Instrument: Leica TCS SP8 X  
+Instrument: HC PL APOCS2 63 × /1.40 oil-immersion objective  
+Instrument: HC PL APOCS2 40 × /1.30 oil-immersion objective  
+Instrument: UltiMate® 3000 Rapid Separation LC  
+Instrument: Orbitrap Elite mass detector  
+Instrument: EVOS cell imaging system  
+PrecursorMassTolerance: 5 PPM  
+ReductionReagent: dithiothreitol  
+SampleTreatment: serum-starved (24 h)  
+SampleTreatment: fixed with 2% (w/v) paraformaldehyde  
+SampleTreatment: permeabilized with 0.1% (v/v) Triton X-100  
+Time: 24 h  
+Time: 22 h  
+Time: 90 min  
+Time: 72 h  
+Time: 44 s  
+Time: 18–20 h  
+Time: 5 min  
+Time: 1 h  
+Time: 3 min  
+Time: 20 min  
+Temperature: −20°C  
+Temperature: 4°C  
+Temperature: 37°C  
+Temperature: 56°C  
+Temperature: 70°C

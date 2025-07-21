@@ -1,0 +1,18 @@
+ABSTRACT:
+Summary
+Aging is associated with the decline of protein, cell, and organ function. Here, we use an integrated approach to characterize gene expression, bulk translation, and cell biology in the brains and livers of young and old rats. We identify 468 differences in protein abundance between young and old animals. The majority are a consequence of altered translation output, that is, the combined effect of changes in transcript abundance and translation efficiency. In addition, we identify 130 proteins whose overall abundance remains unchanged but whose sub-cellular localization, phosphorylation state, or splice-form varies. While some protein-level differences appear to be a generic property of the rats’ chronological age, the majority are specific to one organ. These may be a consequence of the organ’s physiology or the chronological age of the cells within the tissue. Taken together, our study provides an initial view of the proteome at the molecular, sub-cellular, and organ level in young and old rats.
+Graphical Abstract
+Highlights
+An integrated approach identifies molecular alterations between young and old rats
+Changes in translation output explain the majority of the altered protein abundances
+Key protein complexes are altered in abundance and composition
+We provide a rich data resource to stimulate further studies of aging
+Ori et al. quantified the molecular alterations that occur between young and old rats in two organs: brain and liver. By integrating genomic and proteomic measurements, the authors were able to reveal that changes in translation are the primary cause of protein level alterations during aging. However, they also identified other levels of regulation such as protein localization and phosphorylation that co-participate in modifying the proteome in old animals.
+METHODS:
+Experimental Procedures
+Tissue Fractionation
+Liver and brain were harvested from three Fischer 344 rats for each age group. Nuclei were purified according to previously described protocols. Further fractionation was based on previous descriptions.
+Determination of Transcription and Translation Changes
+RNA-seq and ribosome profiling libraries were prepared using an Illumina TruSeq kit and standard ribosome profiling protocols, and sequenced using the Illumina HiSeq platform. The data discussed in this publication have been deposited in NCBI’s Gene Expression Omnibus and are accessible through GEO: GSE66715 (http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66715).
+Determination of Protein and Phosphosite Abundance Changes
+Proteins from subcellular fractions were solubilized and digested into peptides as described in. For phosphoproteome analysis, phosphopeptides were isolated from peptide mixtures by TiO2-based affinity enrichment using the Titansphere Phos-TiO Kit (MZ Analysentechnik) as described in. All samples were measured by shotgun mass spectrometry (see Supplemental Experimental Procedures). The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium (http://proteomecentral.proteomexchange.org) via the PRIDE partner repository with the dataset identifier PXD002467.

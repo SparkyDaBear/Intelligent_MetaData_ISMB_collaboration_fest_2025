@@ -1,0 +1,51 @@
+CellLine: HCT 116  
+Instrument: Agilent Infinity II HPLC system  
+Instrument: Q-Exactive HF mass spectrometer  
+Instrument: ECE-001 CE autosampler  
+ReductionReagent: Dithiothreitol (DTT)  
+AlkylationReagent: iodoacetamide (IAA)  
+ConcentrationOfCompound: 8 M urea  
+ConcentrationOfCompound: 75 mM NaCI  
+ConcentrationOfCompound: 50 mM Tris-HCI (pH 8.2)  
+ConcentrationOfCompound: 10 mM sodium pyrophosphate  
+ConcentrationOfCompound: 1 mM PMSF  
+ConcentrationOfCompound: 1 mM Na3VO4  
+ConcentrationOfCompound: 1 mM NaF  
+ConcentrationOfCompound: 1 mM β-glycerophosphate  
+ConcentrationOfCompound: 1 EDTA-free protease inhibitor cocktail  
+ConcentrationOfCompound: 5 mM Dithiothreitol (DTT)  
+ConcentrationOfCompound: 14 mM iodoacetamide (IAA)  
+ConcentrationOfCompound: 25 mM Tris-HCI buffer (pH 8.2)  
+ConcentrationOfCompound: 1 mM CaCl2  
+ConcentrationOfCompound: 0.1% formic acid (FA) in water  
+ConcentrationOfCompound: 0.1% FA in acetonitrile (ACN)  
+ConcentrationOfCompound: 890 mM ammonium acetate solution (pH = 2.88)  
+ConcentrationOfCompound: 150 mM ammonium acetate solution  
+ConcentrationOfCompound: 5% (v/v) acetic acid (AA) (pH 2.4)  
+ConcentrationOfCompound: 10% (v/v) methanol  
+ConcentrationOfCompound: 0.2% (v/v) FA in water  
+FlowRateChromatogram: 0.3 mL/min  
+Temperature: 37 °C  
+Temperature: −80 °C  
+Time: 1 h  
+Time: 30 min  
+Time: 25 min  
+Time: overnight  
+EnrichmentMethod: TiO2 beads  
+FractionationMethod: SCX-RPLC online fractionation  
+NumberOfFractions: 42  
+NumberOfFractions: 40  
+AssayName: CZE-MS/MS  
+AssayName: LC-MS/MS  
+AssayName: SCX-RPLC  
+MaterialType: fused silica capillary (50 µm i.d., 360 µm o.d.)  
+IonizationType: electrospray ionization  
+AcquisitionMethod: data-dependent acquisition  
+FragmentMassTolerance: 0.05 Da  
+PrecursorMassTolerance: 20 ppm  
+CollisionEnergy: 28% normalized collision energy  
+Modification: Oxidation (methionine)  
+Modification: phosphorylation (serine, threonine and tyrosine)  
+Modification: Acetylation at the protein N-terminal  
+Modification: Carbamidomethylation (cysteine)  
+NumberOfMissedCleavages: Maximum two missed cleavage sites

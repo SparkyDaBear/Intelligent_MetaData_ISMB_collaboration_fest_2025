@@ -1,0 +1,67 @@
+Organism: Escherichia coli  
+Strain: Escherichia coli BL21 Δarg/Δlys  
+Strain: E. coli W3110  
+MaterialType: LB medium  
+Temperature: 30°C  
+Temperature: 37°C  
+Temperature: 40°C  
+FactorValue: OD580 nm of 0.5  
+GeneticModification: Strep-LpxC (pBO113)  
+GeneticModification: Strep-tag (pASK-IBA5+)  
+GeneticModification: His6-MBP-FtsH (pMal-C-FtsH)  
+GeneticModification: His6-MBP (pBO4811)  
+Compound: AHT  
+ConcentrationOfCompound: 10 ng  
+ConcentrationOfCompound: 25 ng  
+ConcentrationOfCompound: 40 ng  
+Compound: IPTG  
+ConcentrationOfCompound: 0.05 mM  
+Instrument: Constant Systems  
+Temperature: 4°C  
+EnrichmentMethod: Strep-tactin affinity purification  
+EnrichmentMethod: nickel-nitrilotriacetic acid (Ni-NTA) affinity purification  
+AssayName: Bradford assays  
+PooledSample: super-SILAC standard  
+MaterialType: Azure high-def media (Teknova)  
+Label: Arg10  
+Label: Lys8  
+Compound: glucose  
+ConcentrationOfCompound: 1%  
+AssayName: LC-MS/MS  
+FractionationMethod: Novex NuPage 4–12% gradient gel  
+CleavageAgent: trypsin  
+CleavageAgent: Trypsin/P  
+ConcentrationOfCompound: 2.0 μg/μL  
+ConcentrationOfCompound: 10 mM HCl  
+ConcentrationOfCompound: 100 mM NH4HCO3  
+Compound: trifluoroacetic acid (TFA)  
+Compound: ACN  
+ConcentrationOfCompound: 100%  
+Instrument: UltiMate®3000 RSLCnano HPLC system (Thermo Fisher Scientific)  
+Instrument: Orbitrap Elite hybrid ion trap-Orbitrap mass spectrometer (Thermo Fisher Scientific)  
+Separation: Acclaim®PepMapTM C18 μ-precolumn (5 μm particle size, 2 cm length, 100 μm ID, Thermo Fisher Scientific)  
+FlowRateChromatogram: 30 μL/min  
+Separation: Acclaim®PepMapTM C18 analytical column (2 μm particle size, 50 cm length, 75 μm ID, Thermo Fisher Scientific)  
+FlowRateChromatogram: 400 nL/min  
+GradientTime: 120 min  
+CollisionEnergy: 35%  
+FragmentationMethod: CID  
+NumberOfMissedCleavages: 2  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 0.5 Da  
+Modification: oxidation of methionine  
+Organism: E. coli  
+Experiment: In vivo Degradation Using a Double Expression System  
+Compound: arabinose  
+ConcentrationOfCompound: 0.1%  
+Time: 10 min  
+ConcentrationOfCompound: 0.1–0.5 mM  
+Time: 10–30 min  
+Compound: Sp  
+ConcentrationOfCompound: 300 μg/mL  
+NumberOfBiologicalReplicates: three biological replicates  
+Separation: SDS-PAGE  
+MaterialType: nitrocellulose membrane  
+Instrument: ChemiDocTM MP System (Bio-Rad)  
+Temperature: 95°C  
+SupplementaryFile: PXD006195  

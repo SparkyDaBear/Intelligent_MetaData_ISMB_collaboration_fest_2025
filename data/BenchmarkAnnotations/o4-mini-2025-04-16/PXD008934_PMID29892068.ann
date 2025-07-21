@@ -1,0 +1,39 @@
+Specimen: human myocardial tissue  
+OrganismPart: left ventricle (LV) tissues  
+SampleTreatment: flash frozen in liquid nitrogen within 4 hours of explantation  
+SampleTreatment: arrested in situ using ice-cold cardioplegia solution  
+ReductionReagent: 5 mM dithiothreitol  
+AlkylationReagent: 25 mM iodoacetamide  
+CleavageAgent: trypsin  
+EnrichmentMethod: C18 micro spin column  
+Instrument: Q-Exactive (Thermo Scientific)  
+FlowRateChromatogram: 300 nL/min  
+GradientTime: 170 min gradient  
+AcquisitionMethod: Data dependent acquisition mode  
+FragmentationMethod: higher-energy collisional dissociation  
+CollisionEnergy: 27%  
+MS2MassAnalyzer: Orbitrap detection  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 20 ppm  
+NumberOfMissedCleavages: up to 2 mis-cleavages  
+Modification: Carbamidomethyl [C]  
+Modification: Oxidation [M]  
+Label: LFQ  
+Label: iBAQ  
+Compound: parthenolide  
+ConcentrationOfCompound: 10 μΜ parthenolide  
+Compound: colchicine  
+ConcentrationOfCompound: 10μΜ colchicine  
+Compound: SDS  
+ConcentrationOfCompound: 0.1% SDS  
+Compound: urea  
+ConcentrationOfCompound: 8 M urea  
+Compound: NH4HCO3  
+ConcentrationOfCompound: 100 mM NH4HCO3  
+Temperature: 52°C  
+Temperature: room temperature  
+Temperature: 37°C  
+Instrument: Odyssey Imager (LI-COR)  
+Instrument: Zeiss 880 Airyscan confocal microscope  
+Instrument: Deltavision OMX microscope  
+Instrument: Piuma Chiaro, Optics11

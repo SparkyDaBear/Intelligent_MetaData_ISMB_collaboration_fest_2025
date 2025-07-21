@@ -1,0 +1,34 @@
+CellType: human melanoma cells  
+CellLine: A375 (ATCC, CRL-1619)  
+Compound: dabrafenib  
+Compound: trametinib  
+Compound: SCH772984  
+ConcentrationOfCompound: 500 μM  
+ConcentrationOfCompound: 100 μM  
+Temperature: −80 °C  
+Time: 30 minutes  
+EnrichmentMethod: TiO2 enrichment of phosphorylated peptides  
+ReductionReagent: 1 mM Dithiothritol  
+AlkylationReagent: Chloroacetamide  
+CleavageAgent: Lys-C protease  
+CleavageAgent: trypsin  
+MaterialType: Sep-Pak C18 cartridge  
+FlowRateChromatogram: 0.5 ml per minute  
+FlowRateChromatogram: 250 nl/min  
+FractionationMethod: strong cation exchange chromatography  
+NumberOfFractions: 32  
+Instrument: ThermoFisher Scientific Q Exactive mass spectrometer  
+Instrument: Easy-nLC 1000  
+GradientTime: 250 minute  
+GradientTime: 240 minutes  
+CellLine: HEK293  
+Treatment: tetracyclin  
+Time: 72 hours  
+Bait: FLAG-tagged ERK1  
+Bait: ERK2  
+Bait: red fluorescent protein  
+Modification: Methionine oxidation  
+Modification: protein N-terminal acetylation  
+Modification: serine/threonine/tyrosine phosphorylation  
+Modification: cysteine carbamidomethylation  
+Temperature: 45°C

@@ -1,0 +1,55 @@
+Sex: male  
+NumberOfSamples: 16 healthy heart regions  
+Temperature: −80 °C  
+Compound: collagenase type II  
+ConcentrationOfCompound: 2 mg per ml  
+Temperature: 37 °C  
+Time: 1 h  
+Compound: fetal calf serum  
+ConcentrationOfCompound: 10%  
+Compound: penicillin  
+ConcentrationOfCompound: 100 U per ml  
+Compound: streptomycin  
+ConcentrationOfCompound: 100 µg per ml  
+Compound: sodium-pyruvate  
+ConcentrationOfCompound: 1 mM  
+AlkylationReagent: SDC reduction and alkylation buffer  
+Time: 10 min  
+Instrument: FastPrep®-24 Instrument  
+AssayName: Tryptophan assay  
+CleavageAgent: Lys-C  
+CleavageAgent: trypsin  
+Instrument: bioruptor  
+Time: 30 s  
+Time: 3 h  
+Compound: trifluoroacetic acid  
+ConcentrationOfCompound: 0.1%  
+EnrichmentMethod: SDB-RPS binding  
+FractionationMethod: high-pH reversed-phase fractionation  
+NumberOfFractions: 8  
+Instrument: Q Exactive HF  
+Instrument: EASYnLC 1200 ultra-high-pressure system  
+IonizationType: nano-electrospray ion source  
+AssayName: Nanoflow LC–MS/MS analysis  
+Separation: linear gradient from 2 to 20% B in 55 min  
+GradientTime: 55 min  
+Separation: stepped up to 40% in 40 min  
+GradientTime: 40 min  
+Separation: 5 min wash at 98% B  
+GradientTime: 5 min  
+FlowRateChromatogram: 350 nl per min  
+Compound: formic acid  
+ConcentrationOfCompound: 0.1%  
+Compound: DMSO  
+ConcentrationOfCompound: 5%  
+Compound: acetonitrile  
+ConcentrationOfCompound: 80%  
+Compound: ammonia  
+ConcentrationOfCompound: 1%  
+AssayName: top-15 data-dependent mode  
+FragmentationMethod: higher-energy collisional dissociation  
+CollisionEnergy: 27%  
+AssayName: top-5 data-dependent acquisition  
+Temperature: 60 °C  
+Instrument: SpeedVac centrifuge  
+Instrument: Concentrator plus

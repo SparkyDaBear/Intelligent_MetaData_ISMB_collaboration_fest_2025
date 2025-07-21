@@ -1,0 +1,56 @@
+AssayName: LC-MS/MS analysis  
+AssayName: BCA assay  
+CellLine: WEHI-231 B cell line  
+CellLine: WEHI-231 cells  
+Compound: Hg2+  
+Compound: HgCl2  
+Compound: pervanadate  
+Compound: okadaic acid  
+Compound: Acetic Acid  
+Compound: CaCl2  
+Compound: TFA (trifluoroacetic acid)  
+Compound: formic acid  
+Compound: glutamic acid  
+CleavageAgent: TPCK (L-1-tosylamido-2-phenylethyl chloromethyl ketone)-treated bovine pancreas trypsin  
+CleavageAgent: trypsin  
+Separation: HPLC  
+Separation: SDS-PAGE  
+Separation: peptide Captrap (Michrom, Auburn, CA) trapping column  
+Separation: Majic 0.1 mm × 150 mm AQ C18 column (Michrom)  
+Instrument: Thermo LTQ equipped with ETD (ThermoFisher Scientific, Watham, MA)  
+EnrichmentMethod: TiO2 affinity selection  
+EnrichmentMethod: 2 sequential incubations each with 2 mg of 5 μ TiO2 beads  
+EnrichmentMethod: a single incubation with 6 mg of 5 μ TiO2 beads for each sample  
+Organism: Mus musculus  
+Experiment: first experiment  
+Experiment: second experiment  
+NumberOfBiologicalReplicates: 3 independent samples per treatment  
+NumberOfBiologicalReplicates: 4 independent samples per treatment  
+SamplingTime: 10 minute exposure  
+Temperature: −80°C  
+FragmentMassTolerance: 0.70 Da  
+PrecursorMassTolerance: 3.5 Da  
+Modification: iodoacetamide derivative of cysteine  
+Modification: Oxidation of methionine  
+Modification: acetylation of the n-terminus  
+Modification: phosphorylation of serine, threonine and tyrosine  
+ConcentrationOfCompound: 250 μM HgCl2  
+ConcentrationOfCompound: 100 μM  
+ConcentrationOfCompound: 250 μM  
+ConcentrationOfCompound: 25 μM pervanadate  
+ConcentrationOfCompound: 100 nM okadaic acid  
+ConcentrationOfCompound: 10% fetal bovine serum  
+ConcentrationOfCompound: 2 mm glutamine  
+ConcentrationOfCompound: 50 μM mercaptoethanol  
+ConcentrationOfCompound: 100 U/ml penicillin  
+ConcentrationOfCompound: 100 μg/ml streptomycin  
+ConcentrationOfCompound: Tris, 20 mM pH 8.0  
+ConcentrationOfCompound: SDS, 0.5%  
+ConcentrationOfCompound: LiFl, 1.0 mM  
+ConcentrationOfCompound: Na3VO4, 0.1 mM  
+ConcentrationOfCompound: 1:100 trypsin  
+ConcentrationOfCompound: Tris, 20 mM  
+ConcentrationOfCompound: SDS, 0.1%  
+ConcentrationOfCompound: LiF, 1.0 mM  
+ConcentrationOfCompound: 10% acetonitrile  
+ConcentrationOfCompound: 0.1% formic acid

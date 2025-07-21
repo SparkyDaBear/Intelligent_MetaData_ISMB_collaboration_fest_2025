@@ -1,0 +1,50 @@
+CellLine: HEK293 N3S cells  
+GeneticModification: Thr90 mutated to Lys  
+Bait: 6His-SUMO2T90K  
+SourceName: Dulbecco’s modified Eagle medium (DMEM) (Gibco)  
+SourceName: Minimum Essential medium Eagle (spinner modification; Sigma-Aldrich)  
+Compound: puromycin  
+ConcentrationOfCompound: 2 g/ml  
+ConcentrationOfCompound: 1 g/ml  
+Compound: dialyzed fetal calf serum  
+ConcentrationOfCompound: 10%  
+Compound: penicillin  
+Compound: streptomycin  
+ConcentrationOfCompound: 100 U/ml  
+Compound: L-glutamine  
+ConcentrationOfCompound: 2 mM  
+ReductionReagent: 5 mM β-mercaptoethanol  
+AlkylationReagent: 50 mM chloroacetamide  
+CleavageAgent: Lys-C (Wako)  
+CleavageAgent: endoproteinase Glu-C  
+EnrichmentMethod: Nickel affinity purification of 6His-SUMO2T90K conjugates  
+EnrichmentMethod: Immunopurification of diGly-Lys containing peptides  
+Instrument: Q Exactive mass spectrometer  
+Instrument: EASY-nLC 1000 liquid chromatography system  
+Instrument: EASY-Spray ion source  
+AssayName: liquid chromatography tandem MS  
+Separation: reverse-phase C18 (Empore) stop-and-go-extraction tips  
+Separation: 75 μm × 500 mm EASY-Spray column (Thermo Scientific)  
+MaterialType: 30 kDa cutoff filter units  
+FractionationMethod: protein electrophoresis  
+FractionationFraction: nine slices  
+FlowRateChromatogram: 250 nl/min  
+GradientTime: 90 minutes  
+GradientTime: 150 minutes  
+Temperature: 43 °C  
+Temperature: 20 °C  
+Temperature: 4 °C  
+SamplingTime: 16 hours  
+SamplingTime: 1.5 h  
+SamplingTime: 4 hours  
+NumberOfMissedCleavages: three or five  
+PrecursorMassTolerance: 6 parts per million  
+FragmentMassTolerance: 0.5 Da  
+NumberOfBiologicalReplicates: duplicate  
+BiologicalReplicate: duplicate 750mL cultures  
+Experiment: experiment designed to evaluate reproducibility  
+Modification: carbamidomethylation of Cys  
+Modification: oxidation of Met  
+Modification: acetylation of protein N-termini  
+Modification: phosphorylation of Ser, Thr, and Tyr  
+Modification: diGly adduction to Lys

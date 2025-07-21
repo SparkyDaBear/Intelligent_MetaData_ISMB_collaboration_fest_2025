@@ -1,0 +1,24 @@
+AssayName: Phosphoproteomics  
+AssayName: quantitative global phosphoproteomics  
+Instrument: LTQ-Orbitrap-Velos mass spectrometer  
+PrecursorMassTolerance: 10 p.p.m.  
+FragmentMassTolerance: 0.02 Da  
+CollisionEnergy: normalized collision energy of 42.5  
+Label: 6-plex TMT reagents  
+ReductionReagent: 10 mM DTT  
+AlkylationReagent: Iodoacetamide (1 M solution)  
+CleavageAgent: trypsin  
+EnrichmentMethod: IMAC enrichment of phosphopeptides for mass spectrometry  
+EnrichmentMethod: TiO2 enrichment of phosphopeptides for mass spectrometry  
+Separation: reverse-phase trap column (0.3 mm i.d. × 1 mm), containing 5 μm C18 300 Å Acclaim PepMap medium (Dionex) maintained at a temperature of 37 °C  
+Separation: reverse-phase PicoFrit capillary column (75 μm i.d. × 400 mm) containing Symmetry C18 100 Å medium (Waters)  
+FlowRateChromatogram: 0.3 μl min−1  
+GradientTime: 4 h  
+IonizationType: positive ion mode  
+FragmentationMethod: higher-energy collision dissociation (HCD)  
+SpikedCompound: 32P-orthophosphate  
+SpikedCompound: 32P-ATP  
+SampleTreatment: 0.1% (w/v) saponin in PBS  
+OrganismPart: Late-stage schizonts (segmented)  
+Treatment: Compound 2  
+Temperature: 37 °C

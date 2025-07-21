@@ -1,0 +1,37 @@
+BiologicalReplicate: four independent biological replicates  
+TechnicalReplicate: technical duplicates  
+Instrument: Orbitrap Fusion Tribrid mass spectrometer  
+Instrument: Proxeon Easy-nLC 1000 system  
+Instrument: Agilent 1100 binary pump  
+Instrument: BD Accuri C6 Plus machine  
+FlowRateChromatogram: 1 ml flow rate per minute  
+GradientTime: over 120 min  
+FragmentationMethod: higher-energy collisional dissociation (HCD)  
+CollisionEnergy: 35% normalized collision energy  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 0.1 Da  
+FractionationMethod: basic RPLC  
+EnrichmentMethod: TiO2 based enrichment  
+NumberOfFractions: 12 fractions  
+CleavageAgent: trypsin  
+CleavageAgent: chymotrypsin  
+AlkylationReagent: iodoacetamide  
+ReductionReagent: DTT  
+Compound: IBMX  
+Compound: BAPTA-AM  
+Compound: 8Br-cAMP  
+Compound: PKI  
+Compound: Neuraminidase  
+Compound: Trypsin  
+Compound: Chymotrypsin  
+ConcentrationOfCompound: 250 μM  
+ConcentrationOfCompound: 40 μM  
+ConcentrationOfCompound: 100 μM  
+ConcentrationOfCompound: 20 μM  
+ConcentrationOfCompound: 66 mU ml−1  
+ConcentrationOfCompound: 1 mg ml−1  
+Treatment: treated with IBMX (250 μM)  
+Time: 30 min  
+Temperature: 30 °C  
+AcquisitionMethod: top speed mode  
+Organism: P. falciparum asexual blood stages

@@ -1,0 +1,77 @@
+Treatment: tumor infiltrating lymphocyte (TIL)-based immunotherapy  
+Treatment: anti- programmed death 1 (PD1) immunotherapy  
+AssayName: high-resolution mass spectrometry  
+Specimen: archival formalin-fixed paraffin-embedded (FFPE) tissues  
+CellLine: WM266–4  
+CellLine: WM115  
+CellLine: A375  
+CellLine: Mel526  
+CellLine: Mel624  
+CellLine: Mel76  
+CellLine: Mel04  
+CellLine: YUMMER1.7 (clone D4J)  
+CellLine: TIL14  
+ConcentrationOfCompound: 4 mM L-Glutamine  
+ConcentrationOfCompound: 10% FBS  
+Compound: non-essential amino acids  
+ConcentrationOfCompound: 30 mM Sodium dichloroacetate (DCA)  
+ConcentrationOfCompound: 3 μM avasimibe  
+ConcentrationOfCompound: 100 μM etomoxir  
+ConcentrationOfCompound: 200 nM rotenone  
+ConcentrationOfCompound: 250 nM antimycin  
+ConcentrationOfCompound: 50 nM oligomycin  
+Time: 72 h  
+GeneticModification: UV irradiation  
+PooledSample: the heavy labeled super-SILAC standard lysate and the tumor lysates were mixed at a 1:1 ratio  
+CleavageAgent: trypsin  
+AssayName: filter-aided sample preparation (FASP) protocol  
+Compound: 8 M urea  
+ReductionReagent: 100 mM DTT  
+AlkylationReagent: 50 mM iodoacetamide  
+FactorValue: 1:50 enzyme to protein ratio  
+Compound: 1% trifluoroacetic acid  
+FractionationMethod: strong anion exchange (SAX) chromatography  
+EnrichmentMethod: C-18 (3M) stage tips  
+AssayName: Bradford protocol  
+AssayName: in-solution digestion protocol  
+ReductionReagent: 5 mM DTT  
+AlkylationReagent: 15 mM iodoacetamide  
+Compound: 50 mM ammonium bicarbonate  
+CleavageAgent: Lys-C-Trypsin mix (1:100 enzyme to protein ratio)  
+FactorValue: 1:100 enzyme to protein ratio  
+Compound: 6 M urea  
+Compound: 2 M thiourea  
+NumberOfBiologicalReplicates: 3  
+AssayName: Bradford assay  
+ReductionReagent: 1 mM DTT  
+AlkylationReagent: 5 mM iodoacetamide  
+FactorValue: 1:4  
+Instrument: EASY-nLC1000 UHPLC  
+Instrument: Q-Exactive Plus mass spectrometer  
+Instrument: Q-Exactive HF mass spectrometer  
+Separation: 50 cm EASY-spray PepMap column  
+GradientTime: 220 min  
+GradientTime: 140 min  
+FlowRateChromatogram: 300 nL/min  
+Temperature: 40°C  
+GradientTime: 240 min  
+Compound: 0.1% formic acid  
+Compound: 80% acetonitrile, 0.1% formic acid  
+PrecursorMassTolerance: 300–1700 Th  
+PrecursorMassTolerance: 380–1800 Th  
+Instrument: BOND-RX automated staining platform  
+AssayName: Bond Polymer Refine Red Detection Novocastra kit  
+Instrument: Benchmark XT staining module  
+SampleTreatment: CC1 Standard Benchmark XT pretreatment for antigen retrieval  
+Instrument: Leica Aperio VERSA Digital Pathology Scanner  
+MaterialType: PX459 vector (Addgene plasmid # 62988)  
+MaterialType: PX458-GFP vector  
+Instrument: Gallios flow cytometer  
+Instrument: BD LSRII flow cytometer  
+Instrument: StepOnePlus Real-Time PCR System  
+Instrument: CFX384 Touch Real-Time PCR Detection System  
+Compound: MitoTracker® Deep Red FM (M22426, Thermo Fisher Scientific)  
+ConcentrationOfCompound: 0.5 μg/mL DAPI  
+Instrument: SP8 inverted confocal microscopy  
+Instrument: XFe96 Extracellular Flux Analyzer  
+SourceName: Institute of Pathology at the Sheba Medical Center

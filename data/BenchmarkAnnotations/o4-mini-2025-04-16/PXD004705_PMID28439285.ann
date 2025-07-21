@@ -1,0 +1,34 @@
+Organism: Nipponbare (Oryza sativa L. ssp japonica)  
+Age: Two-week old young seedlings  
+Treatment: BR treatment  
+Compound: epibrassinolide  
+ConcentrationOfCompound: 10 μM  
+Time: 0 h  
+Time: 3 h  
+Time: 6 h  
+Time: 12 h  
+Time: 24 h  
+NumberOfBiologicalReplicates: Three biological replicates  
+AssayName: Real-time quantitative RT-PCR  
+Instrument: Bio-Rad CFX96 real-time PCR detection system  
+Instrument: SpeedVac  
+Instrument: Easy-nLC 1000 liquid chromatography system  
+Instrument: Q-Exactive Plus  
+Instrument: electrophoretic blotting system (Bio-Rad, Hercules, CA, USA)  
+IonizationType: nano-electrospray ion source  
+FlowRateChromatogram: 500 nl/min  
+CollisionEnergy: 27%  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 50 mmu  
+Modification: Oxidation (M)  
+Modification: Acetyl (Protein-N term)  
+Modification: Phospho(S/T/Y)  
+Modification: Carbamidomethyl (C)  
+NumberOfMissedCleavages: Two missed cleavage  
+MS2MassAnalyzer: Orbitrap analyzer operating at a resolution of 17,500 at m/z 400  
+SampleTreatment: immediately stored in liquid nitrogen until use  
+Temperature: 37°C  
+SamplingTime: 30 min  
+Separation: 10% SDS-polyacrylamide gel  
+MaterialType: 0.45 μm polyvinylidene fluoride fluoropolymer (PVDF) membrane  
+EnrichmentMethod: TiO2 beads

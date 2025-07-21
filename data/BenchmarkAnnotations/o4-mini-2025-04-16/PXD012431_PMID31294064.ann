@@ -1,0 +1,35 @@
+AssayName: label-free mass spectrometry  
+AssayName: nLC-ESI-MS/MS  
+AssayName: LC-ESI-MS/MS  
+OrganismPart: primary breast tumor  
+OrganismPart: axillary metastatic lymph nodes  
+OrganismPart: contralateral breast tissues  
+OrganismPart: adjacent breast tissues  
+SupplementaryFile: PXD012431  
+SampleTreatment: RNA later solution  
+SampleTreatment: filter-aided sample preparation (FASP) method  
+Compound: SDS  
+ConcentrationOfCompound: 4% SDS  
+Compound: Tris-HCl  
+ConcentrationOfCompound: 0.1 M Tris-HCl  
+Compound: DTT  
+ConcentrationOfCompound: 0.1 M DTT  
+FractionationMethod: 1D-PAGE  
+ConcentrationOfCompound: 10% (v/v) acrylamide gel  
+ReductionReagent: DTT  
+ConcentrationOfCompound: 10 mM DTT  
+AlkylationReagent: iodacetamide  
+ConcentrationOfCompound: 50 mM iodacetamide  
+CleavageAgent: trypsin  
+ConcentrationOfCompound: 12.5 ng/μl trypsin  
+Time: 18 h  
+Temperature: 37 °C  
+Time: 5 minutes  
+Temperature: 95 °C  
+Instrument: EASY-nLC 1000 chromatograph (Thermo Scientific)  
+Instrument: LTQ Orbitrap XL ETD (Thermo Scientific)  
+NumberOfTechnicalReplicates: triplicate  
+MS2MassAnalyzer: ion trap analyzer  
+FragmentationMethod: CID fragmentation  
+AcquisitionMethod: DDA mode  
+IonizationType: electrospray ionization

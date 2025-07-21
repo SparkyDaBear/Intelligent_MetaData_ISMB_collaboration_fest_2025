@@ -1,0 +1,30 @@
+AssayName: Stable Isotope Labeling by Amino acids in Cell culture (SILAC)  
+AssayName: phosphoproteomic analysis  
+CellLine: Parental MDA-MB-231-TGL  
+CellLine: 4175 (LM2)  
+CellLine: BrM2a  
+CellLine: 1833 (BoM1)  
+CellLine: MDA-MB-468  
+CellLine: SUM149PT  
+CellLine: MDA-MB-453  
+CellLine: EA.hy926  
+CellLine: HUVECs pooled  
+CellLine: HEK 293FT  
+CleavageAgent: Lys-C (Wako 125-05061)  
+CleavageAgent: trypsin (Worthington)  
+FractionationMethod: High pH reverse phase chromatographic separation  
+FragmentMassTolerance: fragment mass tolerance of 0.05 Da  
+GradientTime: 120 min linear gradient of 0-50% solvent B (acetonitrile; 0.1% formic acid) against solvent A (H2O; 0.1% FA) with a flow rate of 300 nL/min  
+Instrument: LTQ Orbitrap Velos mass spectrometer  
+Instrument: Q-Exactive Plus mass spectrometer  
+NumberOfMissedCleavages: maximum of two missed cleavages  
+PrecursorMassTolerance: precursor mass tolerance of 20 ppm  
+ReductionReagent: 20 mM dithiothreitol (DTT)  
+AlkylationReagent: 50 mM iodoacetamide (IAA)  
+Separation: Reversed-phase chromatographic separation  
+ConcentrationOfCompound: 50 µg/mL  
+FlowRateChromatogram: 300 nL/min  
+FlowRateChromatogram: 0.4 ml/min  
+Temperature: 37°C  
+Temperature: 4°C  
+Temperature: room temperature

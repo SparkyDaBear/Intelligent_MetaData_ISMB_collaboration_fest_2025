@@ -1,0 +1,91 @@
+OrganismPart: human umbilical arteries  
+AssayName: broad proteomic analysis  
+SourceName: Hellenic Cord Blood Bank (HCBB)  
+Age: 38–40 weeks  
+ConcentrationOfCompound: 8 mM CHAPS  
+ConcentrationOfCompound: 1 M NaCl  
+ConcentrationOfCompound: 25 mM EDTA  
+ConcentrationOfCompound: PBS 1×  
+ConcentrationOfCompound: 1.8 mM SDS  
+Temperature: room temperature  
+Time: 12 h  
+ConcentrationOfCompound: 40% v/v Fetal Bovine Serum  
+ConcentrationOfCompound: 10% v/v neutral buffered formalin  
+Staining: Hematoxylin and Eosin  
+Staining: Sirius Red  
+Staining: Orcein  
+Instrument: Leica DM L2 light microscope  
+Label: FITC-conjugated mouse IgG  
+Staining: DAPI  
+Instrument: Leica SP5 II  
+ConcentrationOfCompound: 1% v/v glutaraldehyde solution  
+ConcentrationOfCompound: 70% v/v aqueous ethanol  
+ConcentrationOfCompound: 80% v/v aqueous ethanol  
+ConcentrationOfCompound: 95% v/v aqueous ethanol  
+Compound: hexamethyldisilazane  
+Time: 10 min  
+Instrument: Phillips XL-30 SEM  
+ConcentrationOfCompound: 125 μg/mL papain buffer  
+Temperature: 60 °C  
+ConcentrationOfCompound: 12 μg/mL Chondroitin sulfate  
+ConcentrationOfCompound: 25 μg/mL Chondroitin sulfate  
+ConcentrationOfCompound: 50 μg/mL Chondroitin sulfate  
+ConcentrationOfCompound: 100 μg/mL Chondroitin sulfate  
+ConcentrationOfCompound: 150 μg/mL Chondroitin sulfate  
+ConcentrationOfCompound: 0.1 mol Tris  
+ConcentrationOfCompound: 0.2 mol NaCl  
+ConcentrationOfCompound: 5 mmol NaCl  
+ConcentrationOfCompound: 25 mg/mL Proteinase K  
+Temperature: 55 °C  
+Time: 5 min  
+Instrument: Nanodrop  
+Compound: dimethylene blue  
+Compound: Krebs-Ringer solution  
+Temperature: 4 °C  
+Temperature: 37 °C  
+Instrument: Leica DFC500  
+Instrument: Nikon SMZ800  
+Instrument: Vitrodyne V1000 Universal Tester  
+Instrument: GSO-250  
+Instrument: 1130A heater coil  
+ConcentrationOfCompound: 7 M urea  
+ConcentrationOfCompound: 2 M thiourea  
+ConcentrationOfCompound: 4% CHAPS  
+ConcentrationOfCompound: 1% DTE  
+ConcentrationOfCompound: 3.6% Protease inhibitors  
+ConcentrationOfCompound: 10 mM DTE  
+Time: 20 min  
+Instrument: Amicon Ultra Centrifugal filter devices (0.5 mL, 30 kDa MWCO)  
+ConcentrationOfCompound: 8 M urea  
+ConcentrationOfCompound: 0.1 M Tris-HCl pH 8.5  
+ConcentrationOfCompound: 0.05 M iodoacetamide  
+ConcentrationOfCompound: 50 mM NH4HCO3 pH 8.5  
+ConcentrationOfCompound: trypsin ratio 1:100  
+Instrument: Dionex Ultimate 3000 UHPLC system  
+Instrument: nano-ESI Orbitrap-Elite mass spectrometer  
+ConcentrationOfCompound: 0.1% v/v formic acid  
+MaterialType: Acclaim PepMap 100, 100 μm × 2 cm C18, 5 μm, 100 Ȧ trapping column  
+FlowRateChromatogram: 5 μL/min  
+MaterialType: Acclaim PepMap RSLC, 75 μm × 50 cm, nanoViper, C18, 2 μm, 100 Ȧ column  
+FlowRateChromatogram: 300 nl/min  
+Temperature: 35 °C  
+IonizationType: Positive ion electrospray ionization  
+MS2MassAnalyzer: FT  
+FragmentationMethod: higher-energy collisional dissociation (HCD)  
+CollisionEnergy: 33  
+Time: 45 s  
+PrecursorMassTolerance: 5 ppm  
+Instrument: Proteome Discoverer 1.4  
+SourceName: Uniprot database  
+Modification: Carbamidomethylation of cysteine  
+Modification: oxidation of methionine  
+NumberOfMissedCleavages: 2  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 0.05 Da  
+SupplementaryFile: PXD020187  
+SourceName: Panther classification system  
+SourceName: STRING v11  
+Bait: COL3A1  
+Bait: COL1A2  
+Bait: FN1  
+Instrument: Microcal Origin

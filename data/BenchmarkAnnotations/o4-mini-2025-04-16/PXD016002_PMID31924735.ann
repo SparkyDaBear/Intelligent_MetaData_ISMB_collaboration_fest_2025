@@ -1,0 +1,9 @@
+AssayName: mass spectrometry  
+Depletion: Top 12 abundant serum proteins  
+CleavageAgent: trypsin  
+Label: TMT-6plex reagents  
+FractionationMethod: basic pH RPLC fractionation  
+NumberOfFractions: final 24 concatenated fractions  
+AssayName: 90 min LC-MS/MS  
+GradientTime: 90 minute gradient  
+Instrument: QExactive Plus mass spectrometer

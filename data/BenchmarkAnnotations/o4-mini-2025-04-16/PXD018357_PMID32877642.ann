@@ -1,0 +1,40 @@
+AssayName: Bradford assay  
+AssayName: OneStep qRT-PCR analysis  
+AssayName: Rotitest Vital  
+AssayName: phosphoproteomics  
+AssayName: synchronous precursor selection (SPS) multi-notch MS3 method  
+CellLine: Human Caco-2 cells  
+CellLine: UKF-RC-2 human kidney cells  
+CleavageAgent: LysC  
+CleavageAgent: Sequencing grade trypsin  
+CollisionEnergy: normalized collision energy (NCE) of 35%  
+CollisionEnergy: NCE of 65%  
+CollisionEnergy: NCE of 38%  
+Disease: colon carcinoma  
+Disease: renal carcinoma  
+EnrichmentMethod: High-Select Fe-NTA Phosphopeptide enrichment kit (Thermo Fisher)  
+FractionationMethod: C18 (Empore) stage-tip  
+FractionationMethod: offline High pH Reverse phase fractionation by HPLC  
+FractionationMethod: Offline high pH reverse phase fractionation  
+FragmentationMethod: CID  
+FragmentationMethod: HCD  
+Instrument: CFX96 Real-Time System, C1000 Touch Thermal Cycler  
+Instrument: Genesys 10S UV-Vis Spectrophotometer  
+Instrument: Orbitrap Fusion Lumos mass spectrometer  
+Instrument: easy-nLC 1200 nano HPLC system  
+Label: TMT labeled  
+Modification: Acetyl (Protein N terminus)  
+Modification: Met-loss (Protein N terminus)  
+Modification: Met-loss acetyl (Protein N terminus)  
+Modification: Oxidation (M)  
+Modification: Phospho (S, T, Y)  
+Modification: carbamidomethyl at cysteine residues  
+Modification: TMT6 at the N terminus and lysines  
+MS2MassAnalyzer: Ion trap (Turbo)  
+MS2MassAnalyzer: Orbitrap  
+NumberOfBiologicalReplicates: at least three biological replicates  
+NumberOfFractions: 24  
+Organism: SARS-CoV-2  
+SamplingTime: 48 h post infection  
+Temperature: 300°C  
+Temperature: 50°C

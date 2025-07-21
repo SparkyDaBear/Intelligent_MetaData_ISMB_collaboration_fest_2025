@@ -1,0 +1,60 @@
+NumberOfBiologicalReplicates: three adult donors  
+SourceName: National Disease Research Interchange (NDRI, PA, USA)  
+Specimen: leukopaks  
+EnrichmentMethod: Miltenyi Biotec magnetic beads  
+CellType: CD14+ Monocytes  
+CellType: pan CD56+ NK Cells  
+CellType: CD20+ B cells  
+CellType: CD8+ T cells  
+CellType: pan CD4+ T cells  
+ConcentrationOfCompound: 0.05% BSA  
+ConcentrationOfCompound: 2mM EDTA  
+Temperature: −80°C  
+Compound: SDS  
+ConcentrationOfCompound: 4% SDS  
+ReductionReagent: DTT  
+ConcentrationOfCompound: 100 mM DTT  
+Compound: Tris  
+ConcentrationOfCompound: 100 mM Tris pH 7.5  
+AssayName: BCA assay  
+PooledSample: equal amounts of protein from each donor  
+Separation: SDS-PAGE  
+AssayName: in-gel digestion  
+CleavageAgent: trypsin  
+Time: overnight  
+Temperature: 37°C  
+MaterialType: Sep-Pak C18 columns (Waters Corporation, Milford, MA)  
+ConcentrationOfCompound: 10 mM tetraethylammonium bicarbonate, pH 8.5  
+MaterialType: XBridge C18, 5 µm 250 × 4.6 mm column (Waters, Milford, MA, USA)  
+FractionationMethod: bRPLC  
+ConcentrationOfCompound: 10 mM tetraethylammonium bicarbonate in acetonitrile, pH 8.5  
+GradientTime: 50 minutes  
+Time: 60 minutes  
+NumberOfFractions: 96  
+FractionIdentifier: 24 fractions  
+Instrument: LTQ-Orbitrap Velos  
+Instrument: LTQ-Orbitrap Elite  
+Instrument: Easy-nLC II nanoflow liquid chromatography systems  
+FlowRateChromatogram: 5 µl/min  
+MaterialType: trap column (75 µm × 2 cm) packed in-house with Magic C18 AQ (Michrom Bioresources, Inc., Auburn, CA, USA) (5 µm particle size, pore size 100Å)  
+FlowRateChromatogram: 350 nl/min  
+ConcentrationOfCompound: 0.1% formic acid  
+ConcentrationOfCompound: 95% acetonitrile  
+ConcentrationOfCompound: 0.1% formic acid in 95% acetonitrile  
+MS2MassAnalyzer: Orbitrap mass analyzer  
+FragmentationMethod: higher-energy collision dissociation  
+Time: 30 seconds  
+PrecursorMassTolerance: 10 ppm mass window  
+NumberOfMissedCleavages: two  
+Modification: Carbamidomethylation of cysteine  
+Modification: oxidation of methionine  
+Modification: acetylation of protein N-termini  
+Modification: cyclization of N-terminal glutamine  
+Modification: alkylated cysteine  
+FragmentMassTolerance: 0.05 Da  
+SupplementaryFile: PXD000561  
+MaterialType: 4%−12% NuPAGE® Bis-Tris Precast Gels (Novex, Life Technologies Corporation)  
+Temperature: room temperature  
+Time: 1 hour  
+Temperature: 4°C  
+Time: 10 min

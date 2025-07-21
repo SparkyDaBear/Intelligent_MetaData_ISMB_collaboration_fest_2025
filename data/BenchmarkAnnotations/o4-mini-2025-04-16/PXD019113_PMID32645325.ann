@@ -1,0 +1,44 @@
+AssayName: quantitative mass spectrometry-based phosphoproteomics survey  
+AssayName: Phosphoproteomics analysis  
+CellLine: Vero E6 cells  
+CellLine: African green monkey kidney epithelial Vero E6 (Vero 76, clone E6, Vero E6, ATCC® CRL-1586)  
+CellLine: ACE2-expressing A549 cells  
+CellLine: Caco-2 (ATCC® HTB-37) human colon epithelial cells  
+Specimen: SARS-CoV-2 isolate BetaCoV/France/IDF0372/2020  
+Specimen: SARS-CoV-2, isolate USA-WA1/2020 (NR-52281)  
+Specimen: SARS-CoV-2 isolate Muc-IMB-1/2020  
+Experiment: Vero E6 cell infection for proteomic analysis  
+Treatment: mock infected  
+Treatment: infected with SARS-CoV-2 at a MOI of 1 in serum-free DMEM at 37°C for 1 hour  
+SampleTreatment: 1% IGEPAL (Sigma) in PBS (Invitrogen) for 20 minutes at room temperature (RT)  
+ConcentrationOfCompound: 10% (v/v) fetal bovine serum (FBS, Invitrogen)  
+ConcentrationOfCompound: 90% methanol (v/v) (Sigma)  
+ConcentrationOfCompound: 4 mM  
+ConcentrationOfCompound: 10 mM  
+ConcentrationOfCompound: 10% trifluoroacetic acid (TFA)  
+ReductionReagent: Tris-(2-carboxyethyl)phosphine (TCEP)  
+ReductionReagent: dithiothreitol (DTT)  
+AlkylationReagent: Iodoacetamide (IAA)  
+CleavageAgent: Trypsin (Promega)  
+EnrichmentMethod: phosphopeptide enrichment  
+Instrument: Orbitrap Exploris 480 mass spectrometry system (Thermo Fisher Scientific)  
+Instrument: Easy nLC 1200 ultra-high pressure liquid chromatography system (Thermo Fisher Scientific)  
+IonizationType: Nanospray Flex nanoelectrospray source  
+Separation: C18 reverse phase column (25 cm x 75 μm packed with ReprosilPur 1.9 μm particles)  
+Compound: 0.1% FA  
+Compound: 0.1% FA/80% ACN  
+GradientTime: 112 minutes  
+GradientTime: 12 minutes  
+GradientTime: 16 minutes  
+FlowRateChromatogram: 350 nL/minute  
+AcquisitionMethod: Data dependent analysis (DDA)  
+AcquisitionMethod: Data-independent analysis (DIA)  
+PrecursorMassTolerance: 10 ppm  
+PrecursorMassTolerance: 1.3 m/z  
+FragmentationMethod: higher energy collisional dissociation (HCD)  
+CollisionEnergy: 30%  
+CollisionEnergy: 27%  
+Time: overnight  
+Temperature: 37°C  
+NumberOfBiologicalReplicates: at least three biologically independent samples  
+Staining: AF488-labeled Phalloidin (Hypermol, #8813-01, 1:250)

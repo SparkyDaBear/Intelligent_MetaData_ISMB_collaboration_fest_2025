@@ -1,0 +1,39 @@
+Organism: Plasmodium falciparum  
+Organism: Plasmodium knowlesi  
+AssayName: large-scale quantitative phosphoproteomics  
+SourceName: anonymous donors, provided through the UK Blood and Transfusion service  
+SourceName: National Health Service Blood and Transplant (NHSBT) service, Colindale, London, UK  
+Temperature: 37°C  
+Temperature: 56°C  
+ConcentrationOfCompound: 5g Albumax II (ThermoFischer Scientific)  
+ConcentrationOfCompound: 0.292g L-glutamine  
+ConcentrationOfCompound: 0.05g hypoxanthine  
+ConcentrationOfCompound: 2.3g sodium bicarbonate  
+ConcentrationOfCompound: 0.025g gentamicin  
+ConcentrationOfCompound: 5.957g HEPES  
+ConcentrationOfCompound: 4g dextrose  
+SampleTreatment: magnet purification  
+SamplingTime: 40-46hpi  
+SamplingTime: ~24hpi  
+ReductionReagent: 5mM DTT  
+AlkylationReagent: 14mM iodoacetamide  
+CleavageAgent: LysC (Promega)  
+CleavageAgent: trypsin (Promega)  
+EnrichmentMethod: TiO2 beads (Titansphere, 5 μm GL Sciences Japan)  
+EnrichmentMethod: High Select Fe-NTA phosphopeptide enrichment kit (Thermo Fisher Scientific)  
+FractionationMethod: Strong cation exchange (SCX) fractionation  
+Instrument: Q-Exactive mass spectrometer  
+Instrument: Orbitrap Lumos  
+Instrument: RSLC nano U3000  
+IonizationType: electrospray emitter  
+FlowRateChromatogram: 250 nL/minute  
+FlowRateChromatogram: 0.8mL/minute  
+FragmentationMethod: HCD MS/MS scans  
+FragmentationMethod: CID MS/MS scans  
+CollisionEnergy: 38  
+CollisionEnergy: 35  
+CollisionEnergy: 33  
+NumberOfFractions: 12 fractions  
+PrecursorMassTolerance: 20 ppm  
+PrecursorMassTolerance: 4.5 ppm  
+Label: TMT reagents (Thermo Fisher Scientific, 2.5mg reagent/1mg sample)

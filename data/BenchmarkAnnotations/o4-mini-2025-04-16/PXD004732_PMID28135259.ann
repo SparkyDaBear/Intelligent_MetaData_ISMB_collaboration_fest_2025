@@ -1,0 +1,40 @@
+AssayName: multimodal LC-MS/MS analysis  
+SyntheticPeptide: synthetic tryptic peptides  
+AlkylationReagent: carboxyamidomethylated cysteine building block  
+Compound: 100% DMSO  
+ConcentrationOfCompound: 10 pmol/μl  
+Time: 30 min  
+Temperature: room temperature  
+Compound: 1% formic acid  
+Compound: HPLC grade water  
+ConcentrationOfCompound: 1 pmol/μl  
+Temperature: −20 °C  
+SpikedCompound: retention time (RT) standards  
+SpikedCompound: retention time peptides (JPT Peptide Technologies)  
+ConcentrationOfCompound: 200 fmol per peptide  
+SpikedCompound: 15 13C-labelled peptides  
+ConcentrationOfCompound: 100 fmol per peptide  
+Compound: 0.1% formic acid  
+Separation: Nanoscale liquid chromatography  
+ConcentrationOfCompound: 100 fmol/μl  
+ConcentrationOfCompound: ~1% DMSO  
+Instrument: Dionex 3000 HPLC system (Thermo Fisher Scientific)  
+MaterialType: C18 columns  
+GradientTime: 50 min  
+FlowRateChromatogram: 300 nL/min  
+Temperature: 50 °C  
+Instrument: Orbitrap Fusion Lumos mass spectrometer (Thermo Fisher Scientific)  
+AssayName: survey method  
+FragmentationMethod: HCD scan  
+CollisionEnergy: 28% normalized collision energy  
+FragmentationMethod: CID scan  
+CollisionEnergy: 35% normalized collision energy  
+AssayName: “HCD” method  
+AssayName: “IT” method  
+AssayName: “ETD” method  
+Modification: Carbamidomethylated cysteine  
+Modification: methionine oxidation  
+PrecursorMassTolerance: 20 ppm  
+PrecursorMassTolerance: 4.5 ppm  
+Instrument: 5600 TripleTOF mass spectrometer (AB Sciex)  
+MaterialType: cellulose membranes

@@ -1,0 +1,29 @@
+AlkylationReagent: iodoacetamide at a final concentration of 8.3 mM  
+ReductionReagent: 5 mM dithiothreitol  
+CleavageAgent: Lys-C  
+CleavageAgent: trypsin  
+Instrument: QExactive mass spectrometer (Thermo)  
+AssayName: Liquid Chromatography−Tandem Mass Spectrometry (LC−MS/MS)  
+IonizationType: nanoelectrospray  
+AcquisitionMethod: data-dependent mode  
+PrecursorMassTolerance: 10 ppm mass tolerance for precursor ions  
+FragmentMassTolerance: 15 mmu for fragment-ion mass tolerance  
+CollisionEnergy: normal collision energy of 28  
+NumberOfMissedCleavages: two missed cleavages of trypsin  
+Separation: reversed-phase HPLC  
+FractionationMethod: high-pH reversed-phase HPLC  
+GradientTime: 140 min gradient  
+GradientTime: 80 min gradient  
+FlowRateChromatogram: 1 mL/min  
+NumberOfFractions: 15 fractions  
+Modification: carbamidomethylation of cysteine  
+Modification: oxidized methionine  
+Modification: deamidation of asparagine  
+Modification: pyro-glutamic acid modification at N-terminal glutamine  
+Modification: hydroxylation of lysine and proline  
+Temperature: 37 °C  
+Temperature: 5 °C  
+Temperature: room temperature  
+Time: 16 h  
+Time: 2 h  
+Time: 1 h

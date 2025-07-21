@@ -1,0 +1,22 @@
+AssayName: Multiple Enzyme Filter Aided Sample Preparation approach (MED-FASP)  
+AssayName: LC-MS/MS measurements  
+AssayName: Total Protein Approach (TPA)  
+Instrument: Q-Exactive HF-X mass spectrometer  
+SourceName: 8.5 mL BD Vacutainer™ Venous Blood Collection Tubes: SST™ Serum Separation Tubes  
+NumberOfSamples: 18 samples were collected  
+DiseaseTreatment: phlebotomy and aspirin treatment  
+EnrichmentMethod: Total Exosome Isolation (from serum) reagent (Invitrogen)  
+Temperature: 4 °C  
+Temperature: 95 °C  
+AlkylationReagent: 55 mM iodoacetamide solution  
+ReductionReagent: 50 mM DTT  
+FragmentationMethod: HCD  
+CollisionEnergy: normalized collision energies of 25  
+FlowRateChromatogram: 300 nL/min  
+GradientTime: 95 min  
+NumberOfMissedCleavages: two missed cleavages  
+OrganismPart: blood serum  
+ConcentrationOfCompound: 60% acetonitrile/1% acetic acid solution  
+CleavageAgent: LysC  
+CleavageAgent: trypsin  
+CleavageAgent: chymotrypsin  

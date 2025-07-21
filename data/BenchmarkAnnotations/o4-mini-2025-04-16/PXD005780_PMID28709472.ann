@@ -1,0 +1,14 @@
+AssayName: shotgun metaproteomics  
+AssayName: shotgun metagenomics  
+AssayName: LC-MS/MS analysis  
+Specimen: Stool samples  
+Age: 39 years  
+BMI: 23.2  
+Temperature: −80 °C  
+Temperature: 4 °C  
+Instrument: HiScanSQ sequencer  
+Instrument: LTQ-Orbitrap Velos mass spectrometer  
+Instrument: UltiMate 3000 RSLCnano LC system  
+SampleTreatment: Samples were resuspended by vortexing in an SDS-based extraction buffer, heated, and then subjected to a combination of bead-beating and freeze-thawing steps, as illustrated elsewhere.  
+SampleTreatment: filter-aided sample preparation (FASP) protocol  
+FragmentationMethod: HCD

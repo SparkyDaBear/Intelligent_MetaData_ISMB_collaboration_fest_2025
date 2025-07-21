@@ -1,0 +1,21 @@
+CellLine: A549
+CellLine: PC-9
+CellLine: NCI-H2087
+CellLine: NCI-H82
+CellLine: GLC-2
+CellLine: IMR-90
+CellLine: CRL-7000
+NumberOfBiologicalReplicates: n = 4
+ReductionReagent: 5 mM dithiothreitol (DTT)
+AlkylationReagent: 15 mM 2-iodoacetamide (IAM)
+CleavageAgent: sequencing grade trypsin (Worthington, 1:25 enzyme:protein ratio)
+Instrument: Q-Exactive Plus mass spectrometer (Thermo Scientific, San Jose, CA)
+Label: TMT-10-plex
+FractionationMethod: high pH reversed phase chromatography
+FlowRateChromatogram: 42 µl/min
+FlowRateChromatogram: 200 nl/min
+GradientTime: 45 min
+CollisionEnergy: NCE of 32
+PrecursorMassTolerance: 1.2 m/z isolation windows
+Temperature: 95 °C
+Time: 10 min

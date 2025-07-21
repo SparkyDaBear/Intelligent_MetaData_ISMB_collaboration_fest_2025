@@ -1,0 +1,28 @@
+Disease: human high-grade serous ovarian cancer (HGSOC)
+TumorStage: FIGO Stage IIIB/C
+CellType: Primary fallopian tube secretory epithelial cells (FTECs)
+NumberOfSamples: Thirty cell lines
+BiologicalReplicate: n=3 replicates
+ReductionReagent: 10 mM DTT
+AlkylationReagent: 55 mM iodoacetamide
+CleavageAgent: LysC
+CleavageAgent: trypsin
+Compound: acetone
+ConcentrationOfCompound: 80% v/v
+PooledSample: channel 117, pooled sample of 84 TCGA ovarian tumour tissue samples
+Treatment: 7 μM ATRA daily for 7 days
+Instrument: Q Exactive
+Instrument: Q Exactive HF
+Instrument: EASY-nLC 1000 HPLC system
+IonizationType: nano electrospray source
+GradientTime: over a 250 min gradient from 2% to 60% (5 min to 5%, 180 min to 25%, 45 min to 35%, 20 min to 60%)
+FlowRateChromatogram: 200 nl min−1
+MaterialType: 1.9 μm C18 particles
+FragmentationMethod: high-energy collisional dissociation fragmentation
+CollisionEnergy: normalized collision energy of 25 (27 for Q Exactive HF)
+PrecursorMassTolerance: an isolation window of 2.2 Th (1.4 Th for Q Exactive HF)
+Modification: acetylation (N terminus)
+Modification: methionine oxidation
+Modification: carbamidomethylation
+Specimen: Formalin-fixed paraffin-embedded HGSOC and normal tissue sections (5 μm)
+Instrument: Zeiss 510 LSM confocal microscope

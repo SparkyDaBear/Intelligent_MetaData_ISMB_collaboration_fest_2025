@@ -1,0 +1,38 @@
+CellLine: HT1080  
+CellLine: HeLa  
+ConcentrationOfCompound: 10% fetal bovine serum (FBS)  
+ConcentrationOfCompound: 1% Penicillin–Streptomycin (Invitrogen Gibco)  
+Temperature: 37 °C  
+CellLine: DT40  
+Compound: RPMI1640  
+ConcentrationOfCompound: 10% FBS  
+ConcentrationOfCompound: 1% chicken serum  
+Temperature: 39 °C  
+Treatment: RNAi treatments  
+Time: 48 h  
+ConcentrationOfCompound: 50 nM of siRNA oligonucleotides  
+Instrument: NIKON Ti-E super research Live Cell imaging system  
+AssayName: Immunofluorescence microscopy  
+AssayName: Live cell imaging  
+AssayName: Proximity ligation assay  
+AssayName: Quantitative real-time PCR  
+AssayName: Immunoelectron microscopy  
+AssayName: in vitro binding array  
+AssayName: Mass spectrometry  
+Compound: SYBR green Master Mix (Thermo Scientific)  
+Instrument: Hitachi H7600 electron microscope  
+Instrument: cryo-ultramicrotome (Leica, UC6 with FC6 cryo-attachment)  
+Instrument: Illumina HiSeq2500  
+Instrument: LTQ-Orbitrap mass spectrometer (Thermo Scientific)  
+Instrument: Q Exactive mass spectrometer (Thermo Scientific)  
+Instrument: Ultimate 3000 RSLCnano Systems (Dionex, Thermo Scientific)  
+PrecursorMassTolerance: 20 p.p.m.  
+PrecursorMassTolerance: 4.5 pm  
+FragmentMassTolerance: 2 p.p.m.  
+CleavageAgent: trypsin  
+NumberOfMissedCleavages: 2  
+Modification: Carbamidomethylation of cysteine  
+Modification: Oxidation of methionine  
+Modification: acetylation  
+Modification: single, di- and tri-methylation of lysine  
+Modification: single and di-methylation of arginine

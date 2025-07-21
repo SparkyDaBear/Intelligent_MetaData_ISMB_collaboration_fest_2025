@@ -1,0 +1,23 @@
+AssayName: data-independent acquisition mass spectrometry proteogenomic workflow  
+AssayName: DDA MS analysis  
+AssayName: DIA MS analysis  
+AssayName: RNA-sequencing  
+AssayName: Label-free quantification (LFQ)  
+NumberOfSamples: 21 samples  
+NumberOfSamples: 24 samples  
+OrganismPart: breast tissue specimens  
+OrganismPart: normal breast tissues  
+ReductionReagent: 1% β-mercaptoethanol  
+CleavageAgent: trypsin  
+FractionationMethod: strong anion-exchange fractionation  
+EnrichmentMethod: SP3 peptide purification  
+NumberOfFractions: n of fractions: 6  
+FlowRateChromatogram: flow: 300 nL/min  
+GradientTime: 90 min gradient  
+GradientTime: 120 min gradient  
+CollisionEnergy: collision energy: 30  
+Instrument: Q-Exactive Plus (Thermo Fisher) mass spectrometer  
+Instrument: Q-Exactive HF-X (Thermo Fisher) mass spectrometer  
+Modification: Fixed modifications: carbamidomethylation of Cys residues  
+Modification: Variable modifications: acetylation of the N-terminal residue, oxidation of Met residues  
+PrecursorMassTolerance: Precursor ion tolerance: 20 and 4.5 ppm

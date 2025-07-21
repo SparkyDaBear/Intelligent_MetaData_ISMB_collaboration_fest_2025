@@ -1,0 +1,40 @@
+AssayName: shotgun tandem mass spectrometry workflow  
+CellLine: Vero E6 (ATCC, CLR-1586)  
+MaterialType: Dulbecco's modified Eagle's medium (DMEM, Gibco™, ThermoFisher)  
+ConcentrationOfCompound: 5% foetal calf serum (FCS)  
+ConcentrationOfCompound: 0.5% penicillin–streptomycin  
+Temperature: 37°C  
+Temperature: −80°C  
+FactorValue: 0.01  
+FactorValue: 0.001  
+Time: 1, 2, 3, 4 and 7 days post-infection (dpi)  
+Instrument: CFX96 Touch Real-Time PCR Detection System Thermal Cycler (BioRad)  
+SampleTreatment: autoclaving the samples at 125°C for 40 min  
+Temperature: 125°C  
+Time: 40 min  
+Compound: cold trichloroacetic acid  
+ConcentrationOfCompound: 10% (w/v)  
+MaterialType: LDS 1X (Lithium dodecyl sulfate) sample buffer (Invitrogen)  
+ConcentrationOfCompound: 5% beta-mercaptoethanol (vol/vol)  
+Separation: short (5-min) SDS-PAGE migration  
+MaterialType: NuPAGE 4–12% Bis-Tris gel  
+Staining: Coomassie SimplyBlue SafeStain (Thermo Fisher Scientific)  
+CleavageAgent: trypsin proteolysis  
+Instrument: ultimate 3000 nano-LC system (Thermo Fisher Scientific)  
+Instrument: Q-Exactive HF mass spectrometer (Thermo Fisher Scientific)  
+Separation: reverse-phase PepMap 100 C18 μ-precolumn (5 μm, 100 Å, 300 μm i.d. × 5 mm, Thermo Fisher Scientific)  
+Separation: nanoscale PepMap 100 C18 nano-LC column (3 μm, 100 Å, 75 μm i.d. × 50 cm, Thermo Fisher Scientific)  
+GradientTime: 120 min gradient  
+FlowRateChromatogram: 0.2 μL per min  
+MaterialType: 0.1% formic acid in water  
+MaterialType: 80% acetonitrile, 0.1% formic acid in water  
+AcquisitionMethod: Top20 mode  
+NumberOfMissedCleavages: maximum of two missed cleavages  
+PrecursorMassTolerance: 5 ppm  
+FragmentMassTolerance: 0.02 Da  
+Modification: carbamidomethylated cysteine (+57.0215)  
+Modification: oxidized methionine (+15.9949)  
+Modification: deamidation of asparagine and glutamine (+0.984016)  
+SourceName: ProteomeXchange Consortium via the PRIDE partner repository  
+SupplementaryFile: PXD018594  
+SupplementaryFile: 10.6019/PXD018594

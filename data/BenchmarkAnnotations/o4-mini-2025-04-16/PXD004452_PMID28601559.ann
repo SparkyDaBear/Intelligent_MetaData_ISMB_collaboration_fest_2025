@@ -1,0 +1,64 @@
+CellLine: Human epithelial cervix carcinoma HeLa cells  
+Sex: female  
+CellLine: human embryonic kidney HEK293 cells  
+DevelopmentalStage: fetus  
+CellLine: human neuroblastoma SH-SY5Y cells  
+CellLine: lung adenocarcinoma A549 cells  
+Sex: male  
+CellLine: human colon cancer HTC116 cells  
+CellLine: human breast cancer MCF-7 cells  
+Compound: guanidinium hydrochloride  
+ConcentrationOfCompound: 6 M  
+Compound: tris(2-carboxyethyl)phosphine  
+ConcentrationOfCompound: 5 mM  
+Compound: chloroacetamide  
+ConcentrationOfCompound: 10 mM  
+Compound: Tris  
+ConcentrationOfCompound: 100 mM  
+AssayName: Bradford assay  
+CleavageAgent: Lys-C  
+FactorValue: 1:100 (w/w)  
+Time: 1 h  
+Time: overnight  
+CleavageAgent: trypsin (Sigma Aldrich)  
+CleavageAgent: Chymotrypsin (Roche)  
+CleavageAgent: Glu-C (Roche)  
+Compound: trifluoroacetic acid  
+ConcentrationOfCompound: approximately 1%  
+Compound: acetonitrile  
+ConcentrationOfCompound: 40%  
+ConcentrationOfCompound: 60%  
+Time: 40 min  
+Temperature: 60°C  
+Instrument: NanoDrop 2000C  
+Instrument: Ultimate 3000 high-pressure liquid chromatography (HPLC) system  
+FlowRateChromatogram: 1 mL/min  
+Compound: Ammonium bicarbonate  
+ConcentrationOfCompound: 25 mM  
+FactorValue: pH 8  
+NumberOfFractions: 39  
+NumberOfFractions: 46  
+NumberOfFractions: 70  
+Compound: formic acid  
+ConcentrationOfCompound: approximately 0.1%  
+EnrichmentMethod: titanium dioxide beads  
+Compound: 2,5-dihydroxybenzoic acid  
+ConcentrationOfCompound: 20 mg/mL  
+ConcentrationOfCompound: 80%  
+FactorValue: 5 μL/mg of beads  
+Time: 30 min  
+Compound: ammonium hydroxide  
+ConcentrationOfCompound: 5%  
+ConcentrationOfCompound: 10%  
+ConcentrationOfCompound: 25%  
+Instrument: Easy-nLC 1000  
+Instrument: Q-Exactive HF instrument  
+IonizationType: nanoelectrospray source  
+Temperature: 40°C  
+Instrument: PRSO-V1  
+FlowRateChromatogram: 350 nL/min  
+ConcentrationOfCompound: 0.1%  
+Temperature: 275°C  
+AssayName: data-dependent acquisition mode  
+FragmentationMethod: Higher-energy collisional dissociation (HCD)  
+CollisionEnergy: 28

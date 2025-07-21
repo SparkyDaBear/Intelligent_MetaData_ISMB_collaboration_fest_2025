@@ -1,0 +1,46 @@
+CellLine: Human embryonic kidney 293T cells (HEK293T; ATCC® CRL-11268™)
+CellLine: HeLa cells (ATCC® CCL-2™)
+MaterialType: Dulbecco’s Modified Eagle’s Medium (DMEM; Lonza, 12-604Q)
+MaterialType: PBS
+Compound: fetal bovine serum (FBS; Seradigm, 1400–500)
+Temperature: 37 °C
+Temperature: 4 °C
+Staining: AOPI (Nexcelom Bioscience, CS2-0106)
+Separation: differential centrifugation method
+EnrichmentMethod: differential centrifugation
+EnrichmentMethod: sucrose cushion
+EnrichmentMethod: polyethylene glycol enrichment of extracellular vesicles
+EnrichmentMethod: ExtraPEG method
+EnrichmentMethod: Total Exosome IsolationTM (TEI) reagent
+EnrichmentMethod: ExoQuick-TC™
+Compound: Polyethylene glycol with Mn of 6000 (Sigma, 81260)
+Compound: sodium chloride (1 M)
+AssayName: EZQ™ Protein Quantitation Kit (Life Technologies, R-33200)
+MaterialType: 4–20% sodium dodecyl sulfate polyacrylamide gels (Lonza, #59111)
+MaterialType: nitrocellulose membrane (GE Healthcare, #10600002)
+MaterialType: TSG101 (Santa Cruz Biotechnology; SC-7964)
+MaterialType: HSC70 (Santa Cruz Biotechnology; SC-7298)
+MaterialType: CD63 (Santa Cruz Biotechnology; SC-15363)
+MaterialType: ALIX (Santa Cruz Biotechnology; SC-49268)
+Compound: Trypsin Gold protein digest enzyme (Promega, V5280)
+Compound: ProteaseMAX™ Surfactant Trypsin Enhancer (Promega, V2071)
+MaterialType: HPLC grade water
+ConcentrationOfCompound: 50 mM ammonium bicarbonate
+ConcentrationOfCompound: 50% methanol
+ConcentrationOfCompound: 50% acetonitrile
+ConcentrationOfCompound: 100% acetonitrile
+ConcentrationOfCompound: 25 mM dithiothreitol
+ConcentrationOfCompound: 55 mM iodoacetamide
+AssayName: tris-glycine sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE)
+Staining: Coomassie Brilliant Blue G-250 based stain
+AssayName: Liquid chromatography tandem mass spectrometry (LC-MS/MS)
+Instrument: Optima XL-100K ultracentrifuge
+Instrument: Optima MAX-E tabletop ultracentrifuge
+Instrument: Cellometer Vision
+Instrument: NanoSightTM LM10-HS
+Instrument: Thermo LTQ Orbitrap Velos nLC-ESI-LIT-Orbitrap
+Instrument: Zeiss LSM 880 microscope
+Instrument: Agilent 2100 Bioanalyzer
+Time: 20 hr
+Time: 70 minutes
+Time: at least 12 hrs

@@ -1,0 +1,25 @@
+AssayName: mass spectrometry-based identification and quantification results  
+AssayName: DDA label-free quantification workflow  
+AssayName: spectral counting  
+AssayName: MS1 peak ion intensity  
+AssayName: MS1 peptide quantification  
+AssayName: nanoLC–MS/MS  
+AssayName: Mascot  
+AssayName: X! Tandem  
+AssayName: OMSSA  
+AssayName: Andromeda  
+AssayName: MS-GF+  
+Compound: UPS1 equimolar mix (Sigma)  
+ConcentrationOfCompound: 0.01–0.05–0.1–0.250–0.5–1–5–10–25–50 fmol  
+SampleTreatment: spiking  
+OrganismPart: yeast lysate (Merck)  
+CleavageAgent: Trypsin  
+NumberOfTechnicalReplicates: in quadruplicate  
+Instrument: Q-Exactive Plus mass spectrometer  
+Separation: nanoRS UHPLC system  
+MaterialType: Thermo Raw files  
+MaterialType: AB Sciex Wiff files  
+MaterialType: Bruker Baf files  
+MaterialType: mzML files  
+MaterialType: mzDB format  
+NumberOfSamples: 40 raw MS files

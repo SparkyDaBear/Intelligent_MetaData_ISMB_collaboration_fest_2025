@@ -1,0 +1,54 @@
+CellLine: K‐562 cells (ATCC CCL‐243)
+SourceName: SILAC RPMI 1640 medium
+ConcentrationOfCompound: 2 mM l‐glutamine
+ConcentrationOfCompound: 0.96 mM l‐lysine (light)
+ConcentrationOfCompound: 0.48 mM l‐arginine (light)
+ConcentrationOfCompound: 10% dialyzed FBS
+Temperature: +37°C (5% CO2)
+Compound: 13C6 15N2 l‐lysine (Thermo Fisher)
+Compound: 13C6 15N4 l‐arginine (Thermo Fisher)
+SamplingTime: 0, 1, 2, 3, and 5 h of recovery from heat shock
+Treatment: heat shock (10 min, 44°C)
+Treatment: mock shock at 37°C
+Instrument: Agilent SureCycler 8800
+AssayName: CellTiter‐Glo Luminescent Cell Viability Assay (Promega)
+Instrument: TECAN Infinite M1000 PRO
+MaterialType: Sera‐Mag SpeedBead Carboxylate Modified Magnetic Particles, Hydrophilic Ref#45152105050250
+MaterialType: Sera‐Mag SpeedBead Carboxylate Modified Magnetic Particles, Hydrophobic Ref#65152105050250
+ConcentrationOfCompound: 47.6% ethanol/2.4% formic acid binding buffer
+ConcentrationOfCompound: 90 mM HEPES
+ConcentrationOfCompound: 5 mM CAA
+ConcentrationOfCompound: 1.25 mM TCEP
+ConcentrationOfCompound: 200 ng/sample trypsin (Promega, V5111)
+ConcentrationOfCompound: 200 ng/sample Lys‐C (FUJIFILM Wako, 125‐05061)
+Label: Thermo Fisher TMT10plex, TMT11‐131C
+ConcentrationOfCompound: final acetonitrile concentration of 28.6%
+ConcentrationOfCompound: 1.1% hydroxylamine
+MaterialType: Waters HLB μElution plate, 186001828BA
+ConcentrationOfCompound: 0.05% formic acid
+ConcentrationOfCompound: 0.05% formic acid/80% acetonitrile
+ConcentrationOfCompound: 20 mM ammonia
+NumberOfFractions: 32 fraction
+NumberOfFractions: 12
+Instrument: UltiMate 3000 RSLC nano LC system (Thermo Fisher Scientific)
+Separation: Acclaim PepMap 100 C18 LC column: 5 μm particles with 100 Å pores, 5 mm column with 300 μm inner diameter
+Separation: Waters nanoEase HSS C18 T3, 75 μm × 25 cm, 1.8 μm, 100 Å
+FlowRateChromatogram: 30 μl/min
+FlowRateChromatogram: 0.3 μl/min
+GradientTime: 120 min
+Instrument: Q Exactive Plus Orbitrap (QE Plus, Thermo Fisher Scientific)
+Instrument: Orbitrap Fusion Lumos
+IonizationType: positive ion mode
+IonizationType: Nanospray Flex ion source
+FragmentationMethod: data‐dependent acquisition
+CollisionEnergy: normalized collision energy of 32
+CleavageAgent: trypsin
+CleavageAgent: Lys‐C
+NumberOfMissedCleavages: maximum of three missed cleavages
+PrecursorMassTolerance: 10 ppm peptide tolerance
+FragmentMassTolerance: 0.02 Da MS/MS tolerance
+Modification: carbamidomethylation of cysteines
+Modification: TMT labels on lysine
+Modification: acetylation of N‐terminus
+Modification: methionine oxidation
+Modification: TMT label on N‐terminus

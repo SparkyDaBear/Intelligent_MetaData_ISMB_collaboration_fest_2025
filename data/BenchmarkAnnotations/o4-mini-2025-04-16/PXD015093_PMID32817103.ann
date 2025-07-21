@@ -1,0 +1,48 @@
+Strain: P. falciparum 3D7  
+CellType: merozoites  
+AssayName: phosphoproteomic profiling  
+AssayName: global phosphoproteomic analysis  
+AssayName: quantitative phosphoproteomics  
+SampleTreatment: IC buffer  
+SampleTreatment: EC buffer  
+SampleTreatment: EC-BA buffer  
+Compound: BAPTA-AM [Calbiochem]  
+ConcentrationOfCompound: 50 mM  
+Temperature: 37°C  
+Time: 15 min  
+CleavageAgent: trypsin gold  
+FractionationMethod: strong cation exchange chromatography  
+NumberOfFractions: 12 to 15  
+FractionationMethod: hydrophilic interaction liquid chromatography  
+Label: TMT tags with masses of 128, 129, and 130  
+EnrichmentMethod: immobilized metal affinity chromatography  
+EnrichmentMethod: TiO2/ZrO2 phosphopeptide enrichment  
+Instrument: Nano LC-1000 HPLC nanoflow system  
+Instrument: hybrid Orbitrap Velos Pro mass spectrometer  
+GradientTime: 120 min  
+FragmentationMethod: high-energy collisional dissociation  
+Modification: carbamidomethylation of cysteines  
+Modification: oxidation of methionine  
+Modification: protein N-terminal acetylation  
+Modification: serine/threonine/tyrosine (STY) phosphorylation  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 0.5 Da  
+Label: TMT-6plex labeling  
+FactorValue: phosphoscore over 11  
+PrecursorMassTolerance: 5 ppm  
+FactorValue: phospho-localization probability of more than 75%  
+Instrument: Orbitrap Q Exactive Plus mass spectrometer  
+Separation: Superdex 200 column  
+Compound: BV02  
+ConcentrationOfCompound: 0.5 μM  
+ConcentrationOfCompound: 1 μM  
+ConcentrationOfCompound: 1.5 μM  
+ConcentrationOfCompound: 2 μM  
+SyntheticPeptide: P1  
+SyntheticPeptide: P2  
+SyntheticPeptide: P3  
+ConcentrationOfCompound: 10 μM  
+ConcentrationOfCompound: 50 μM  
+ConcentrationOfCompound: 100 μM  
+Staining: SYBR GreenI (Sigma)  
+SupplementaryFile: PXD015093

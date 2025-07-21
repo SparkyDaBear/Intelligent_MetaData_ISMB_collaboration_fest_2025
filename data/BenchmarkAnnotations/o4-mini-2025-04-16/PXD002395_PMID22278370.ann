@@ -1,0 +1,59 @@
+AssayName: Mass spectrometry-based proteomics  
+Instrument: LTQ-Orbitrap family mass spectrometer  
+CellLine: A549  
+CellLine: GAMG  
+CellLine: HEK293  
+CellLine: HeLa  
+CellLine: HepG2  
+CellLine: K562  
+CellLine: MCF7  
+CellLine: RKO  
+CellLine: U2OS  
+CellLine: LnCap  
+CellLine: Jurkat  
+Compound: RPMI  
+Compound: fetal bovine serum  
+ConcentrationOfCompound: 10% fetal bovine serum  
+Compound: antibiotics  
+SampleTreatment: flash frozen in liquid nitrogen  
+Compound: liquid nitrogen  
+Temperature: −80 °C  
+Compound: Tris-HCl  
+ConcentrationOfCompound: 0.1 m Tris-HCl  
+ReductionReagent: dithiothreitol  
+ConcentrationOfCompound: 0.1 m dithiothreitol  
+Compound: SDS  
+ConcentrationOfCompound: 4% SDS  
+Instrument: Branson type sonicator  
+SampleTreatment: clarified by centrifugation at 16,100 × g for 10 min  
+Compound: Lys8  
+Compound: Arg10  
+Compound: dialyzed serum  
+ConcentrationOfCompound: 10% dialyzed serum  
+GrowthRate: about eight doublings  
+Compound: urea  
+ConcentrationOfCompound: 8 m urea  
+CleavageAgent: trypsin  
+Compound: ammonium bicarbonate  
+ConcentrationOfCompound: 25 mm ammonium bicarbonate buffer  
+FractionationMethod: strong anion exchange  
+NumberOfFractions: six  
+Separation: reverse-phase chromatography  
+Separation: nano-flow HPLC  
+Instrument: Easy nanoLC  
+Instrument: LTQ-Orbitrap Velos mass spectrometer  
+Compound: acetic acid  
+ConcentrationOfCompound: 0.5% acetic acid  
+Compound: acetonitrile  
+ConcentrationOfCompound: 80% acetonitrile  
+GradientTime: 200 min  
+AcquisitionMethod: top 10 method  
+FragmentationMethod: HCD  
+PrecursorMassTolerance: 20 ppm  
+PrecursorMassTolerance: 6 ppm  
+FragmentMassTolerance: 20 ppm  
+Modification: methionine oxidation  
+Modification: N-terminal acetylation  
+Modification: carbamidomethyl cysteine  
+NumberOfMissedCleavages: two  
+Temperature: 95 °C

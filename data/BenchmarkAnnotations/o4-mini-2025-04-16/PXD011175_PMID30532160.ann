@@ -1,0 +1,67 @@
+Instrument: Bioruptor plus, model UCD-300 (Dieagenode)
+ConcentrationOfCompound: 4 M urea
+ConcentrationOfCompound: 100 mM ammonium bicarbonate
+Time: 15 s
+Temperature: 4°C
+Time: 10 min
+AssayName: colorimetric micro BCA Protein Assay kit
+ReductionReagent: DTT
+ConcentrationOfCompound: 10 mM DTT
+AlkylationReagent: iodoacetamide
+ConcentrationOfCompound: 20 mM iodoacetamide
+CleavageAgent: Lys-C
+FactorValue: 1:50 (w/w) (enzyme:protein)
+Time: 5 h
+CleavageAgent: trypsin
+Time: overnight
+Temperature: RT
+AssayName: peptide cleanup v2.0 protocol
+Instrument: AssayMAP Bravo
+MaterialType: C18 cartridges
+ConcentrationOfCompound: 90% acetonitrile (ACN)
+FlowRateChromatogram: 10 μL/min
+FlowRateChromatogram: 5 μL/min
+ConcentrationOfCompound: 80% ACN, 0.1% TFA
+AssayName: Phospho Enrichment v2.0 protocol
+MaterialType: Fe(III)-NTA cartridges
+Instrument: AssayMAP Bravo platform
+ConcentrationOfCompound: 50% ACN, 0.1% TFA
+FlowRateChromatogram: 300 μL/min
+FlowRateChromatogram: 3.5 μL/min
+ConcentrationOfCompound: 5% ammonia
+ConcentrationOfCompound: 50% formic acid
+Temperature: -80°C
+FractionationMethod: Reversed-phase high pH (HpH) fractionation
+Instrument: Bravo AssayMAP system
+AssayName: Fractionation v1.0 protocol
+ConcentrationOfCompound: 200 mM ammonium formate
+MaterialType: RPS cartridges
+ConcentrationOfCompound: 20 mM ammonium formate (pH 10)
+FractionationFraction: 4% (F1)
+FractionationFraction: 10% (F2)
+FractionationFraction: 15% (F3)
+FractionationFraction: 20% (F4)
+FractionationFraction: 25% (F5)
+FractionationFraction: 80% (F6)
+Instrument: Thermo Easy-nLC 1000 HPLC
+Instrument: Q Exactive mass spectrometer (Thermo Scientific, San Jose, CA)
+Instrument: Ultimate 3000 HPLC
+Instrument: Q Exactive HF-X mass spectrometer (Thermo Scientific, San Jose, CA)
+MaterialType: Acclaim1 PepMap 100 pre-column, 75 μm, 2 cm, C18, 3 mm, 100 Å, Thermo Scientific, San José, CA
+MaterialType: EASY-Spray column, 25 cm, 75 μm i.d., PepMap RSLC C18, 2 mm, 100Å, Thermo Scientific, San José, CA
+GradientTime: 120 min
+ConcentrationOfCompound: 0.1% formic acid
+FlowRateChromatogram: 300 nL/min
+Temperature: 45°C
+AcquisitionMethod: data-dependent analysis (DDA)
+CollisionEnergy: NCE of 25
+MS2MassAnalyzer: Orbitrap analyzer
+Time: 30 s
+Modification: Cysteine carbamidomethylation
+Modification: methionine oxidation
+Modification: protein N-terminal acetylation
+Modification: phosphorylation of serine, threonine and tyrosine
+PrecursorMassTolerance: 10 ppm
+FragmentMassTolerance: 0.02 Da
+NumberOfMissedCleavages: two
+AssayName: label-free quantification (LFQ)

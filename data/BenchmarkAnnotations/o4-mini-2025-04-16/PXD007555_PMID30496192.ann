@@ -1,0 +1,51 @@
+AlkylationReagent: iodoacetamide  
+AssayName: label-free quantification (LFQ)  
+AssayName: LC-MS/MS  
+AssayName: data-dependent scan mode  
+CleavageAgent: trypsin  
+CollisionEnergy: 27% normalized collision energy  
+ConcentrationOfCompound: 0.2% (s/v) RapiGest SF Surfactant  
+ConcentrationOfCompound: 50 mM ammonium bicarbonate  
+ConcentrationOfCompound: 5 mM dithiothreitol  
+ConcentrationOfCompound: final concentration of 15 mM  
+ConcentrationOfCompound: 25% (v/v) trifluoroacetic acid (TFA)  
+ConcentrationOfCompound: a final concentration of 0.5% (v/v)  
+ConcentrationOfCompound: 0.1% (v/v) TFA  
+Compound: RapiGest SF Surfactant  
+Compound: ammonium bicarbonate  
+Compound: dithiothreitol  
+Compound: trifluoroacetic acid (TFA)  
+FactorValue: 1:50 (w/w) trypsin-to-protein ratio  
+FlowRateChromatogram: 30 μL/min  
+FlowRateChromatogram: 400 nL/min  
+FragmentationMethod: higher energy collision-induced dissociation (HCD)  
+FragmentMassTolerance: 20 ppm  
+GradientTime: 180 min  
+Instrument: UltiMate 3000, Dionex, Idstein, Germany  
+Instrument: Q Exactive, Thermo Fisher Scientific, Bremen, Germany  
+IonizationType: nano electrospray ionization  
+Modification: Cysteine carbamidomethylation  
+Modification: methionine oxidation  
+Modification: N-terminal acetylation  
+MS2MassAnalyzer: orbitrap analyzer  
+NumberOfBiologicalReplicates: 12 human subjects  
+NumberOfMissedCleavages: two  
+NumberOfTechnicalReplicates: seven replicates  
+OrganismPart: subarachnoid space of the lumbar spinal cord  
+PrecursorMassTolerance: 5 ppm  
+SampleTreatment: lumbar puncture  
+SampleTreatment: in the dark  
+Separation: linear gradient of 4–50% buffer B  
+Specimen: CSF  
+Temperature: room temperature  
+Temperature: 60 °C  
+Temperature: 37 °C  
+Temperature: 4 °C  
+Temperature: -80 °C  
+Time: 30 min  
+Time: 40 min  
+Time: 10 min  
+Time: overnight (16 hours)  
+Time: T0  
+Time: T24  
+Time: T48

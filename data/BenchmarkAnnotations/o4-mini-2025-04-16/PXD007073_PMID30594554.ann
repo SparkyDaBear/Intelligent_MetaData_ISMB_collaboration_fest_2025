@@ -1,0 +1,47 @@
+AssayName: LC-MS/MS
+AssayName: Western blot
+AssayName: immunohistochemistry
+AssayName: Next Generation sequencing (NGS)
+AssayName: Multiplex Ligation-dependent Probe Amplification (MLPA®)
+AssayName: KASP genotyping
+AssayName: CellTiter-Glo® Luminescent Cell Viability Assay
+Instrument: HP Scanjet 2400
+CleavageAgent: Lys-C protease (Lysyl Endopeptidase®, Mass Spectrometry Grade, Wako)
+CleavageAgent: trypsin (Promega, Wisconsin, US)
+ReductionReagent: 0·1 M dithiotheitol (DTT)
+ReductionReagent: 10 mM DTT in 50 mM ABC
+AlkylationReagent: 50 mM 2-iodoacetamide
+AlkylationReagent: 50 mM 2-iodoacetamide in 50 mM ABC
+Separation: SDS-PAGE on 4–15% Mini-PROTEAN® TGX™ Precast Gels (Bio-Rad)
+Separation: 8% or 15% Laemmli SDS-PAGE
+Staining: Coomassie Blue R-350 (GE Healthcare Life Sciences)
+MaterialType: HyperSep™ C18 Cartridges (Thermo Fisher Scientific, Massachusetts, US)
+MaterialType: stop and go extraction (STAGE) tips
+MaterialType: Immun-Blot® PVDF membrane (Bio-Rad)
+MaterialType: Four-micrometer paraffin sections
+MaterialType: 96-well culture plates (Greiner Bio-One; #655088)
+MaterialType: Amersham Hyperfilm ECL (GE Healthcare Life Sciences)
+Compound: RIPA buffer (50 mM Tris-HCl pH 7.4, 0·1% SDS, 1% NP-40, 150 mM NaCl, 1 mM ethylenediaminetetraacetic acid (EDTA), 0·5% sodium deoxycholate)
+Compound: cOmplete™, EDTA-free Protease Inhibitor Cocktail, Sigma-Aldrich®; #11873580001
+Compound: phosphatase inhibitor cocktails (Santa Cruz Biotechnology, Inc.; sc-45,045; sc-45,065)
+Compound: Dulbecco's Modified Eagle's Media (DMEM; Thermo Fisher Scientific)
+Compound: 10% foetal bovine serum (FBS; Sigma-Aldrich®)
+Compound: 1% d-(+)-glucose (Sigma-Aldrich®)
+Compound: 100 U/ml penicllin/streptomycin (Thermo Fisher Scientific)
+Compound: 2 mM l-glutamine (Thermo Fisher Scientific)
+Compound: 0·1% DMSO
+Treatment: AZD5363
+Treatment: Ku-0063794
+CellLine: Ben-Men-1 (BM1) (DSMZ Cat# ACC-599, RRID:CVCL_1959)
+CellLine: KT21-MG1 (KT21) (RRID:CVCL_M429)
+CellType: Human meningeal cells (HMC)
+PrecursorMassTolerance: 20 ppm
+FragmentMassTolerance: 4·5 ppm
+Label: label free quantification (LFQ)
+Temperature: 37 °C
+Temperature: −20 °C
+Temperature: 4 °C
+Temperature: RT
+Temperature: 56 °C
+Time: O/N
+Time: 72 h

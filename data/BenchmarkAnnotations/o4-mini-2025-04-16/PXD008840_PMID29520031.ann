@@ -1,0 +1,44 @@
+Disease: diffuse-type gastric cancer (DGC)  
+NumberOfSamples: 84 DGC patients  
+SamplingTime: within 30 min after operation  
+Temperature: −80 °C  
+Temperature: −40 °C  
+SampleTreatment: formalin fixed and paraffin embedded  
+Staining: H&E-stained sections  
+AssayName: IHC for MLH1, PMS2, MSH2, and MSH6  
+AssayName: protein profiling  
+AssayName: DNA sequencing  
+AssayName: liquid chromatography tandem mass spectrometry (LC-MS/MS)  
+Instrument: Aperio Scanscope (Aperio Technologies Vista, CA, USA)  
+Instrument: Orbitrap Fusion  
+Instrument: Orbitrap Fusion Lumos  
+Instrument: Q Exactive Plus mass spectrometers  
+Instrument: Easy-nLC 1000 nanoflow LC system  
+Instrument: Q Exactive HF mass spectrometer  
+Instrument: UltiMate 3000 RSLCnano System  
+Instrument: Illumina HiSeq 2000  
+Compound: 8 M Urea  
+Compound: 100 mM Tris Hydrochloride  
+Compound: acetonitrile  
+ConcentrationOfCompound: 10 mM dithiothreitol  
+ConcentrationOfCompound: 10 mM iodoacetamide  
+ConcentrationOfCompound: 0.1% formic acid  
+ReductionReagent: dithiothreitol  
+AlkylationReagent: iodoacetamide  
+CleavageAgent: trypsin  
+NumberOfFractions: six fractions  
+FlowRateChromatogram: 600 nl/min  
+CollisionEnergy: 27%  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 50 mmu  
+FragmentMassTolerance: 0.5 Da  
+NumberOfMissedCleavages: two missed cleavages  
+Modification: cysteine carbamidomethylation  
+Modification: N-acetylation  
+Modification: oxidation of methionine  
+CellLine: 293T cell lysate  
+Time: 30 min  
+Time: additional 30 min  
+Time: every 2 days  
+Temperature: 56 °C  
+Temperature: room temperature

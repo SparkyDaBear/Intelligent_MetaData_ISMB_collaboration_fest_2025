@@ -1,0 +1,60 @@
+AssayName: ultracentrifugation-electrostatic repulsion hydrophilic interaction chromatography (UC-ERLIC)-coupled mass spectrometry technology  
+SourceName: Sigma-Aldrich (St. Louis, MO, USA)  
+SourceName: Roche (Basel, Switzerland)  
+SourceName: Promega (Madison, WI, USA)  
+CleavageAgent: sequencing-grade-modified trypsin  
+Disease: AD + CVD  
+Organism: human  
+OrganismPart: middle temporal lobe, BA21 region  
+Specimen: postmortem brain tissues  
+SourceName: Harvard Brain Tissue Resource Center (HBTRC, Boston, MA, USA)  
+BiologicalReplicate: Three biological replicates  
+Temperature: −150 °C  
+Time: 10 min  
+SampleTreatment: 1X PBS  
+Compound: sodium deoxycholate (SDC)  
+ConcentrationOfCompound: 0.5% (w/v) sodium deoxycholate (SDC)  
+Compound: N-lauroylsarcosine  
+ConcentrationOfCompound: 1% (w/v) N-lauroylsarcosine  
+Compound: ammonium acetate (AA)  
+ConcentrationOfCompound: 100 mM ammonium acetate (AA)  
+Compound: Tris-HCl  
+ConcentrationOfCompound: 30 mM Tris-HCl (pH 7.4)  
+Compound: NaCl  
+ConcentrationOfCompound: 150 mM NaCl  
+Instrument: bullet blender homogenizer (Next Advance, NY, USA)  
+Temperature: 4 °C  
+Time: 60 min  
+AssayName: bicinchoninic acid protein assay (BCA)  
+ReductionReagent: 10 mM dithiothreitol (DTT)  
+AlkylationReagent: 20 mM iodoacetamide  
+Temperature: room temperature  
+Time: 30 min  
+Temperature: 37 °C  
+Time: overnight  
+FactorValue: 1:20 (w/w) enzyme-to-substrate ratio  
+ConcentrationOfCompound: 0.5% formic acid (FA)  
+Instrument: vacuum concentrator (Eppendorf, Hamburg, Germany)  
+FractionationMethod: HPLC fractionation  
+ConcentrationOfCompound: 75% acetonitrile (ACN)  
+ConcentrationOfCompound: 0.1% FA  
+Instrument: Shimadzu Prominence UFLC system (Kyoto, Japan)  
+MaterialType: PolyWAX column (4.6 × 200 mm, 3 μm, PolyLC, Columbia, MD, USA)  
+GradientTime: 72-min gradient  
+ConcentrationOfCompound: 80% ACN  
+ConcentrationOfCompound: 0.1% acetic acid  
+ConcentrationOfCompound: 10% ACN  
+FlowRateChromatogram: 1 ml/min  
+Instrument: Orbitrap Elite mass spectrometer  
+Instrument: Dionex UltiMate 3000 UHPLC system  
+MaterialType: Acclaim PepMap RSL column (75 μm ID × 15 cm, 2-μm particle size, Thermo Fisher Scientific Inc.)  
+FlowRateChromatogram: 0.3 μL/min  
+GradientTime: 60-min gradient  
+IonizationType: Thermo Captive Spray nanoelectrospray ion source  
+FragmentationMethod: high-energy collisional dissociation (HCD)  
+CollisionEnergy: 32% normalized collision energy  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 0.05 Da  
+Modification: Carbamidomethylation  
+CleavageAgent: Trypsin  
+FactorValue: p < 0.05

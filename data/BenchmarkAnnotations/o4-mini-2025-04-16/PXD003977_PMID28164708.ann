@@ -1,0 +1,52 @@
+AssayName: gel-aided sample preparation (GASP)
+AssayName: CHarge Ordered Parallel Ion aNalysis (CHOPIN)
+AssayName: Universal Method
+CellLine: MCF-7 breast cancer cell line
+Instrument: Orbitrap Fusion Lumos instrument
+Instrument: Dionex Ultimate 3000 HPLC
+Instrument: Dionex Ultimate 3000 nano-UPLC
+Separation: SDS-PAGE
+Staining: Coomassie staining
+ConcentrationOfCompound: 10% FCS
+ConcentrationOfCompound: 1% penicillin
+ConcentrationOfCompound: 1% streptomycin
+ConcentrationOfCompound: 1% glutamine
+ConcentrationOfCompound: 4% SDS
+ConcentrationOfCompound: 6 M urea
+ConcentrationOfCompound: 2 M thiourea
+ConcentrationOfCompound: 100 mM DTT
+ConcentrationOfCompound: 1250 units of benzonase
+ConcentrationOfCompound: 100% acetonitrile
+ConcentrationOfCompound: 50 mM ammonium bicarbonate
+ConcentrationOfCompound: 2% acetonitrile
+ConcentrationOfCompound: 0.1% formic acid
+ConcentrationOfCompound: 35% acetonitrile in 5% DMSO
+ReductionReagent: 100 mM DTT
+CleavageAgent: 50 μg of trypsin
+CleavageAgent: 50 μg of elastase
+FractionationMethod: concatenated high-pH prefractionation
+FractionationMethod: Off-line high-pH reverse-phase prefractionation
+FlowRateChromatogram: 200 μL/min
+GradientTime: 100 min
+GradientTime: 60 min
+FragmentationMethod: collision-induced dissociation (CID)
+FragmentationMethod: HCD fragmentation
+CollisionEnergy: 35%
+CollisionEnergy: 32%
+CollisionEnergy: 25%
+MS2MassAnalyzer: linear ion trap
+PrecursorMassTolerance: 20 ppm
+FragmentMassTolerance: 0.5 Da
+FragmentMassTolerance: 0.05 Da
+NumberOfMissedCleavages: four missed cleavage sites
+Modification: propionamide
+Modification: Deamidation (N,Q)
+Modification: Oxidation (M)
+Organism: Homo sapiens
+Temperature: 37 °C
+Temperature: −80 °C
+Temperature: on ice
+Time: 30 min
+Time: overnight
+Time: 20 min
+Time: 1 min

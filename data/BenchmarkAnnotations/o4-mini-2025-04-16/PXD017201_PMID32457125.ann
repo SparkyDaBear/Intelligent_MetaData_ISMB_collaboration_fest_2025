@@ -1,0 +1,14 @@
+AssayName: mass-spectrometry-based global proteomics
+AssayName: high-resolution isoelectric focusing liquid chromatography–mass spectrometry (HiRIEF LC-MS/MS)
+AssayName: proximity extension assays (PEAs)
+AssayName: Olink ImmunoOnc I panel
+Depletion: Agilent Plasma 14 Multiple Removal System 4.6×100
+CleavageAgent: LysC
+CleavageAgent: trypsin
+Label: isobaric tandem masstags (Thermo Scientific)
+Separation: solid phase extraction (SPE strata-X-C, Phenomenex)
+Separation: peptide IEF-IPG (isoelectric focusing by immobilized pH gradient) in pI range 3–10 (1 mg)
+FractionationMethod: HiRIEF prefractionation method at peptide level
+FractionIdentifier: 72 contiguous fractions
+Temperature: −70°C
+Temperature: −20°C

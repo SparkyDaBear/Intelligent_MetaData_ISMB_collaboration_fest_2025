@@ -1,0 +1,35 @@
+Compound: suc-LLVY-AMC  
+Compound: ac-PAL-AMC  
+ConcentrationOfCompound: 0.1 mM suc-LLVY-AMC  
+ConcentrationOfCompound: 0.1 mM ac-PAL-AMC  
+Compound: MG132 proteasome inhibitor  
+ConcentrationOfCompound: 0.04 mM MG132 proteasome inhibitor  
+NumberOfTechnicalReplicates: four replicates  
+Instrument: Typhoon-9410 laser flatbed scanner (GE Healthcare, USA)  
+Time: 3.5 h  
+Treatment: IFNγ  
+ConcentrationOfCompound: 250 U/ml IFNγ  
+Time: 48 h  
+BiologicalReplicate: Three different experimental replicates  
+Instrument: BD LSR II flow cytometer (BD Biosciences)  
+Instrument: UltiMate 3000 RSLCnano-capillary UHPLC system (Thermo Fisher Scientific)  
+IonizationType: electrospray  
+Instrument: Q-Exactive-Plus (Thermo Fisher Scientific)  
+GradientTime: 2 h  
+FlowRateChromatogram: 0.15 µl/min  
+FragmentationMethod: higher-energy collisional dissociation (HCD)  
+CollisionEnergy: 25%  
+CleavageAgent: unspecific  
+Modification: N-terminal acetylation (42.010565 Da)  
+Modification: methionine oxidation (15.994915 Da)  
+SyntheticPeptide: All synthetic peptides  
+Compound: candidate peptides  
+ConcentrationOfCompound: 10 μM  
+Time: 2 h  
+Temperature: 37 °C  
+NumberOfTechnicalReplicates: triplicates  
+Time: overnight incubation  
+BiologicalReplicate: three experimental replicates per each cell line and each condition  
+NumberOfBiologicalReplicates: three biological replicates  
+Time: 8 h  
+Time: 12 h

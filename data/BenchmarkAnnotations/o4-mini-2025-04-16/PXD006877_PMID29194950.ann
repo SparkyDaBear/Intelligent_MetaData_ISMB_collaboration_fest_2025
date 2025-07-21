@@ -1,0 +1,69 @@
+AssayName: Stable isotope labeling of amino acids in cell culture (SILAC)  
+AssayName: LC-MS/MS analysis  
+AssayName: bicinchoninic acid (BCA) assay  
+CleavageAgent: trypsin  
+Strain: E. coli strains Top10 and GM2163  
+Strain: Hfx. volcanii LM08  
+Temperature: 37 °C  
+Temperature: 42 °C  
+Compound: ampicillin  
+Compound: novobiocin  
+Compound: L-Lysine  
+Compound: L-arginine  
+Compound: NaOCl  
+Compound: 5,5′-dithio-bis-(2-nitrobenzoic acid) (DTNB)  
+Compound: L-lysine+8 (L-lysine: 2HCl, 13C6, 99%; 15N2, 99%; Item No. CNLM-291-H-PK)  
+Compound: L-arginine+6 (L-arginine: HCl, 13C6, 99%; Item No. CLM-2265-H-PK)  
+Compound: L-lysine  
+Compound: L-arginine  
+Compound: glycerol  
+ConcentrationOfCompound: 0.1 mg·ml−1  
+ConcentrationOfCompound: 0.1 μg·ml−1  
+ConcentrationOfCompound: 0.3 mM  
+ConcentrationOfCompound: 1.5% (w/v)  
+ConcentrationOfCompound: 2.0% (w/v)  
+ConcentrationOfCompound: 0 to 0.5 mM  
+ConcentrationOfCompound: 1.25 mM  
+ConcentrationOfCompound: 2.5 mM  
+ConcentrationOfCompound: 4 mM  
+ConcentrationOfCompound: 7.5 mM  
+ConcentrationOfCompound: 20% v/v  
+ConcentrationOfCompound: 50 mM  
+ConcentrationOfCompound: 200 mM  
+NumberOfBiologicalReplicates: 3  
+NumberOfBiologicalReplicates: 4  
+Instrument: Sonic Dismembrator Model 500, Fisher Scientific  
+Instrument: Biotek Synergy HTX Multi-Mode Reader  
+Instrument: Easy-nLC 1200 system  
+Instrument: Q-Exactive Orbitrap Plus MS  
+FractionationMethod: strong cation exchange chromatography (SCX)  
+FlowRateChromatogram: 200 μl/min  
+FlowRateChromatogram: 300 nl/min  
+NumberOfFractions: 14  
+GradientTime: 100 min  
+GradientTime: 10 min  
+IonizationType: positive ion mode  
+FragmentationMethod: high collision dissociation (HCD)  
+CollisionEnergy: 27  
+NumberOfMissedCleavages: two missed cleavages  
+Modification: static modification of methylthio on all cysteines  
+Modification: lysine +8  
+Modification: arginine +6  
+Modification: proline +5  
+Modification: methionine oxidation  
+Modification: N-terminal acetylation  
+Modification: diglycine remnant on lysines  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 0.02 Da  
+SupplementaryFile: PXD006877  
+SourceName: Sigma Aldrich (St. Louis, MO, USA)  
+SourceName: Fisher-Scientific (Atlanta, GA, USA)  
+SourceName: Integrated DNA Technologies (Coralville, IA, USA)  
+SourceName: New England Biolabs (Ipswich, MA, USA)  
+SourceName: Cambridge Isotope Laboratories, Inc. (Tewksbury, MA, USA)  
+SourceName: Bio-Rad laboratories (Hercules, CA, USA)  
+SourceName: Hyperfilm; Amersham Biosciences  
+SourceName: Nalgene, ThermoFisher Scientific, USA  
+SourceName: Pierce, USA  
+SourceName: ThermoFisher Scientific, USA  
+SourceName: Fisher Scientific

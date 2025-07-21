@@ -1,0 +1,54 @@
+Instrument: cryostat (Leica Microsystems, Wetzlar, Germany)
+Instrument: UltiMate™ 3000 RSLCnano System
+Instrument: hybrid Q-Exactive-HF mass spectrometer
+MaterialType: polyethylene naphthalate membrane coated slides (1.0 PEN(D), Zeiss, Oberkochen, Germany)
+MaterialType: C18 guard-desalting column (Acclaim PepMap 100, 75 μm × 2 cm, nanoViper, C18, 5 μm, 100Å)
+MaterialType: Easy spray PepMap RSLC, C18, 2 μm, 100Å, 75 μm × 50 cm
+MaterialType: SPE strata-X-C (Phenomenex, Torrance, California)
+MaterialType: EnVision Dual Link System (Dako, Agilent, Santa Clara, California)
+MaterialType: VectaMount Permanent Mounting Medium (Vector Laboratories, Burlingame, California)
+Compound: SDS-lysis buffer (4% SDS, 25 mm Hepes pH 7.6, 1 mm DTT)
+Compound: chloroacetamide
+Compound: Lys-C (Pierce, Thermo Scientific, Waltham, Massachusetts)
+Compound: trypsin
+Compound: TMT10plex 126–131Da
+Compound: citrate buffer (pH 6)
+Compound: Tris-EDTA buffer (pH 9)
+Compound: peroxidase
+Compound: HRP-labeled polymer
+Compound: DAB
+Compound: goat serum (Dako, Agilent)
+Compound: complexin-1 (CPLX1, Protein Tech, Rosemont, Illinois, 1:200 dilution)
+Compound: complexin-2 (CPLX2, Protein Tech, 1:200 dilution)
+Compound: synaptogyrin-1 (SYNGR1, Sigma-Aldrich, 1:200 dilution)
+ConcentrationOfCompound: 4% SDS
+ConcentrationOfCompound: 25 mm Hepes pH 7.6
+ConcentrationOfCompound: 1 mm DTT
+ConcentrationOfCompound: 4 mm chloroacetamide
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+Label: TMT10plex 126–131Da
+FractionationMethod: high-resolution isoelectric focusing
+NumberOfFractions: 72
+Separation: liquid chromatography
+AssayName: immunohistochemistry
+AssayName: liquid chromatography-mass spectrometry
+PrecursorMassTolerance: 10 ppm
+FragmentMassTolerance: 0.02 Da
+NumberOfMissedCleavages: 2
+FragmentationMethod: higher energy collision dissociation
+CollisionEnergy: 30–40%
+FlowRateChromatogram: 250 nl/min
+OrganismPart: outer two-thirds of the molecular layer of the dentate gyrus
+NumberOfBiologicalReplicates: five AD and five neurologically healthy control cases
+NumberOfBiologicalReplicates: five AD and seven control cases
+Temperature: 95 °C
+Temperature: −20 °C
+Temperature: 110 °C
+Temperature: room temperature
+SamplingTime: 16 h
+SamplingTime: 5 min
+SamplingTime: 1 min
+SampleTreatment: heat-induced epitope retrieval
+Staining: toluidine blue (Sigma-Aldrich, St. Louis, Missouri)
+SupplementaryFile: PXD014557

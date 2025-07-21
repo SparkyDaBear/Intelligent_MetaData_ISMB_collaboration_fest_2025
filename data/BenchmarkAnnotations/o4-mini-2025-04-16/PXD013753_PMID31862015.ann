@@ -1,0 +1,32 @@
+AssayName: LC-MS/MS analysis  
+AcquisitionMethod: data dependent mode  
+CleavageAgent: trypsin  
+Disease: Alzheimer’s disease (AD)  
+Disease: frotntotemporal dementia with tau-associated corticobasal degeneration  
+EnrichmentMethod: desalted using a SPE cartridge (Empore-C18, Agilent Technologies, 7 mm/3 ml)  
+FlowRateChromatogram: 0.2 ml/min  
+FlowRateChromatogram: 300 nl/min  
+FractionationMethod: High pH RP HPLC  
+FragmentMassTolerance: ITMS- 0.02 Da  
+Instrument: JOEL JEM-1400 transmission electron microscope  
+Instrument: Q-Exactive-HF (Thermo Scientific) mass spectrometer  
+Instrument: Ultracut microtome (Leica)  
+Instrument: UltiMate 3000 RSLCnano (Thermo Scientific) UHPLC system  
+Instrument: WPS-3000FC auto-sampler (Thermo-Scientific)  
+Instrument: XCell SureLock™ Mini-Cell (Invitrogen, Carlsbad, CA)  
+Label: TMT8plex_Nter  
+Label: TMT 8plex-Lys  
+NumberOfFractions: total number of fractions concatenated was set to 20  
+NumberOfMissedCleavages: 2  
+NumberOfSamples: 33 subjects (7–10 per group)  
+OrganismPart: cerebellum  
+OrganismPart: primary visual cortex (BA17)  
+OrganismPart: superior temporal gyrus (BA41/42)  
+PooledSample: Pools containing equal amounts of protein (25 μg per case) were prepared of each of the 8 groups  
+PrecursorMassTolerance: FTMS- 10 ppm  
+ReductionReagent: 100 mM DTT  
+SampleTreatment: fixed in 4% paraformaldehyde/ 2% glutaraldehyde in PB for 48 h at 4 °C  
+Separation: SDS-PAGE  
+Specimen: fresh frozen brain tissue  
+Specimen: paraffin embedded tissue  
+Temperature: 4 °C

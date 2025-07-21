@@ -1,0 +1,69 @@
+Disease: frozen lung squamous cell carcinomas
+OrganismPart: adjacent tissues
+AssayName: single sample liquid chromatography-tandem mass spectrometry (LC-MS/MS)
+AcquisitionMethod: data dependent acquisition (DDA)
+AcquisitionMethod: data independent acquisition (DIA)
+AssayName: peptide fractionation with label-free quantification (LF)
+AssayName: isobaric labeling followed by peptide fractionation (TMT 6-plex)
+ConcentrationOfCompound: 20 mM HEPES, pH 8.0
+ConcentrationOfCompound: 9 M urea
+ConcentrationOfCompound: 1 mM sodium orthovanadate
+ConcentrationOfCompound: 2.5 mM sodium pyrophosphate
+ConcentrationOfCompound: 1 mM β-glycerophosphate
+Temperature: 15 °C
+Time: 30 minutes
+ConcentrationOfCompound: 4.5 mM DTT
+Temperature: 60 °C
+Time: 20 minutes
+ConcentrationOfCompound: 11 mM iodoacetamide
+Temperature: room temperature
+Time: 15 minutes
+ConcentrationOfCompound: 2 M urea
+CleavageAgent: trypsin
+Temperature: 37 °C
+Time: overnight
+ConcentrationOfCompound: 20% TFA
+ConcentrationOfCompound: 1% TFA
+Time: 10 minutes
+MaterialType: Sep-Pak solvent A (aqueous 0.1% TFA)
+MaterialType: Sep-Pak solvent B (aqueous 40% acetonitrile with 0.1% TFA)
+FractionationMethod: basic pH reversed phase HPLC
+Label: TMT
+ConcentrationOfCompound: 20 mM ammonium formate, pH 10
+Instrument: Dionex Ultimate3000 UPLC
+MaterialType: 2.1 mm ID×50 mm column (XBridge, Waters) packed with C18, 3.5 µM particle size
+FlowRateChromatogram: 0.2 ml/min
+Separation: bRPLC separation
+ConcentrationOfCompound: aqueous 2% acetonitrile with 5 mM ammonium formate, pH 10
+ConcentrationOfCompound: aqueous 90% acetonitrile with 5 mM ammonium formate, pH 10
+Time: 4 minutes
+Time: 50 minutes
+Time: 5.5 minutes
+Time: 13 min
+Time: 8.5 minutes
+Instrument: RSLC, Dionex, Sunnyvale, CA
+Instrument: QExactive Plus, Thermo, San Jose, CA
+MaterialType: 2 cm×100 µm ID packed with C18 reversed-phase resin, 5µm particle size, 100Å pore size
+Time: 8 minutes
+ConcentrationOfCompound: aqueous 2% acetonitrile and 0.04% TFA
+MaterialType: C18, 75 µm ID×50 cm, 2 µm, 100Å, Dionex, Sunnyvale, CA
+Time: 90-minute gradient
+ConcentrationOfCompound: aqueous 2% acetonitrile + 0.1% formic acid
+ConcentrationOfCompound: aqueous 90% acetonitrile + 0.1% formic acid
+CollisionEnergy: 28
+SyntheticPeptide: PRTC, Pierce #88320
+ConcentrationOfCompound: 10 fmol of each peptide per injection
+Time: 2 days
+Time: 24 days
+CollisionEnergy: 30
+ConcentrationOfCompound: 25 femtomoles of PRTC
+Time: 6 days
+PrecursorMassTolerance: 10 ppm
+PrecursorMassTolerance: 15 ppm
+Modification: carbamidomethylation
+Modification: oxidation
+Modification: pyroglutamic acid
+NumberOfMissedCleavages: 2
+FragmentMassTolerance: 0.05 Da
+Modification: cysteine carbamidomethylation
+Modification: methionine oxidation

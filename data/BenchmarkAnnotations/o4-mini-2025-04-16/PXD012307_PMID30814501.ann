@@ -1,0 +1,17 @@
+AssayName: mass spectrometry-based proteomics  
+AssayName: liquid chromatography-tandem mass spectrometry (LC-MS/MS) analysis  
+AssayName: shotgun proteomics method  
+Instrument: Quadrupole/Orbitrap type Mass Spectrometer (Q-Exactive, Thermo Scientific)  
+Instrument: EASY-nLC 1000 ultra-high pressure system (Thermo Fisher Scientific)  
+FlowRateChromatogram: 250 nl/min  
+GradientTime: 4 h gradient  
+GradientTime: nonlinear 240 min gradient  
+Temperature: 50 °C  
+ReductionReagent: 10 mM TCEP  
+AlkylationReagent: 50 mM CAA  
+CleavageAgent: LysC (1:50 enzyme to protein ratio)  
+CleavageAgent: trypsin (1:20 enzyme to protein ratio)  
+PrecursorMassTolerance: up to 4.5 ppm after time-dependent mass calibration  
+FragmentMassTolerance: an allowed fragment mass deviation of 20 ppm  
+CollisionEnergy: normalized collision energy of 25%  
+NumberOfMissedCleavages: maximum of two missed cleavages

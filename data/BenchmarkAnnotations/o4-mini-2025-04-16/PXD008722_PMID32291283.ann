@@ -1,0 +1,36 @@
+Organism: human  
+OrganismPart: heart biopsies  
+OrganismPart: right atria  
+OrganismPart: left atria  
+OrganismPart: left ventricle  
+Disease: mitral valve regurgitation  
+Sex: male  
+NumberOfBiologicalReplicates: seven  
+NumberOfSamples: 21  
+FractionationMethod: micro-flow reverse-phase ultrahigh pressure liquid chromatograpy (UPLC)  
+NumberOfFractions: 12  
+FractionIdentifier: 12 concatenated fractions  
+Instrument: Q-Exactive-HF Orbitrap instrument  
+Instrument: Q-Exactive HF quadrupole Orbitrap tandem mass spectrometer (LC-MS/MS, Thermo Electron, Bremen, Germany)  
+Instrument: Precellys24 homogenizer (Bertin Technologies, France)  
+Instrument: Dionex UltiMate 3000 UPLC system (Thermo Scientific)  
+Instrument: nanoflow Easy-nLC system (Proxeon Biosystems, Odense, Denmark)  
+AssayName: high-resolution mass spectrometry (MS)  
+IonizationType: positive ionization mode  
+ReductionReagent: 5 mm Tris(2-carboxyethyl)phosphine (TCEP)  
+AlkylationReagent: 10 mm chloroacetamide (CAA)  
+CleavageAgent: endoproteinase Lys-C  
+CleavageAgent: trypsin  
+Temperature: 4 °C  
+Temperature: 30 °C  
+Temperature: 37 °C  
+Time: 2 h  
+Time: 1.5 h  
+Time: overnight (14h)  
+Time: 15 min  
+FlowRateChromatogram: 30 μl/min flow rate  
+Separation: online reversed-phase liquid chromatography  
+FragmentationMethod: higher-energy collisional dissociation (HCD)  
+MS2MassAnalyzer: Orbitrap  
+ConcentrationOfCompound: 0.2 μg/μl  
+SampleTreatment: snap-frozen in a container with liquid nitrogen while still in the operating room

@@ -1,0 +1,80 @@
+Disease: Papillary renal cell carcinoma (pRCC)
+SampleTreatment: liquid nitrogen
+Temperature: −80 °C
+Staining: hematoxylin and eosin
+CleavageAgent: proteinase K
+Temperature: 56 °C
+CleavageAgent: RNase A
+Temperature: 70 °C
+Instrument: Illumina NextSeq4000
+Instrument: Illumina Genome Analyzer IIx
+Compound: sodium dodecyl sulfate (SDS)
+ConcentrationOfCompound: 4%
+ReductionReagent: dithiothreitol (DTT)
+ConcentrationOfCompound: 0.1 M
+Compound: Tris
+Temperature: 95 °C
+Time: 5 min
+Compound: acetone
+Temperature: −20 °C
+Time: overnight
+MaterialType: lyophilized proteins
+Compound: guanidinium chloride
+ConcentrationOfCompound: 6 M
+ReductionReagent: tris(2-carboxyethyl)phosphine
+ConcentrationOfCompound: 10 mM
+AlkylationReagent: chloroacetamide
+ConcentrationOfCompound: 40 mM
+ConcentrationOfCompound: 100 mM
+Time: 15 min
+Compound: acetonitrile
+ConcentrationOfCompound: 10%
+ConcentrationOfCompound: 25 mM
+CleavageAgent: trypsin digestion
+Temperature: 37 °C
+FractionationMethod: strong cation exchange (SCX) chromatography
+Instrument: Dionex Ultimate 3000
+Instrument: Q-Exactive HF Orbitrap mass spectrometer
+AssayName: Liquid chromatography–mass spectrometry (LC-MS/MS)
+Separation: nanoflow reverse phase liquid chromatography
+MaterialType: PicoFrit analytical column (75 μm ID × 55 cm long, 15 µm Tip ID (New Objectives, Woburn, MA, USA) in-house packed with 3-µm C18 resin (Reprosil-AQ Pur, Dr. Maisch, Ammerbuch-Entringen, Germany))
+GradientTime: 120 min
+FlowRateChromatogram: 266 nL per minute
+IonizationType: Nanoelectrospray
+CollisionEnergy: 27 eV
+PrecursorMassTolerance: 4.5 ppm
+FragmentMassTolerance: 20 ppm
+NumberOfMissedCleavages: two
+Modification: Cysteine carbamidomethylation
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+SupplementaryFile: Table S1
+SampleTreatment: shock-frozen in liquid nitrogen
+Compound: methyl-tert-butyl ester (MTBE)
+Compound: methanol
+Compound: ammonium acetate
+Instrument: 1290 series UHPLC
+Instrument: triple quadrupole hybrid ion trap mass spectrometer QTrap 6500
+AssayName: multiple reaction monitoring (MRM)
+CellLine: Caki-2 (ATCC HTB-47)
+CellLine: ACHN (ATCC CRL-1611)
+CellLine: HK-2 (ATCC CRL-2190)
+MaterialType: Dulbecco’s modified Eagle medium (DMEM)
+ConcentrationOfCompound: 4.5 g/L
+Compound: glucose
+Compound: fetal bovine serum (FBS)
+ConcentrationOfCompound: 1%
+Compound: penicillin–streptomycin–neomycin
+SamplingTime: 0 h
+SamplingTime: 12 h
+SamplingTime: 24 h
+Compound: 5 mM 13C6 glucose
+Compound: 2 mM 13C515N-glutamic acid
+ConcentrationOfCompound: 2 mM
+MaterialType: HBSS solution
+Compound: glycine
+ConcentrationOfCompound: 0.4 mM
+AssayName: nano-LC-MS/MS
+NumberOfSamples: seven pRCC type I
+NumberOfSamples: seven pRCC type II
+NumberOfSamples: five pRCC type II metastatic cancer samples

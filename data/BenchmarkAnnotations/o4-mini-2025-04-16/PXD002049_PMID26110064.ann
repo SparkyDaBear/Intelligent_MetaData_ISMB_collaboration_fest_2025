@@ -1,0 +1,79 @@
+CleavageAgent: trypsin  
+Separation: off-line basic-reverse phase high-performance liquid chromatography  
+AssayName: reverse phase liquid chromatography-tandem mass spectrometry  
+MaterialType: 1.5 ml micro-tube  
+ConcentrationOfCompound: 70% EtOH/30% H2O  
+Time: 30 s  
+ConcentrationOfCompound: 100% H2O  
+Time: 5 min  
+Temperature: room temperature  
+MaterialType: powderized xenograft tumor tissue  
+Instrument: Fisher Scientific Sonic Dismembrator Model 100  
+Temperature: 60 °C  
+Time: 1 h  
+AssayName: BCA Protein Assay  
+ReductionReagent: tris(2-carboxyethyl)phosphine (TCEP, 20 mM)  
+ReductionReagent: dithiothreitol (DTT, 50 mM)  
+Time: 30 min  
+AlkylationReagent: iodoacetamide (IAM, 100 mM)  
+Time: 20 min  
+ConcentrationOfCompound: 50 mM ammonium bicarbonate  
+FactorValue: 1:50 (w:w)  
+Temperature: 37 °C  
+Time: overnight  
+SampleTreatment: lyophilized to dryness  
+EnrichmentMethod: desalting  
+MaterialType: Oasis HLB 96-well μElution plate (30 μm, 5 mg, Waters Corp., Milford, MA)  
+MaterialType: XBridge BEH C18, 250 mm×4.6 mm analytical column (130A, 5 μm particle size)  
+FlowRateChromatogram: 0.5 ml/min  
+ConcentrationOfCompound: 10 mM TEAB pH 7.5  
+ConcentrationOfCompound: 100% acetonitrile  
+GradientTime: 105 min  
+NumberOfFractions: 60  
+Temperature: −80 °C  
+AssayName: LC-MS/MS analysis  
+Instrument: Thermo LTQ Orbitrap Velos ion trap mass spectrometer  
+Instrument: Eksigent NanoLC 2D pump  
+Instrument: AS-1 autosampler  
+FactorValue: 2 μl  
+MaterialType: packed capillary tip (Polymicro Technologies, 100 μm×11 cm) containing Jupiter C18 resin (5 μm, 300 Å, Phenomenex)  
+MaterialType: in-line solid-phase extraction column (100 μm×6 cm) packed with the same C18 resin using a frit generated with liquid silicate Kasil  
+ConcentrationOfCompound: 0.1% formic acid  
+ConcentrationOfCompound: 0.1% formic acid in acetonitrile  
+GradientTime: 95 min  
+Time: 15 min  
+FlowRateChromatogram: 1.5 μl min−1  
+PrecursorMassTolerance: 10 ppm  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 0.5 m/z  
+CollisionEnergy: 35% normalized collision energy  
+AssayName: full MS scan for peptides from 400–2000 m/z  
+FactorValue: resolution of 60,000  
+FactorValue: isolation width of 3 m/z  
+FactorValue: activation time of 30 ms  
+FactorValue: activation q of 0.250  
+FactorValue: max ion time of 100 ms  
+FactorValue: max ion time of 1000 ms  
+FactorValue: dynamic exclusion of 60 s  
+FactorValue: repeat of 1  
+FactorValue: repeat duration of 1  
+Time: July 26, 2012  
+Time: June 27, 2013  
+NumberOfSamples: 95 carcinoma samples  
+NumberOfSamples: 60 normal epithelial samples  
+AssayName: Bovine serum albumin (BSA) tryptic digest standards  
+NumberOfSamples: 32 CompRef samples  
+CellLine: WHIM16  
+CellLine: WHIM2  
+AssayName: spectral count data  
+AssayName: multiple reaction monitoring (MRM)  
+AssayName: QuaMeter  
+MaterialType: Thermo ‘RAW’ file format  
+Modification: static +57 modifications to cysteines  
+Modification: dynamic +16 oxidations to methionines  
+Modification: acetylation for protein N-termini  
+Modification: pyroglutamine modifications to the N-termini of peptides starting with Gln residues  
+FactorValue: 0.1% PSM FDR  
+FactorValue: 1% PSM FDR  
+FactorValue: 2% PSM FDR  
+FactorValue: protein-level FDR of 2.64%

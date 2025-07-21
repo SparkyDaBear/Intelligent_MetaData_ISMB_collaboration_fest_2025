@@ -1,0 +1,43 @@
+SampleTreatment: formalin-fixation and paraffin embedding (FFPE)
+Compound: acid-labile surfactant RapiGest
+AssayName: direct trypsinization (DTR)
+AssayName: filter aided sample preparation (FASP)
+AssayName: label-free, quantitative liquid chromatography–tandem mass spectrometry (LC–MS/MS)
+Staining: hematoxylin & eosin (H&E)
+Staining: hematoxylin and hemalaun
+Age: 6-months old
+Sex: male
+Organism: C57 black 6 mouse
+GeneticModification: lacking cathepsin L (Ctsl−/−)
+SampleTreatment: Formalin fixation and paraffin embedding
+MaterialType: FFPE tissue block
+SampleTreatment: Deparaffinization
+Compound: xylol
+Compound: 99% ethanol
+MaterialType: two FFPE tonsil tissue blocks
+SampleTreatment: treated with formalin
+SampleTreatment: embedded in paraffin
+Staining: hematoxylin
+Staining: hemalaun
+CleavageAgent: Sequencing grade trypsin (Worthington, Lakewood, NJ, USA)
+Compound: 0.1% RapiGest SF (Waters, Milford, MA, USA)
+Compound: 0.1 M HEPES pH 8
+Compound: 1 mM dithiothreitol (DTT)
+Instrument: TS1 ThermoShaker, Biometra, Göttingen, Germany
+Temperature: 95 °C
+Time: 4 h
+Instrument: biorupter (Diagenode)
+Compound: 3 M guanidinium chloride (AppliChem, Darmstadt, Germany)
+FactorValue: pH < 3
+Compound: 30 mM iodacetamide (Sigma-Aldrich, St. Louis, USA)
+MaterialType: self-packed C18 STAGE tips (Empore, St. Paul, MN, USA)
+Instrument: Easy nanoLC 1000 (Thermo Scientific)
+Instrument: Orbitrap Q-Exactive plus (Thermo Scientific)
+FlowRateChromatogram: 300 nl/min
+GradientTime: 90 min
+MaterialType: Acclaim PepMap column (Thermo Scientific)
+NumberOfMissedCleavages: two
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+FragmentMassTolerance: 20 ppm
+Modification: Carbamidomethyl at cysteines

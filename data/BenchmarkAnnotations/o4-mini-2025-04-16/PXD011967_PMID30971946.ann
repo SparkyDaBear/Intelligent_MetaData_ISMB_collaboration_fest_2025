@@ -1,0 +1,37 @@
+Organism: human  
+Specimen: human skeletal muscle biopsies  
+Specimen: muscle tissue samples  
+OrganismPart: vastus lateralis muscle  
+BMI: BMI less than 30 kg/m2  
+Age: 20–87 years  
+Age: 20–34 years  
+Age: 35–49 years  
+Age: 50–64 years  
+Age: 65–79 years  
+Age: 80+ years  
+NumberOfSamples: 58  
+FactorValue: not active  
+FactorValue: moderately active  
+FactorValue: active  
+FactorValue: highly active  
+Instrument: UltiMate 3000 Nano LC Systems  
+Instrument: Q Exactive HF mass spectrometer  
+Separation: reverse phase on a 35-cm capillary column (3-μm C18, Hamilton, HxSil cat 79139)  
+FlowRateChromatogram: 650 nL/min  
+GradientTime: 205 min  
+GradientTime: 100 min  
+FractionationMethod: High-pH RPLC fractionation  
+NumberOfFractions: 99  
+CleavageAgent: trypsin/LysC mixture [Promega, 1:50 (w/w)]  
+Time: 18 h  
+Temperature: 36°C  
+ReductionReagent: 50 mM DTT  
+AlkylationReagent: 100 mM iodoacetamide  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 0.08 Da  
+NumberOfMissedCleavages: two missed cleavages  
+FragmentationMethod: Dd-MS2  
+CollisionEnergy: 30% normalized high collision energy  
+SpikedCompound: 200 fM of bacterial beta-galactosidase digest  
+Label: TMT6plex  
+SupplementaryFile: PXD011967

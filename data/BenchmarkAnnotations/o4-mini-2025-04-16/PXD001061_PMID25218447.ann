@@ -1,0 +1,31 @@
+AssayName: high-resolution mass spectrometry
+CellLine: HeLa and U2-OS cells
+SourceName: Dulbecco’s Modified Eagle’s Medium (DMEM)
+Compound: MG-132 (Sigma)
+Compound: PR-619 (Millipore)
+ConcentrationOfCompound: 10 μM MG-132 (Sigma)
+ConcentrationOfCompound: 20 μM PR-619 (Millipore)
+ConcentrationOfCompound: 2.5 μg of polyethylenimine (PEI) per 1 μg of plasmid DNA
+ConcentrationOfCompound: 8 μg per mL polybrene
+SampleTreatment: heat shock
+Temperature: 43°C
+Time: 1 hour
+Instrument: EASY-nLC system (Proxeon)
+Instrument: Q-Exactive (Thermo)
+AssayName: online nanoflow liquid chromatography-tandem mass spectrometry
+FragmentationMethod: Higher-Collisional Dissociation (HCD) fragmentation
+FlowRateChromatogram: flow rate of 250 nL per minute
+GradientTime: 120 minute gradient
+CleavageAgent: Sequencing Grade Endoproteinase Lys-C (Promega)
+CleavageAgent: Sequencing Grade Modified Trypsin (Promega)
+ReductionReagent: dithiothreitol (DTT)
+AlkylationReagent: chloroacetamide
+PrecursorMassTolerance: mass tolerance of 6 ppm for precursor masses
+FragmentMassTolerance: mass tolerance of 20 ppm for fragment ions
+NumberOfMissedCleavages: 3 missed tryptic cleavages
+NumberOfBiologicalReplicates: biological hexuplicate
+NumberOfTechnicalReplicates: 11 technical replicates
+NumberOfBiologicalReplicates: biological triplicate
+NumberOfTechnicalReplicates: 6 technical replicates
+NumberOfBiologicalReplicates: biological quintuplicate
+NumberOfTechnicalReplicates: 9 technical replicates

@@ -1,0 +1,51 @@
+Experiment: Samples for ECM proteomic analysis  
+CellLine: T-HEp3  
+CellLine: D-HEp3  
+Disease: HNSCCs  
+TumorSize: 100 mg  
+TumorSize: 43.3 mg  
+TumorSize: 49 mg  
+TumorSize: 55mg  
+PooledSample: D-HEp3 #1 and D-HEp3 #3  
+ReductionReagent: 10mM DTT (Pierce)  
+AlkylationReagent: 25mM iodoacetamide (Pierce)  
+EnrichmentMethod: CNCS Compartmental Protein Extraction Kit, Millipore  
+CleavageAgent: mass-spectrometry-grade endopeptidase Lys-C (Pierce)  
+CleavageAgent: trypsin (Pierce)  
+Separation: reverse phase HPLC  
+Instrument: Thermo Easy nLC1000  
+Instrument: QExactive mass spectrometer (Thermo)  
+IonizationType: nanoelectrospray  
+Compound: 0.1% formic acid  
+Compound: 80% MeCN/0.1% formic acid  
+GradientTime: 140-minute gradient  
+AcquisitionMethod: data-dependent mode  
+CollisionEnergy: NCE of 28  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 15 mmu  
+NumberOfMissedCleavages: 2 missed cleavages of trypsin  
+Modification: carbamidomethylation of cysteine  
+Modification: methionine oxidation  
+Modification: lysine oxidation  
+Modification: proline oxidation  
+Modification: asparagine deamidation  
+Modification: glutamine deamidation  
+Modification: N-term glutamine to pyroglutamate  
+Modification: carbamylation of N-term  
+Modification: tyrosine phosphorylation  
+Modification: serine phosphorylation  
+Modification: threonine phosphorylation  
+Instrument: Thermo Fisher Orbitrap Velos Pro  
+Instrument: Agilent NanoLC system  
+GradientTime: 120-min linear gradient  
+AcquisitionMethod: data-dependent manner  
+CollisionEnergy: normalized collision energy of 35%  
+MS2MassAnalyzer: Orbitrap mass analyzer  
+FragmentMassTolerance: 100 mmu  
+NumberOfMissedCleavages: two missed cleavages of trypsin  
+Modification: oxidized methionine  
+Modification: deamidation of asparagine  
+Modification: pyro-glutamic acid modification at N-terminal glutamine  
+Modification: hydroxylation of lysine  
+Modification: hydroxylation of proline  
+GeneticModification: DDR1 knockdown D-HEp3 HNSCCs

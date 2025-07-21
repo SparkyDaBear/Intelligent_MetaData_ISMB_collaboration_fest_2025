@@ -1,0 +1,58 @@
+Disease: Triple-negative breast cancer  
+Disease: triple negative breast cancer  
+AssayName: phosphoproteomics  
+AssayName: high-throughput phosphoproteomics  
+CellLine: MDA-MB-231  
+CellLine: MDA-MB-157  
+CellLine: Hs578T  
+CellLine: MDA-MB-468  
+CellLine: HCC1937  
+CellLine: HCC1143  
+CellLine: HCC38  
+CellLine: BT549  
+CellLine: BT483  
+CellLine: MDA-MB-415  
+CellLine: HEK 293T cells  
+GeneticModification: stable transfection with a plasmid encoding firefly luciferase (pGL.4.51 luciferase reporter vector, Promega)  
+CleavageAgent: trypsin  
+CleavageAgent: endoproteinase Lys-C  
+AlkylationReagent: 30 mM chloro-acetamide  
+AlkylationReagent: 50 mM IAA solution  
+ReductionReagent: 15 mM TCEP  
+ReductionReagent: 10 mM DTT  
+EnrichmentMethod: Ti4-IMAC chromatography  
+FragmentationMethod: higher-energy collisional dissociation (HCD)  
+FragmentationMethod: ion trap CID  
+FragmentationMethod: ETD fragmentation  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 0.025 Da  
+Instrument: Q Exactive Plus mass spectrometer  
+Instrument: UltiMate 3000 HPLC system  
+Instrument: LTQ-Orbitrap Elite  
+Instrument: Proxeon EASY-nLC 1000  
+IonizationType: electrospray  
+AcquisitionMethod: data-dependent mode  
+GradientTime: 60 min effective curved gradient  
+GradientTime: 90-min gradient  
+FlowRateChromatogram: 10 µl/min  
+FlowRateChromatogram: 250 nL/min  
+NumberOfMissedCleavages: 2  
+NumberOfSamples: n = 34 patients  
+Organism: Homo sapiens  
+Organism: Hsd: Athymic Nude-Foxn1nu  
+Sex: female  
+TumorCellularity: >75% tumor content  
+TumorSite: mammary fat pad  
+TumorSite: lower flank  
+Treatment: palbociclib  
+Treatment: GDC-0994  
+Treatment: Imatinib  
+NumberOfTechnicalReplicates: 3  
+Time: 30 min  
+Time: 45 min  
+Time: overnight  
+Time: 4 h  
+Time: 90 min  
+Temperature: 30 °C  
+Temperature: 45 °C  
+Temperature: 37 °C

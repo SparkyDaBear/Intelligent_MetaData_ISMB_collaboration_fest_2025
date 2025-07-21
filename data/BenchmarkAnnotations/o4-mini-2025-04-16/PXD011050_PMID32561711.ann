@@ -1,0 +1,34 @@
+AssayName: mass spectrometry (MS) based proteomics  
+CleavageAgent: trypsin  
+CleavageAgent: GluC  
+CollisionEnergy: normalized collision energy of 30  
+FractionationFraction: nine fractions  
+FractionationFraction: 10 gel pieces  
+FractionationMethod: strong cation exchange chromatography (SCX)  
+FlowRateChromatogram: 250 nl min−1  
+GradientTime: 2 h gradient  
+Instrument: LTQ Orbitrap-Velos mass spectrometer  
+Instrument: Q Exactive Plus mass spectrometer  
+Instrument: LTQ Orbitrap Elite mass spectrometer  
+Instrument: LTQ Orbitrap XL  
+Instrument: Q Exactive HF mass spectrometer  
+Instrument: TripleTOF 5600+ mass spectrometer  
+Label: iTRAQ (4plex Applications Kit, AB Sciex)  
+Modification: N-glycosylation  
+Organism: Haloferax volcanii  
+SampleTreatment: FASP protocol  
+Separation: reversed-phase column chromatography  
+Separation: C18 reverse phase mini‐column  
+SupplementaryFile: PXD000202  
+SupplementaryFile: PXD006877  
+SupplementaryFile: PXD007061  
+SupplementaryFile: PXD009116  
+SupplementaryFile: PXD010824  
+SupplementaryFile: PXD011012  
+SupplementaryFile: PXD011015  
+SupplementaryFile: PXD011050  
+SupplementaryFile: PXD011056  
+SupplementaryFile: PXD011218  
+SupplementaryFile: PXD013046  
+SupplementaryFile: PXD014974  
+Temperature: 42 °C

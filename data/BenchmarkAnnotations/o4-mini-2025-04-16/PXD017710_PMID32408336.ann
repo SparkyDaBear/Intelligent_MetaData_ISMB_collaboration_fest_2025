@@ -1,0 +1,43 @@
+Instrument: QExactive HF mass spectrometer equipped with a nanoFlex ion source (ThermoFisher Scientific)
+Instrument: Genesys 10S UV-Vis Spectrophotometer (Thermo Scientific)
+Instrument: CFX96 Real-Time System, C1000 Touch Thermal Cycler
+AssayName: OneStep qRT-PCR analysis
+AssayName: Rotitest Vital
+CleavageAgent: LysC (Wako Chemicals)
+CleavageAgent: Trypsin (Promega, Sequencing grade)
+FractionationMethod: High pH Reverse Phase fractionation
+Separation: Easy nLC 1200
+PrecursorMassTolerance: 1 Th window
+CollisionEnergy: normalized collision energy of 35
+GradientTime: 120 min
+SampleTreatment: methanol/chloroform precipitation
+SampleTreatment: acidified (pH 2-3) using TFA
+ConcentrationOfCompound: 8M Urea/10mM EPPS pH 8.2
+ConcentrationOfCompound: 2% sodium deoxycholate
+ConcentrationOfCompound: 1mM TCEP
+ConcentrationOfCompound: 4mM 2-Chloracetamide
+ConcentrationOfCompound: 0.1% FA
+ConcentrationOfCompound: 5-38% acetonitrile
+ConcentrationOfCompound: 0.5%
+Time: overnight at 37°C
+Time: one hour at RT
+Time: 15min
+Time: 30s
+Time: 10min
+Time: 48 h
+Temperature: 37°C
+Temperature: 95°C
+Temperature: 45°C
+Label: TMT6
+Label: TMT6+K8 (K, +237.177)
+Label: Arg10 (R, +10.008)
+Modification: carbamidomethyl
+Modification: methionine oxidation
+NumberOfBiologicalReplicates: three biological replicates
+FactorValue: minimal signal-to-noise ratio was set to 5
+FactorValue: maximum injection time of 100 ms
+FactorValue: maximum injection time of 80 ms
+FactorValue: AGC target value of 3 x 106
+FactorValue: AGC target value of 1 x 105
+FactorValue: unpaired two-sided students t-tests
+FactorValue: IC50 values

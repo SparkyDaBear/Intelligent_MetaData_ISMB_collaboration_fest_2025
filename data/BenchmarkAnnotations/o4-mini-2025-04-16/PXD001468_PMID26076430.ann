@@ -1,0 +1,64 @@
+CellLine: HEK293 cells  
+Organism: Mus Musculus cross (C57BL/6 × 129/sv; house mouse)  
+OrganismPart: Mouse brain  
+ConcentrationOfCompound: 8 M urea  
+ConcentrationOfCompound: 50 mM Tris (pH 8.5)  
+ConcentrationOfCompound: 1 × Roche protease inhibitors  
+ConcentrationOfCompound: 5 mM dithiothreitol  
+Temperature: 56ºC  
+Time: 30 minutes  
+ConcentrationOfCompound: 10 mM iodoacetamide  
+Temperature: room temperature  
+Time: 15 minutes  
+SampleTreatment: methanol/chloroform precipitated using 4 parts methanol, 1 part chloroform, 1 part sample and 3 parts water  
+Temperature: ice cold  
+SampleTreatment: washed twice with ice cold methanol  
+ConcentrationOfCompound: 4 M urea  
+Time: overnight  
+CleavageAgent: Lys-C  
+FactorValue: 1:200 enzyme to protein ratio  
+ConcentrationOfCompound: 1.5M urea  
+Time: 4 hour  
+CleavageAgent: trypsin  
+SampleTreatment: desalted using a Sep-Pak (Sep-Pak, Waters) column  
+SampleTreatment: dried down by vacuum centrifugation  
+FractionationMethod: basic pH reverse phase fractionation  
+GradientTime: 50 min  
+ConcentrationOfCompound: 5% to 35% acetonitrile  
+ConcentrationOfCompound: 10mM ammonium bicarbonate pH 8  
+FlowRateChromatogram: 0.8 mL/min  
+Separation: Agilent 300 Extend C18 column (5 μm particles, 4.6 mm ID and 220 mm in length)  
+FractionIdentifier: 96 fractions  
+FractionIdentifier: 24  
+ConcentrationOfCompound: 1% formic acid  
+AssayName: LC-ESI-MS/MS  
+Instrument: LTQ Orbitrap Elite, Thermo Scientific, San Jose, CA  
+Separation: 100 μm I.D. microcapillary column packed first with ∼0.5 cm of Magic C4 resin (5 μm, 100 Å, Michrom Bioresources, Auburn, CA) followed by 20 cm of Maccel C18AQ resin (3 μm, 200 Å, Nest Group, Southborough, MA)  
+GradientTime: 3 hr  
+ConcentrationOfCompound: 6 to 30% acetonitrile gradient in 0.125% formic acid  
+FlowRateChromatogram: ∼300 nL/min  
+FragmentationMethod: HCD-MS2  
+PrecursorMassTolerance: 2 m/z isolation window  
+CollisionEnergy: 35%  
+Instrument: Q-Exactive Orbitrap mass spectrometer  
+CollisionEnergy: 25%  
+PrecursorMassTolerance: 5 ppm  
+FragmentMassTolerance: 0.01 Da  
+NumberOfMissedCleavages: 1  
+Modification: +57.021464 Da  
+PrecursorMassTolerance: 500 Da  
+Modification: oxidized methionine  
+Modification: Oxidation (M)  
+Modification: deamidation (N, Q)  
+Modification: phosphorylation (ST)  
+Modification: pyro-glutamate (N-term Q)  
+Modification: carbamylation (K)  
+Modification: Formylation (ST)  
+Modification: iron (ED)  
+Modification: iodoacetmaide (M)  
+Modification: N-terminal methionine cleavage  
+Modification: acetylation  
+Modification: Acetylation (K)  
+Modification: dihydroxy tryptophan (W)  
+Modification: methylation (K)  
+Modification: iodination (Y)

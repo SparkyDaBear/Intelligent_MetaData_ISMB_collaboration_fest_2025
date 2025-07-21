@@ -1,0 +1,42 @@
+OrganismPart: human left ventricular myocardium  
+Disease: ischaemic cardiomyopathy  
+Disease: dilated cardiomyopathy  
+Disease: heart failure  
+Temperature: −196 °C  
+Temperature: −170 to −180 °C  
+AssayName: tandem liquid chromatography–mass spectrometry (LC-MS/MS)  
+Instrument: Agilent (Santa Clara, CA, USA) 1260 Infinity liquid chromatography system  
+Instrument: QTRAP5500 mass spectrometer (AB Sciex, Foster City, CA, USA)  
+IonizationType: positive and negative ionization modes  
+Separation: hydrophilic interaction chromatography  
+Separation: BEH Amide column  
+Compound: 8 M guanidine  
+Compound: 100 mM Tris (pH 8.0)  
+ReductionReagent: 10 mM tris(2-carboxyethyl)phosphine  
+AlkylationReagent: 40 mM 2-chloroacetamide  
+Temperature: 95 °C  
+Time: 5 min  
+Temperature: 4 °C  
+Time: 20 min  
+Temperature: −30 °C  
+Time: overnight  
+Compound: 100 mM Tris pH 7.5  
+Compound: 10% 2,2,2-Trifluoroethanol  
+CleavageAgent: sequencing grade LysC (Wako Chemicals)  
+CleavageAgent: trypsin (Sigma)  
+Temperature: 37 °C  
+SyntheticPeptide: iRT peptides (Biognosys)  
+Instrument: Dionex 3500 ultra-high performance liquid chromatography (UHPLC)  
+Instrument: Q-Exactive HF-X  
+IonizationType: positive polarity mode  
+AcquisitionMethod: data-independent acquisition mode (DIA)  
+FragmentationMethod: HCD  
+NumberOfFractions: 12 concatenated fractions  
+AcquisitionMethod: data-dependent acquisition (DDA)  
+CollisionEnergy: 27 NCE  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 20 ppm  
+PrecursorMassTolerance: 4.5 ppm  
+GradientTime: 60 min  
+FlowRateChromatogram: 6 μl/min  
+Compound: 2–40% acetonitrile containing 10 mM ammonium formate

@@ -1,0 +1,49 @@
+CellLine: HeLa cell line  
+Compound: Dulbecco's modified Eagle's medium  
+Compound: fetal bovine serum  
+ConcentrationOfCompound: 10%  
+Compound: antibiotics  
+ConcentrationOfCompound: 1%  
+Compound: PBS  
+Compound: ProteaseMAX™ Surfactant  
+ConcentrationOfCompound: 0.1%  
+Compound: ammonium bicarbonate  
+ConcentrationOfCompound: 50 mm  
+Compound: acetonitrile  
+ConcentrationOfCompound: ratio of 9:1 (v:v)  
+Temperature: 95 °C  
+Time: 5 min  
+Time: 15 min  
+Instrument: Branson sonicator  
+ReductionReagent: DTT  
+ConcentrationOfCompound: 10 mm  
+AlkylationReagent: iodoacetamide  
+CleavageAgent: trypsin  
+Temperature: 37 °C  
+Time: 9 h  
+Compound: acetic acid  
+ConcentrationOfCompound: 5%  
+Time: 30 min  
+Temperature: 45 °C  
+FractionationMethod: spin filtration (Pall Nanosep® 10 kDa with Omega membrane)  
+Separation: Thermo Scientific EASY-Spray columns (PepMap® RSLC, C18, 100 Å, 2 μm bead packed 50 cm column)  
+AssayName: LC-MS/MS experiment  
+Time: 150 min  
+FlowRateChromatogram: 250 nL/min  
+Instrument: Orbitrap Q Exactive mass spectrometer  
+AcquisitionMethod: top-20 method  
+CollisionEnergy: 25 V  
+PrecursorMassTolerance: ±1.0 Th  
+PrecursorMassTolerance: ±2.0 Th  
+PrecursorMassTolerance: ±3.0 Th  
+PrecursorMassTolerance: ±4.0 Th  
+PrecursorMassTolerance: ±20 ppm  
+FragmentMassTolerance: 20 ppm  
+PrecursorMassTolerance: 10 ppm  
+Modification: carbamidomethylation of C  
+Modification: oxidation of M  
+Modification: acetylation of protein N terminus  
+NumberOfMissedCleavages: 3  
+SourceName: UniProt Human Complete Proteome database  
+PrecursorMassTolerance: 6 ppm  
+FragmentMassTolerance: 20 mmu  

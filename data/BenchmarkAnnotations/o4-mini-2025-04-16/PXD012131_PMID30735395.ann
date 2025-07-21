@@ -1,0 +1,47 @@
+BiologicalReplicate: three aged individuals  
+NumberOfSamples: nine anatomically distinct sections  
+SamplingTime: maximum post-mortem interval of five hours  
+Temperature: −80° C  
+OrganismPart: anterior hippocampal region  
+Staining: α-phosphorylated tau protein antibody  
+Time: 15 mins  
+Staining: hematoxylin  
+ConcentrationOfCompound: 6M Guanadine HCl  
+ConcentrationOfCompound: 100mM Tris pH 8  
+Instrument: Misonix XL-2000  
+AssayName: protein BCA assay  
+ConcentrationOfCompound: 6–13 mg/ml  
+ConcentrationOfCompound: 90% methanol  
+Time: 5 min  
+ConcentrationOfCompound: 8M urea  
+ConcentrationOfCompound: 10mM TCEP  
+ConcentrationOfCompound: 40mM CAA  
+ReductionReagent: TCEP  
+AlkylationReagent: CAA  
+CleavageAgent: Trypsin  
+Time: overnight  
+MaterialType: Strata-X Polymeric Reverse Phase column (Phenomenex)  
+Instrument: SpeedVac Concentrator  
+ConcentrationOfCompound: 0.2% formic acid  
+Instrument: HPLC (Agilent, Infinity 2000)  
+MaterialType: C18 reverse-phase column (Waters, XBridge Peptide BEH, particle size 3.5um)  
+ConcentrationOfCompound: 10mM ammonium acetate, pH 10  
+ConcentrationOfCompound: 10mM ammonium acetate, 80% methanol, pH 10  
+NumberOfFractions: 32 fractions  
+MaterialType: round-bottom 96-well plates  
+NumberOfFractions: 16 fractions  
+MaterialType: 1.7um, 130 Å pore size, Bridged Ethylene Hybrid C18 particles  
+Temperature: 50°C  
+Instrument: Waters UHPLC  
+FlowRateChromatogram: 0.35 ul/minute  
+AssayName: 120 min LC method  
+Time: 7 min  
+FlowRateChromatogram: 0.33 ul/minute  
+IonizationType: electrospray ionization  
+Instrument: Thermo Orbitrap Fusion Lumos  
+PrecursorMassTolerance: 0.7 Th  
+FragmentMassTolerance: 25ppm  
+CollisionEnergy: 30  
+SupplementaryFile: PXD010603  
+FactorValue: 50% of the samples  
+FactorValue: lowest 3% of the distribution of log transformed intensities

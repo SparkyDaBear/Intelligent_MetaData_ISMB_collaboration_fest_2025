@@ -1,0 +1,70 @@
+AssayName: single sample liquid chromatography-tandem mass spectrometry (LC-MS/MS)  
+AssayName: single sample LC-MS/MS with data independent acquisition (DIA)  
+AssayName: peptide fractionation with label-free quantification (LF)  
+AssayName: isobaric labeling followed by peptide fractionation (TMT 6-plex)  
+AcquisitionMethod: data dependent acquisition (DDA)  
+AcquisitionMethod: data independent acquisition (DIA)  
+Disease: lung squamous cell carcinomas  
+OrganismPart: adjacent tissues  
+Instrument: BioPulverizer (Biospec)  
+Instrument: Dionex Ultimate3000 UPLC  
+Instrument: nanoflow ultra high performance liquid chromatograph (RSLC, Dionex, Sunnyvale, CA)  
+Instrument: electrospray quadrupole-orbital ion trap mass spectrometer (QExactive Plus, Thermo, San Jose, CA)  
+ConcentrationOfCompound: 20 mM HEPES  
+ConcentrationOfCompound: 9 M urea  
+ConcentrationOfCompound: 1 mM sodium orthovanadate  
+ConcentrationOfCompound: 2.5 mM sodium pyrophosphate  
+ConcentrationOfCompound: 1 mM β-glycerophosphate  
+ConcentrationOfCompound: 4.5 mM DTT  
+ConcentrationOfCompound: 11 mM iodoacetamide  
+ConcentrationOfCompound: 2 M urea  
+ConcentrationOfCompound: 20% TFA  
+ConcentrationOfCompound: 1% TFA  
+ConcentrationOfCompound: aqueous 0.1% TFA  
+ConcentrationOfCompound: aqueous 40% acetonitrile with 0.1% TFA  
+ConcentrationOfCompound: 20 mM ammonium formate, pH 10  
+ConcentrationOfCompound: aqueous 2% acetonitrile + 0.1% formic acid  
+ConcentrationOfCompound: aqueous 90% acetonitrile + 0.1% formic acid  
+ConcentrationOfCompound: 10 fmol of each peptide per injection  
+ConcentrationOfCompound: Twenty-five femtomoles of PRTC  
+CleavageAgent: trypsin  
+FractionationMethod: basic pH reversed phase HPLC  
+Separation: bRPLC separation  
+FlowRateChromatogram: 0.2 ml/min  
+FlowRateChromatogram: 300 nl/min  
+GradientTime: 9 minutes  
+GradientTime: 4 minutes  
+GradientTime: 50 minutes  
+GradientTime: 5.5 minutes  
+GradientTime: 13 min  
+GradientTime: 8.5 minutes  
+GradientTime: 90-minute  
+GradientTime: 60 minutes  
+GradientTime: 7 minutes  
+GradientTime: 1 minute  
+Time: 30 minutes  
+Time: 20 minutes  
+Time: 15 minutes  
+Time: overnight  
+Time: 2 days  
+Time: 24 days  
+Time: 6 days  
+Temperature: 15 °C  
+Temperature: 60 °C  
+Temperature: room temperature  
+Temperature: 37 °C  
+CollisionEnergy: normalized collision energy set to 28  
+CollisionEnergy: normalized collision energy value was set to 30  
+SyntheticPeptide: PRTC, Pierce #88320  
+NumberOfFractions: Twelve concatenated fractions  
+NumberOfMissedCleavages: no limitation on missed cleavages  
+NumberOfMissedCleavages: Two missed tryptic cleavages were allowed  
+PrecursorMassTolerance: 10 ppm  
+PrecursorMassTolerance: 15 ppm  
+FragmentMassTolerance: 0.05 Da  
+Modification: cysteine carbamidomethylation  
+Modification: methionine oxidation  
+SupplementaryFile: PXD004682  
+SupplementaryFile: PXD004683  
+SupplementaryFile: PXD004684  
+SupplementaryFile: PXD005733

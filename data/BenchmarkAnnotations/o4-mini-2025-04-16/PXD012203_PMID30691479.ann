@@ -1,0 +1,66 @@
+Age: 67 ± 3.0-year-old  
+Age: 68 ± 2.0-year-old  
+Age: 84 ± 3.2 year old  
+Age: 83.8 ± 3.5 year old  
+AssayName: isobaric tag for relative and absolute quantitation (iTRAQ)  
+AssayName: label-free quantitative proteomics  
+AssayName: LC-MS/MS-based iTRAQ quantitative proteomics approach  
+AssayName: iTRAQ 4Plex  
+AssayName: LC-MS/MS analysis  
+AlkylationReagent: methyl methanethiosulfonate (10 mM)  
+CleavageAgent: sequencing grade modified trypsin (Promega, Madison, WI)  
+CleavageAgent: trypsin  
+CollisionEnergy: 28  
+CollisionEnergy: 0  
+CollisionEnergy: 100  
+ConcentrationOfCompound: 8M urea  
+ConcentrationOfCompound: 100 mM ammonium acetate  
+ConcentrationOfCompound: 75% acetonitrile (ACN)  
+ConcentrationOfCompound: 25 mM triethylammonium bicarbonate (TEAB)  
+ConcentrationOfCompound: 5 mM  
+ConcentrationOfCompound: 50% acetonitrile  
+ConcentrationOfCompound: 5% acetic acid  
+ConcentrationOfCompound: 0.02% NH4OH  
+ConcentrationOfCompound: 0.1% formic acid  
+ConcentrationOfCompound: 0.1% FA  
+ConcentrationOfCompound: 5% ACN  
+EnrichmentMethod: magnetically enriched by labeling with 50 μl of anti-TOM22 MicroBeads in separation buffer for 1 h at 4°C  
+FlowRateChromatogram: 1.0 ml/min  
+FlowRateChromatogram: 300 nl/min  
+FractionationMethod: concatenate pooling method  
+FragmentationMethod: HCD  
+FragmentMassTolerance: 0.02 Da  
+GradientTime: 60-min gradient  
+GradientTime: 60 min  
+Instrument: Dionex Ultimate 3000 RSLC nanoLC system  
+Instrument: Q-Exactive apparatus (Thermo Fisher, MA)  
+Instrument: Gentle MACS Dissociator (Miltenyi Biotec)  
+Instrument: MACS Separator  
+MaterialType: Sep-Pak C18 cartridges  
+MaterialType: C18 column (4.6 × 200 mm, 5 μm, 300 Å) (PolyLC, Columbia, MD, USA)  
+MaterialType: acclaim peptide trap column  
+MaterialType: Dionex EASY-spray column (PepMap® C18, 3um, 100A)  
+MaterialType: Mitochondria Extraction Kit (Miltenyi Biotec, Bergisch Gladbach, Germany)  
+MaterialType: LS column (Miltenyi Biotec)  
+MaterialType: PBS buffer  
+MaterialType: 0.45-μm nitrocellulose membrane (BioRad, Hercules, CA)  
+Modification: deamidation of Q  
+Modification: deamidation of N  
+MS2MassAnalyzer: FTMS  
+NumberOfMissedCleavages: 2  
+PrecursorMassTolerance: 10 ppm  
+ReductionReagent: Tris 2- carboxyethyl phosphine hydrochloride (5 mM)  
+Separation: SDS-PAGE  
+SourceName: Frozen brain samples of the medial frontal gyrus from AD patients and age-matched controls  
+Time: 7 min  
+Time: 45 min  
+Time: 3 min  
+Time: 5 min  
+Time: 100 ms  
+Time: 120 ms  
+Time: 2 min  
+Time: 60 min  
+Temperature: 4°C  
+Temperature: 37°C  
+Organism: human  
+OrganismPart: medial frontal gyrus of the human brain

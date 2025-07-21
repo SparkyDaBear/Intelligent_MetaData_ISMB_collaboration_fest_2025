@@ -1,0 +1,81 @@
+Sex: female  
+Strain: Balb/c  
+Age: 30 days  
+Organism: Balb/c mice  
+Organism: S. mansoni larvae  
+Strain: LE  
+Time: 7 weeks  
+Treatment: 3.7% buffered-formalin (pH 7.2)  
+Staining: hematoxylin & eosin (HE)  
+Staining: Masson's Trichrome  
+Temperature: 4°C  
+Time: 10min  
+ConcentrationOfCompound: 0.206% w/v  
+Compound: Tris-Base  
+ConcentrationOfCompound: 0.77% w/v  
+ConcentrationOfCompound: 0.1 M  
+MaterialType: PBS  
+Temperature: −20°C  
+ConcentrationOfCompound: 25 mM  
+MaterialType: ammonium bicarbonate buffer  
+Compound: protease inhibitor cocktail  
+ConcentrationOfCompound: 1%  
+AssayName: Pierce BCA protein assay kit  
+BiologicalReplicate: Three biological replicates  
+PooledSample: pooled extracts of five animals  
+Compound: MS grade trypsin  
+Compound: RapiGest  
+ConcentrationOfCompound: 0.06% w/v  
+Temperature: 80°C  
+Compound: dithiothreitol  
+ConcentrationOfCompound: 3.3 mM  
+Temperature: 60°C  
+Compound: iodoacetamide  
+ConcentrationOfCompound: 9.4 mM  
+Temperature: room temperature  
+Time: 30min  
+CleavageAgent: sequencing grade trypsin  
+Temperature: 37°C  
+Time: 16 h  
+Compound: trifluoroacetic acid  
+ConcentrationOfCompound: 0.5% v/v  
+Temperature: 7°C  
+Time: 15min  
+ConcentrationOfCompound: 2%  
+Compound: acetonitrile  
+ConcentrationOfCompound: 0.1%  
+Instrument: nanoUHPLC UltiMate® 3,000  
+MaterialType: Nano-Trap Acclaim PepMap100 C18 column  
+Time: 3min  
+FlowRateChromatogram: 7 μL/min  
+MaterialType: Acclaim PepMap18 RSLC column  
+Temperature: 40°C  
+FlowRateChromatogram: 0.3 μL/min  
+Compound: Formic Acid  
+ConcentrationOfCompound: 0.1%  
+Compound: ACN  
+ConcentrationOfCompound: 80%  
+ConcentrationOfCompound: 3.8%  
+Time: first 3min  
+ConcentrationOfCompound: 30%  
+Time: 120min  
+ConcentrationOfCompound: 30–50%  
+Time: between 120 and 150min  
+ConcentrationOfCompound: 99%  
+Time: to 162min  
+Time: until 180min  
+Instrument: Q Exactive mass spectrometer  
+Temperature: 250°C  
+PrecursorMassTolerance: 10 ppm  
+CollisionEnergy: 28–30  
+NumberOfMissedCleavages: 2  
+Modification: cysteine carbamidomethylation (+57.02146 Da)  
+Modification: methionine oxidation (+15.9949 Da)  
+FactorValue: F-stringency to 0.03  
+FactorValue: L-stringency to 0.4  
+FactorValue: BH q-value threshold to 0.05  
+Instrument: FACSCalibur  
+Compound: ketamine hydrochloride  
+ConcentrationOfCompound: 8 mg/kg  
+Compound: xylazine  
+ConcentrationOfCompound: 4 mg/kg

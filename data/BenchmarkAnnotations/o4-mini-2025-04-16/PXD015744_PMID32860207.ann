@@ -1,0 +1,41 @@
+Instrument: NuPAGE SDS-PAGE system (Invitrogen, Carlsbad, CA, USA)
+Staining: Coomassie brilliant blue G-250
+ReductionReagent: 10 mM DTT
+AlkylationReagent: 50 mM iodoacetamide
+CleavageAgent: trypsin
+ConcentrationOfCompound: 6.25 ng/ml
+Compound: 1% formic acid
+Compound: 5% FA/50% ACN
+AssayName: NanoLC-MS/MS
+Instrument: Ultimate 3000 nanoLC system (Dionex LC-Packings, Amsterdam, The Netherlands)
+Separation: 40 cm × 75 μm internal diameter (ID) fused silica column custom packed with 1.9 μm 120 Å ReproSil Pur C18 aqua (Dr Maisch GMBH, Ammerbuch-Entringen, Germany)
+FlowRateChromatogram: 6 μl/min
+FlowRateChromatogram: 300 nl/min
+GradientTime: 75 min
+Instrument: Q Exactive mass spectrometer (Thermo Fisher, Bremen, Germany)
+AcquisitionMethod: HCD (higher-energy collision)
+CollisionEnergy: 25% normalized collision energy
+MS2MassAnalyzer: orbitrap
+PrecursorMassTolerance: 4.5 ppm
+FragmentMassTolerance: 20 ppm
+NumberOfMissedCleavages: two
+Modification: Cysteine carboxamidomethylation (Cys, +57.021464 Da)
+Modification: methionine oxidation (Met, +15.994915 Da)
+Modification: N-terminal acetylation (N-terminal, +42.010565 Da)
+Label: label-free quantification
+SupplementaryFile: PXD015744
+CellLine: Hs766t cells
+Compound: DMEM (Lonza, Verviers, Belgium)
+Compound: 10% heat-inactivated fetal bovine serum
+Compound: 1% penicillin-streptomycin (10,000 U/ml, Gibco, Gaithersburg, MD, USA)
+Temperature: 37 °C
+CleavageAgent: trypsin-EDTA
+MaterialType: FFPE tissues
+AssayName: Immunohistochemistry
+Instrument: BenchMark Special Stain Automation system (Ventana Medical Systems, Export, USA)
+AssayName: Immunofluorescence assay
+Compound: Alexa Flour 535 anti-rabbit antibody (Red; 1:70)
+Compound: Alexa Flour 488 anti-mouse antibody (Green; 1:70)
+Compound: 4′, 6-diamidino-2-phenylindole (DAPI)
+Instrument: Zeiss Laser Scanning Microscope
+NumberOfBiologicalReplicates: three

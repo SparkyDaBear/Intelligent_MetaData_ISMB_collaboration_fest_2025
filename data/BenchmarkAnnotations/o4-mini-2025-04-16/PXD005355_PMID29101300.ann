@@ -1,0 +1,61 @@
+CellLine: SW480  
+CellLine: HDC‐135  
+CellLine: C10  
+CellLine: CaCo‐2  
+CellLine: CC07  
+CellLine: HDC‐143  
+CellLine: SK‐CO‐1  
+CellLine: T84  
+CellLine: RKO  
+CellLine: LS 180  
+CellLine: HDC‐111  
+CellLine: HT55  
+CellLine: OXCO‐1  
+CellLine: C125‐PM  
+Instrument: In Cell Analyzer 6000 automated confocal microscope  
+Instrument: FLUOstar Omega plate reader  
+Instrument: Odyssey near‐infrared scanner  
+Instrument: Bond‐MAX automated IHC system  
+Instrument: Eksigent nanoLC‐Ultra 1D+  
+Instrument: Orbitrap Velos mass spectrometer  
+Instrument: Dionex Ultimate 3000 HPLC system  
+Instrument: Orbitrap Elite mass spectrometer  
+Instrument: HF generator GM mini20  
+Instrument: ultrasonic converter UW mini20  
+AssayName: nanoflow LC‐MS/MS  
+AssayName: mass spectrometry  
+AssayName: immunohistochemistry  
+CleavageAgent: trypsin  
+ReductionReagent: DTT  
+AlkylationReagent: chloroacetamide  
+FragmentationMethod: higher‐energy collisional dissociation (HCD)  
+CollisionEnergy: 30% normalised collision energy  
+EnrichmentMethod: Kinobeads gamma (KBγ) pulldowns  
+Separation: hydrophilic strong anion exchange (hSAX) chromatography  
+AcquisitionMethod: data‐dependent acquisition  
+FlowRateChromatogram: 250 µl/min  
+FlowRateChromatogram: 300 nl/min  
+GradientTime: 2 min  
+GradientTime: 13 min  
+GradientTime: 24 min  
+GradientTime: 96 min  
+GradientTime: 1 min  
+GradientTime: 4 min  
+Temperature: 37°C  
+Temperature: 100°C  
+Temperature: 30°C  
+Temperature: 275°C  
+Temperature: −80°C  
+Time: 10 min  
+Time: 60 s  
+Time: 20 s  
+NumberOfFractions: 48  
+NumberOfFractions: 24  
+PrecursorMassTolerance: 4.5 ppm  
+FragmentMassTolerance: 20 ppm  
+FragmentMassTolerance: 0.4 Da  
+FragmentMassTolerance: 120 ppm  
+NumberOfMissedCleavages: 2  
+Modification: carbamidomethylation  
+Modification: oxidation  
+Modification: acetylation

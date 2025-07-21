@@ -1,0 +1,13 @@
+AssayName: global phosphoproteomic and proteomic analysis  
+AssayName: Peptide level high-resolution isoelectric focusing (HiRIEF)  
+AssayName: liquid chromatography-mass spectrometry (LC-MS) analysis  
+Label: SILAC  
+Label: TMT  
+CellLine: MDA-MB-231 breast cancer cell line  
+GeneticModification: overexpression and knockdown  
+Compound: TRAP inhibitor 5-PNA  
+ConcentrationOfCompound: 200 μM  
+Compound: TGFβ receptor type I/type II kinases inhibitor LY2109761  
+ConcentrationOfCompound: 2 μM  
+Compound: Human recombinant TGFβ1  
+ConcentrationOfCompound: 10 ng/mL

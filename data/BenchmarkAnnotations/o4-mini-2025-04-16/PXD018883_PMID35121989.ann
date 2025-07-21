@@ -1,0 +1,24 @@
+Separation: reverse phase HPLC (Thermo Easy nLC1000)  
+Instrument: QExactive mass spectrometer (Thermo)  
+Instrument: Thermo Fisher Orbitrap Velos Pro coupled with Agilent NanoLC system  
+AcquisitionMethod: data-dependent mode  
+AcquisitionMethod: data-dependent manner  
+IonizationType: nanoelectrospray  
+GradientTime: 140-minute gradient  
+GradientTime: 120-min linear gradient  
+PrecursorMassTolerance: 10 ppm mass tolerance for precursor ions  
+FragmentMassTolerance: 15 mmu for fragment ion mass tolerance  
+FragmentMassTolerance: 100 mmu for fragment-ion mass tolerance  
+NumberOfMissedCleavages: 2 missed cleavages of trypsin  
+NumberOfMissedCleavages: two missed cleavages of trypsin  
+CollisionEnergy: NCE of 28  
+CollisionEnergy: normalized collision energy of 35%  
+CleavageAgent: mass-spectrometry-grade endopeptidase Lys-C (Pierce)  
+CleavageAgent: trypsin (Pierce)  
+ReductionReagent: 10 mM DTT (Pierce)  
+AlkylationReagent: 25 mM iodoacetamide (Pierce)  
+Compound: PNGaseF (New England BioLabs)  
+MaterialType: ECM-enriched protein samples  
+EnrichmentMethod: enrichment for insoluble extracellular proteins  
+Organism: Mus musculus (Mouse)  
+Organism: Homo sapiens (Human)

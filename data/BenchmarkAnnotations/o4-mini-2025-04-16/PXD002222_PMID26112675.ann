@@ -1,0 +1,86 @@
+SourceName: National Rice Research Institute (CNRRI)
+Strain: IRBB5 (xa5)
+Strain: IRBB13 (xa13)
+Strain: Zhe173
+DevelopmentalStage: booting stage
+ConcentrationOfCompound: 3x108 cfu/mL
+SamplingTime: 0 h
+SamplingTime: 24 h
+NumberOfBiologicalReplicates: three
+OrganismPart: rice leaf tissue
+Compound: Tris
+ConcentrationOfCompound: 150 mM
+Compound: urea
+ConcentrationOfCompound: 8 M
+Compound: phosphoprotein protease inhibitor complex
+ConcentrationOfCompound: 1X
+Compound: phenylmethylsulfonyl fluoride
+ConcentrationOfCompound: 1 mM
+SampleTreatment: shaken for 30 min at 4 °C
+SampleTreatment: sonication (80 W in power, sonicate 10 s, stop 15 s to cool down, repeat 10 times)
+SampleTreatment: centrifugation at 10,000 rpm for 15 min
+Compound: acetone
+ConcentrationOfCompound: 100 %
+Compound: ethanol
+ConcentrationOfCompound: 75 %
+AssayName: Bradford assay
+Separation: 10 % SDS-polyacrylamide gels
+AssayName: Western blot
+Compound: Phos-tag™ BTL111
+Compound: Zn(NO3)2
+ConcentrationOfCompound: 10 mmol/L
+Compound: streptavidin-conjugated horseradish peroxidase
+SampleTreatment: centrifuged for 20 min (13,000 rpm)
+SampleTreatment: incubated with PVDF membrane in 30 mL TBST buffer (10 mM Tris, 100 mM NaCl and 0.1 % tween-20) for 1 h at room temperature
+Compound: NaCl
+ConcentrationOfCompound: 100 mM
+Compound: tween-20
+ConcentrationOfCompound: 0.1 %
+AssayName: enhanced chemiluminescence
+ReductionReagent: DTT
+ConcentrationOfCompound: 5 mM
+Temperature: 56 °C
+Time: 30 min
+AlkylationReagent: IAA
+ConcentrationOfCompound: 20 mM
+Time: 15 min
+CleavageAgent: trypsin
+FactorValue: enzyme to protein ratio of 1:50
+Time: overnight
+FractionationMethod: C18 Sep-Pak (Waters)
+Compound: ACN
+ConcentrationOfCompound: 80 %
+Compound: TFA
+ConcentrationOfCompound: 5 %
+Compound: lac acid
+ConcentrationOfCompound: 1 M
+EnrichmentMethod: TiO2 beads
+FactorValue: peptide to TiO2 ratio of 1:4
+Time: 30 min
+MaterialType: C18 solid phase extraction disk (3 M)
+Compound: NH3H2O
+ConcentrationOfCompound: 15 %
+Compound: MeOH
+ConcentrationOfCompound: 5 %
+Separation: homemade reversed-phase column (75umID x 15CM)
+Instrument: Easy-nLC1000 liquid chromatography system (Thermo)
+Instrument: Q Exactive Plus (Thermo)
+PrecursorMassTolerance: 20 ppm
+FragmentMassTolerance: 50mmu
+Modification: Oxidation (M)
+Modification: Acetyl (Protein-N term)
+Modification: Phospho (S/T/Y)
+Modification: Carbamidomethyl (C)
+NumberOfMissedCleavages: 1
+FactorValue: 1 % false discovery rate
+FactorValue: PhosphoRS probability higher than 90 %
+FactorValue: over two fold changes
+Compound: Trizol
+SourceName: Invitrogen
+Compound: THUNDERBIRD SYBR® qPCR Mix
+SourceName: Toyobo
+Instrument: LightCycler 4.80 real-time PCR detection system (Roche)
+FactorValue: 20 microliter
+FactorValue: 2-ΔΔCT method
+SupplementaryFile: PXD002222
+GradientTime: 1 h 5-30 % acetonitrile gradient

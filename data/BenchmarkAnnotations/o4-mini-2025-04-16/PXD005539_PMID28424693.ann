@@ -1,0 +1,21 @@
+AssayName: LC-MS/MS analysis  
+AssayName: MagPlex Milliplex human 38-analyte multiplex panel  
+AssayName: flow cytometry  
+AssayName: imaging flow cytometry  
+Instrument: Thermo Scientific Orbitrap Elite Hybrid Mass Spectrometer  
+Instrument: QExactivePlus  
+Separation: Thermo Ultimate 3000 RSLCnano HPLC systems  
+Separation: handpacked Magic C18 3 μm: 25 cm × 75-μm columns  
+Separation: Magic C18 5 μm trap  
+FlowRateChromatogram: 325 nL/min  
+AcquisitionMethod: FT full scan from 340–1,500 m/z  
+AcquisitionMethod: linear ion trap rapid CID MS/MS scans on the top 25 ions  
+AcquisitionMethod: HCD on the 20 ions at 17,500  
+PrecursorMassTolerance: 10.0 PPM  
+FragmentMassTolerance: 0.60 Da  
+FragmentMassTolerance: 0.02 Da  
+EnrichmentMethod: Total Exosome Isolation Reagent  
+EnrichmentMethod: exoEasy maxi kit  
+CleavageAgent: trypsin  
+ReductionReagent: 50 mM TCEP  
+AlkylationReagent: 20 mM idoacetamide

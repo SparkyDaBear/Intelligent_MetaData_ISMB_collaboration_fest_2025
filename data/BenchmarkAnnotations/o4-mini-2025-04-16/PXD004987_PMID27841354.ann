@@ -1,0 +1,24 @@
+EnrichmentMethod: laser microdissection  
+AssayName: Liquid chromatography tandem mass spectrometry (LC-MS/MS)  
+Instrument: Microm HM550 cryostat (Thermo Scientific, Dreieich, Germany)  
+Instrument: PALM Micro Beam, P.A.L.M.-System, Carl Zeiss Microscopy GmbH  
+Instrument: UltiMate 3000 RSLC nano LC system (Dionex, Idstein, Germany)  
+Instrument: Orbitrap Elite mass spectrometer (Thermo Fisher Scientific, Bremen, Germany)  
+IonizationType: nano electrospray ionization source (Thermo Fisher Scientific)  
+Separation: capillary pre-column (Dionex, 100 μm × 2 cm, particle size 5 μm, pore size 100 Å)  
+Separation: analytical C18 column (Dionex, 75 μm × 50 cm, particle size 2 μm, pore size 100 Å)  
+FlowRateChromatogram: 400 nL/min flow rate  
+GradientTime: 95 min  
+GradientTime: 2 min  
+CollisionEnergy: 35% collision energy  
+PrecursorMassTolerance: 5 ppm  
+FragmentMassTolerance: 0.4 Da  
+FragmentationMethod: low-energy collision induced dissociation (CID)  
+CleavageAgent: Trypsin  
+ReductionReagent: 250 mM dithiothreitol  
+AlkylationReagent: 0.55 M iodoacetamide  
+SampleTreatment: 2% (w/v) RapiGest™ SF Surfactant  
+BiologicalReplicate: five human subjects  
+NumberOfSamples: ten 10 μm tissue sections  
+Organism: Homo sapiens  
+OrganismPart: human substantia nigra

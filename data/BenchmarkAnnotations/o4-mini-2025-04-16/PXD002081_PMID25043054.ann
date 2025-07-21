@@ -1,0 +1,11 @@
+SourceName: TCGA Biospecimen Core Resource (BCR)
+Specimen: Normal colon biopsies
+SamplingTime: between July 2006 and October 2010
+Specimen: Patient-derived xenograft tumors
+Disease: breast cancer intrinsic subtypes
+Organism: NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ mice
+Age: 8 week old
+SourceName: Jackson Labs, Bar Harbor, Maine
+OrganismPart: colon biopsies
+AssayName: multidimensional liquid chromatography-tandem mass spectrometry
+AssayName: LC-MS/MS analysis

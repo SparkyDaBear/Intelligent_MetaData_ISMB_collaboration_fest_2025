@@ -1,0 +1,34 @@
+Disease: lung squamous cell carcinoma
+SampleTreatment: snap frozen
+OrganismPart: lung squamous cell carcinoma tumor tissues
+AssayName: Bradford Assay (Coomassie Plus, Pierce)
+AssayName: data independent acquisition
+AssayName: TMT labeling
+AssayName: RNAseq
+AssayName: Affymetrix CytoScan HD Assay
+CleavageAgent: trypsin
+ReductionReagent: DTT
+AlkylationReagent: iodoacetamide
+ConcentrationOfCompound: 20 mM HEPES
+ConcentrationOfCompound: 9 M urea
+ConcentrationOfCompound: 1 mM sodium orthovanadate
+ConcentrationOfCompound: 2.5 mM sodium pyrophosphate
+ConcentrationOfCompound: 1 mM β-glycerophosphate
+ConcentrationOfCompound: 4.5 mM DTT
+ConcentrationOfCompound: 11 mM iodoacetamide
+Instrument: Q Exactive Plus
+Instrument: Illumina NextSeq 500
+Instrument: Covaris M220
+Instrument: Affymetrix GeneChip Scanner 3000 7 G
+Separation: bRPLC
+Separation: nanoflow ultra-high performance liquid chromatograph (RSLC, Dionex, Sunnyvale, CA)
+EnrichmentMethod: Ampure XP beads
+PrecursorMassTolerance: 10 p.p.m.
+FragmentMassTolerance: 0.5 m/z
+Modification: TMT label
+Modification: carboamidomethylation
+Modification: oxidation
+Modification: pyroglutamine
+CollisionEnergy: normalized collision energy 30
+FlowRateChromatogram: 0.6 ml/min
+FlowRateChromatogram: 300 nl/min

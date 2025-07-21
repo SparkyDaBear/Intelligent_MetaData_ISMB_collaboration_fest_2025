@@ -1,0 +1,40 @@
+AssayName: proteomic profiling  
+AssayName: high-resolution mass spectrometry  
+AssayName: BCA assay  
+SourceName: Histologically normal human organs, fetal tissues, and hematopoietic cells  
+Compound: 4% SDS  
+ReductionReagent: 100 mM DTT  
+Compound: 100 mM Tris pH 7.5  
+Temperature: 75 °C  
+SamplingTime: 10–15 min  
+SampleTreatment: destained  
+SampleTreatment: reduced  
+SampleTreatment: alkylated  
+CleavageAgent: trypsin  
+SampleTreatment: vacuum-dried  
+Temperature: −80 °C  
+AlkylationReagent: IAA  
+MaterialType: Sep-Pak C18 columns (Waters Corporation, Milford, MA)  
+MaterialType: XBridge C18, 5 μm 250 × 4.6 mm column (Waters, Milford, MA)  
+MaterialType: Magic C18 AQ (Michrom Bioresources, Inc., Auburn, CA)  
+Compound: 10 mM TEABC, pH 8.5  
+Compound: 10 mM TEABC in acetonitrile, pH 8.5  
+FractionationMethod: SDS-PAGE  
+FractionationMethod: bRPLC  
+GradientTime: 50 min  
+NumberOfFractions: 96  
+NumberOfFractions: 24  
+Instrument: LTQ-Orbitrap Velos and LTQ-Orbitrap Elite mass spectrometers (Thermo Electron, Bremen, Germany)  
+Instrument: Easy-nLC II nanoflow liquid chromatography system (Thermo Scientific, Odense, Southern Denmark)  
+FlowRateChromatogram: 5 μL/min  
+FlowRateChromatogram: 350 nL/min  
+FragmentationMethod: higher-energy collision dissociation (HCD)  
+CollisionEnergy: 35% normalized collision energy  
+NumberOfMissedCleavages: 2  
+Modification: Carbamidomethylation of cysteine  
+Modification: oxidation of methionine  
+Modification: acetylation of protein N-termini  
+Modification: cyclization of N-terminal glutamine  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 0.05 Da  
+SupplementaryFile: PXD000561

@@ -1,0 +1,38 @@
+Strain: A/J  
+Strain: BALB/cJ  
+Strain: C57BL/6J  
+Strain: CE/J  
+Strain: DBA/2J  
+Strain: FVB/NJ  
+Age: 9–12 weeks of age  
+Specimen: heart and plasma samples  
+Compound: 2H2O-saline  
+ConcentrationOfCompound: 99.9% (molar ratio) 2H2O-saline  
+ConcentrationOfCompound: 8% (v/v; 7.25% molar ratio) 2H2O  
+Treatment: isoproterenol  
+ConcentrationOfCompound: 15 mg⋅kg−1⋅d−1 of isoproterenol  
+AssayName: gas chromatography-mass spectrometry (GC-MS)  
+Instrument: Agilent 6890/5975  
+IonizationType: electron impact mode  
+CollisionEnergy: 70 eV  
+Separation: J&W DB17-MS capillary column (Agilent, 30 m×0.25 mm×0.25 μm)  
+FractionationMethod: differential centrifugation over density gradients  
+ReductionReagent: dithiothreitol  
+AlkylationReagent: iodoacetamide  
+CleavageAgent: sequencing-grade modified trypsin  
+Time: 16 h  
+Temperature: 70 °C  
+AssayName: liquid chromatography-tandem mass spectrometry (LC-MS/MS)  
+Instrument: LTQ Orbitrap Elite instrument (Thermo Scientific)  
+Separation: Phenomenex C18 column (Jupiter Proteo C12, 4-μm particle, 90-Å pore, 100 mm×1 mm dimension)  
+Separation: EasySpray C18 column (PepMap, 3-μm particle, 100-Å pore; 75 μm×150 mm dimension; Thermo Scientific)  
+FlowRateChromatogram: 50 μl⋅min−1  
+FlowRateChromatogram: 300 nl⋅min−1  
+Temperature: 50 °C  
+MS2MassAnalyzer: Ion-Trap  
+PrecursorMassTolerance: 20-ppm  
+FragmentMassTolerance: 600 ppm  
+NumberOfFractions: 12  
+SampleTreatment: access ad libitum to 8% (v/v; 7.25% molar ratio) 2H2O in the drinking water supply  
+BiologicalReplicate: two mice  
+SamplingTime: day 0, day 1, day 3, day 5, day 7, day 10, and day 14

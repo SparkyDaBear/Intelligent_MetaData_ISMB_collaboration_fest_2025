@@ -1,0 +1,27 @@
+AssayName: comprehensive glycoproteomic analyses  
+AssayName: mass spectrometric analysis of intact glycopeptides  
+AcquisitionMethod: Data-dependent acquisition  
+Instrument: Q-Exactive HFX tandem MS  
+IonizationType: positive ion mode  
+GradientTime: A 60-minute gradient was used  
+FlowRateChromatogram: flow rate of 400 μL mL−1  
+Temperature: 45°C  
+Temperature: 37°C  
+Temperature: 55°C  
+GrowthRate: 250 rpm  
+ReductionReagent: 20 mM DTT  
+AlkylationReagent: 40 mM iodoacetamide  
+CleavageAgent: trypsin  
+CleavageAgent: GluC  
+NumberOfMissedCleavages: 2 and 3 missed cleavages were allowed  
+PrecursorMassTolerance: a precursor mass tolerance of +/−10 ppm  
+FragmentMassTolerance: fragment mass tolerance of 10 ppm  
+FractionIdentifier: SN fraction  
+FractionIdentifier: Cyt fraction  
+FractionIdentifier: Mem fraction  
+DevelopmentalStage: early-logarithmic (OD600 of 0.03 to 0.05)  
+DevelopmentalStage: mid-logarithmic (OD600 of 0.35 to 0.5)  
+DevelopmentalStage: late-logarithmic (OD600 of 1.6 to 2.0)  
+EnrichmentMethod: Pro-Q Emerald 300 glycoprotein staining kit  
+PooledSample: Eluted peptides from the different steps were pooled and dried in a vacuum centrifuge  
+SupplementaryFile: PXD021874

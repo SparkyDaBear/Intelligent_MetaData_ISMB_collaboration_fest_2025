@@ -1,0 +1,102 @@
+Label: stable isotope labeling
+AssayName: quantitative mass spectrometry
+Organism: Saccharomyces cerevisiae
+Strain: YPH499
+Genotype: Mata, ade2-101, his3-Δ200, leu2-Δ1, ura3-52, trp1-Δ63, and lys2-801
+Temperature: 24 °C
+SourceName: YPG medium
+ConcentrationOfCompound: 1% w/v yeast extract
+ConcentrationOfCompound: 2% w/v bacto peptone
+ConcentrationOfCompound: 3% w/v glycerol
+FactorValue: pH 5.0
+ConcentrationOfCompound: 0.67% w/v yeast nitrogen base without amino acids
+ConcentrationOfCompound: 0.77% w/v Complete Supplement Mixture minus lysine and arginine
+SpikedCompound: [13C6/15N4]arginine and [13C6/15N2]lysine
+FactorValue: optical density (OD600) of 0.7–1.0
+FactorValue: OD600 of 0.7–1.5
+ConcentrationOfCompound: 1.2 M sorbitol
+ConcentrationOfCompound: 20 mM potassium phosphate-HCl
+FactorValue: pH 7.4
+SampleTreatment: Zymolyase buffer
+ConcentrationOfCompound: 3 mg g−1 wet weight Zymolyase-20T
+Time: 30 min
+ConcentrationOfCompound: 0.6 M sorbitol
+ConcentrationOfCompound: 10 mM Tris-HCl
+ConcentrationOfCompound: 1 mM EDTA
+ConcentrationOfCompound: 1 mM PMSF
+ConcentrationOfCompound: 0.2% (w/v) bovine serum albumin
+SampleTreatment: homogenization buffer
+SampleTreatment: SEM buffer
+ConcentrationOfCompound: 250 mM sucrose
+ConcentrationOfCompound: 10 mM MOPS-KOH
+FactorValue: pH 7.2
+Temperature: −80 °C
+FractionationMethod: sucrose gradient
+ConcentrationOfCompound: 60% sucrose
+ConcentrationOfCompound: 32% sucrose
+ConcentrationOfCompound: 23% sucrose
+ConcentrationOfCompound: 15% sucrose
+SampleTreatment: EM buffer
+SampleTreatment: sonication
+ConcentrationOfCompound: 500 mM NaCl
+ConcentrationOfCompound: 50 mM NaCl
+Time: 3 × 30 s
+SampleTreatment: carbonate extraction
+ConcentrationOfCompound: 100 mM sodium carbonate
+ConcentrationOfCompound: 10% w/v trichloroacetic acid
+SampleTreatment: swelling
+SampleTreatment: Bax treatment
+ConcentrationOfCompound: 150 mM KCl
+ConcentrationOfCompound: 100 nM human Bax
+Temperature: 37 °C
+Time: 1 h
+SampleTreatment: hypoosmotic buffer
+ConcentrationOfCompound: 5 mM potassium phosphate
+ConcentrationOfCompound: 4 mg ml−1
+AssayName: protease activity assay
+SpikedCompound: 15 μM Cox4 presequence peptide
+Separation: Nu-PAGE
+AssayName: immunoblotting
+ReductionReagent: 10 mM DTT
+AlkylationReagent: 30 mM iodoacetamide
+SampleTreatment: ethanol precipitation
+ConcentrationOfCompound: 10-fold excess of ethanol
+Temperature: −40 °C
+SampleTreatment: resuspension in 2 M GuHCl, 50 mM NaH2PO4
+ConcentrationOfCompound: 2 M GuHCl
+ConcentrationOfCompound: 50 mM NaH2PO4
+FactorValue: pH 7.8
+ConcentrationOfCompound: 50 mM NH4HCO3
+ConcentrationOfCompound: 5% ACN
+ConcentrationOfCompound: 1 mM CaCl2
+CleavageAgent: Trypsin
+FactorValue: 1:30
+Time: 12 h
+SampleTreatment: desalting using SPEC C18 AR tips
+FractionationMethod: strong cation exchange chromatography
+Instrument: Ultimate 3000 HPLC system
+FlowRateChromatogram: 20 μL min−1
+GradientTime: 50 min
+NumberOfFractions: six
+FractionationMethod: concatenation mode
+SampleTreatment: desalting using self-packed Oligo R3 microcolumns
+ConcentrationOfCompound: 0.1% trifluoroacetic acid
+AssayName: Nano-LC-MS/MS
+Instrument: LTQ-Orbitrap Elite mass spectrometer
+Instrument: Ultimate 3000 RSLC
+FlowRateChromatogram: 250 nL min−1
+GradientTime: 185 min
+FragmentationMethod: collision induced dissociation
+CollisionEnergy: normalized collision energy of 35%
+MS2MassAnalyzer: ion trap
+PrecursorMassTolerance: 10 ppm
+FragmentMassTolerance: 0.5 Da
+PooledSample: heavy and light samples were pooled 1:1
+Modification: carbamidomethylation of cysteine
+Modification: oxidation of methionine
+Modification: acetylation of protein N-termini
+Modification: 13C6 15N2 Lys
+Modification: 13C6 15N4 Arg
+Instrument: Q Exactive Plus
+FragmentationMethod: higher energy collisional dissociation
+CollisionEnergy: normalized collision energy 30%

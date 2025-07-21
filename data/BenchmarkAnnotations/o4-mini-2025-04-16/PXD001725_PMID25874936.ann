@@ -1,0 +1,34 @@
+OrganismPart: lymph node metastases  
+NumberOfSamples: Ten lymph node metastases  
+SourceName: South-Swedish Malignant Melanoma Biobank  
+Temperature: -80°C  
+Staining: HE  
+ConcentrationOfCompound: 50 mM ammonium bicarbonate  
+ConcentrationOfCompound: 6 M urea  
+Instrument: Branson Sonifier 250  
+Time: 2 minutes  
+Time: 5 minutes  
+AssayName: BCA method  
+ReductionReagent: DTT  
+ConcentrationOfCompound: 10 mM DTT  
+Time: 1 h  
+Temperature: 37°C  
+AlkylationReagent: iodoacetamide  
+ConcentrationOfCompound: 40 mM iodoacetamide  
+Time: 30 min  
+Temperature: room temperature  
+CleavageAgent: sequencing grade trypsin  
+Time: overnight  
+ConcentrationOfCompound: 1% formic acid  
+FractionationMethod: Strong cation exchange chromatography  
+SourceName: The Nest group Inc., South Borough  
+FlowRateChromatogram: 250 nL/min  
+Instrument: Q-Exactive  
+AssayName: top10 data-dependent approach  
+FragmentationMethod: HCD collision cell  
+CollisionEnergy: normalized collision energy of 30%  
+PrecursorMassTolerance: 1 Da  
+FragmentMassTolerance: 1 Da  
+NumberOfMissedCleavages: three  
+NumberOfFractions: 6 fractions  
+ConcentrationOfCompound: 0.6 μg/μL

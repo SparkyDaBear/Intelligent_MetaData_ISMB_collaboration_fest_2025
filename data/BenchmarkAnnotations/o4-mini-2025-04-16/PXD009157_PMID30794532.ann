@@ -1,0 +1,35 @@
+Organism: Plasmodium falciparum  
+AssayName: Phosphoproteomic analysis  
+Compound: WR99210  
+Compound: RAP  
+Compound: E64  
+Compound: Compound 2  
+Compound: H89  
+Compound: BIPPO  
+Compound: BAPTA-AM  
+Compound: Fluo-4 AM  
+Compound: A23187  
+Compound: zaprinast  
+ConcentrationOfCompound: 5 nM concentration  
+ConcentrationOfCompound: 16.3 μM  
+ConcentrationOfCompound: 1.5 μM  
+ConcentrationOfCompound: 1.2 μM  
+ConcentrationOfCompound: 20 μM  
+ConcentrationOfCompound: 2 μM  
+ConcentrationOfCompound: 100 μM  
+Instrument: GenePulser Xcell (Bio-Rad)  
+Instrument: BD LSR II Flow Cytometer (Becton Dickinson)  
+Instrument: SPECTRAmax M3 microplate fluorimeter (Molecular Devices)  
+Instrument: NIKON Eclipse Ti fluorescence microscope fitted with a Hamamatsu C11440 digital camera  
+Instrument: Nikon Eclipse Ni-E widefield microscope with a Hamamatsu C11440 camera and a Nikon N Plan Apo λ 100x/1.45NA oil immersion objective  
+Instrument: Olympus BX51 microscope fitted with an Olympus SC30 digital colour camera through a 100× oil immersion objective  
+Instrument: Orbitrap Fusion Lumos  
+GradientTime: 3-hour gradient elution  
+ReductionReagent: 5 mM dithiothreitol  
+AlkylationReagent: 10 mM iodoacetamide  
+EnrichmentMethod: titanium dioxide beads  
+CleavageAgent: trypsin digestion  
+Label: TMTsixplex  
+OrganismPart: host erythrocytes  
+SourceName: human A+ erythrocytes (National Blood Transfusion Service, London, United Kingdom)  
+Supplement: 0.5% AlbuMAX type II 

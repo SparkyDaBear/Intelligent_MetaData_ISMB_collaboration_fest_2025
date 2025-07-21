@@ -1,0 +1,61 @@
+NumberOfBiologicalReplicates: three aged individuals  
+NumberOfSamples: nine anatomically distinct sections  
+Organism: human  
+SamplingTime: maximum post-mortem interval of five hours  
+SamplingTime: fifteen hours  
+Time: 15 mins  
+Instrument: Misonix XL-2000  
+AssayName: protein BCA assay  
+ConcentrationOfCompound: 6M Guanadine HCl  
+Compound: Guanadine HCl  
+ConcentrationOfCompound: 100mM Tris pH 8  
+Compound: Tris pH 8  
+ConcentrationOfCompound: 6–13 mg/ml  
+ConcentrationOfCompound: 90% methanol  
+Time: 5 min  
+ConcentrationOfCompound: 8M urea  
+Compound: urea  
+ConcentrationOfCompound: 10mM TCEP  
+Compound: TCEP  
+ConcentrationOfCompound: 40mM CAA  
+Compound: CAA  
+CleavageAgent: Trypsin  
+FactorValue: 50:1 w/v  
+Time: overnight  
+MaterialType: Strata-X Polymeric Reverse Phase column  
+Instrument: SpeedVac Concentrator  
+ConcentrationOfCompound: 0.2% formic acid  
+Instrument: Agilent, Infinity 2000  
+MaterialType: C18 reverse-phase column  
+ConcentrationOfCompound: 10mM ammonium acetate  
+FactorValue: pH 10  
+ConcentrationOfCompound: 80% methanol  
+Compound: methanol  
+NumberOfFractions: 32  
+MaterialType: round-bottom 96-well plates  
+NumberOfFractions: 16  
+NumberOfFractions: 12  
+MaterialType: silica columns  
+MaterialType: Bridged Ethylene Hybrid C18 particles  
+Temperature: 50°C  
+Instrument: Waters UHPLC  
+ConcentrationOfCompound: 70% acetonitrile  
+Compound: acetonitrile  
+FlowRateChromatogram: 0.35 ul/minute  
+Time: 12 min  
+GradientTime: 75 minutes  
+Time: 76 minutes  
+AssayName: 120 min LC method  
+FlowRateChromatogram: 0.33 ul/minute  
+Time: 7 min  
+Time: 6 min  
+Time: 104 minutes  
+Time: 105 minutes  
+IonizationType: electrospray ionization  
+Instrument: Thermo Orbitrap Fusion Lumos  
+PrecursorMassTolerance: 0.7 Th  
+PrecursorMassTolerance: 25ppm mass tolerance  
+CollisionEnergy: normalized collision energy level of 30  
+FragmentMassTolerance: 0.5 Da MS2 match tolerance  
+SupplementaryFile: ProteinGroups.txt  
+SupplementaryFile: PXD010603

@@ -1,0 +1,46 @@
+FactorValue: 12% body weight loss  
+Age: between 18 and 65 years  
+BMI: between 30 and 40 kg/m2  
+FactorValue: at least 7.5% of the initial body weight after 8 weeks  
+Treatment: 1.2 mg of liraglutide (daily)  
+SamplingTime: before weight loss (week −8)  
+SamplingTime: directly after (week 0)  
+SamplingTime: five time points during weight loss (weeks 4, 13, 26, 39, 52)  
+Depletion: depletion of the top 20 most abundant plasma proteins by a combination of two immunodepletion kits  
+Depletion: depletion of the top six highly abundant proteins  
+Depletion: ProteoPrep20 Plasma Immunodepletion Kit for the 20 highest abundant proteins  
+Specimen: plasma samples of three women and three men  
+Temperature: 95°C  
+Time: 10 min  
+CleavageAgent: Trypsin  
+CleavageAgent: LysC  
+Temperature: room temperature  
+Time: 5-min  
+Temperature: 37°C  
+Time: 1 h  
+MaterialType: peptides  
+Temperature: 60°C  
+Instrument: EASY-nLC 1000 ultra-high-pressure system  
+Instrument: Q Exactive HF Orbitrap  
+IonizationType: nano-electrospray ion source  
+Separation: 40-cm HPLC columns  
+Time: 45-min runs  
+GradientTime: linear 18-min gradient of 5–20% of buffer B (0.1% (v/v) formic acid, 60% (v/v) acetonitrile)  
+GradientTime: 12-min increase to 35% of buffer B  
+GradientTime: 6 min to 50% of buffer B  
+GradientTime: 5.5-min increase to 98% of buffer B  
+GradientTime: 3.5-min wash of 98% buffer B  
+FlowRateChromatogram: 350 nl/min  
+AssayName: Top15 data-dependent MS/MS scan method  
+FragmentationMethod: higher-energy C-trap dissociation (HCD)  
+CollisionEnergy: normalized collision energy of 27 eV  
+Time: 55 ms  
+Time: 120 ms  
+Time: 30 s  
+Modification: cysteine carbamidomethylation  
+Modification: N-terminal acetylation  
+Modification: methionine oxidations  
+NumberOfMissedCleavages: two missed cleavages  
+PrecursorMassTolerance: up to 7 ppm  
+FragmentMassTolerance: 20 ppm  
+SupplementaryFile: PXD004242

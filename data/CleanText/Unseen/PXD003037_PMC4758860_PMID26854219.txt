@@ -1,0 +1,19 @@
+ABSTRACT:
+Summary
+Protein concentrations evolve under greater evolutionary constraint than mRNA levels. Translation efficiency of mRNA represents the chief determinant of basal protein concentrations. This raises a fundamental question of how mRNA and protein levels are coordinated in dynamic systems responding to physiological stimuli. This report examines the contributions of mRNA abundance and translation efficiency to protein output in cells responding to oxygen stimulus. We show that changes in translation efficiencies, not mRNA levels, represent the major mechanism governing cellular responses to [O2] perturbations. Two distinct cap-dependent protein synthesis machineries select mRNAs for translation: the normoxic eIF4F and the hypoxic eIF4FH. O2-dependent remodeling of translation efficiencies enables cells to produce adaptive translatomes from preexisting mRNA pools. Differences in mRNA expression observed under different [O2] are likely neutral, as they are during evolution. We propose that mRNAs contain translation efficiency determinants for their triage by the translation apparatus on [O2] stimulus.
+Graphical Abstract
+METHODS:
+Experimental Procedures
+Cell culture and reagents
+U87MG human glioblastoma and 786-O human renal clear cell carcinoma cell lines were obtained from the American Type Culture Collection and propagated as suggested. Cells were maintained at 37°C in a 5% CO2, humidified incubator. Cells were subjected to hypoxia (1% O2, 24 hr unless otherwise stated) at 37°C in a 5% CO2, N2-balanced, humidified H35 HypOxystation (HypOxygen). Actinomycin D (Amresco) was added to cells at a final concentration of 1 μg/ml.
+Polysome fractionation and RNA sequencing
+Polysome fractionations were performed essentially as previously described. Total RNA were isolated from individual fractions by standard phenol/chloroform extraction and ethanol precipitation following proteinase K treatment. Equal volumes of individual fractions from four independent experiments were pooled to yield the MO (fractions 2–6) and P (fractions 7–10) samples. cDNA library construction (Ovation RNA-Seq V2, NuGEN), sequencing runs (NextSeq 500, Illumina), and raw data processing were performed by Cofactor Genomics (St. Louis, MO, USA). RNA-Seq data are available via the NCBI SRA (accessions SRP065114, SRP065127).
+pSILAC and mass spectrometry (MS)
+Cells grown in “light” (R0K0) media were subjected to 1% O2 or 21% O2 pre-treatment for 6 hr. Light media was then replaced with “heavy” (R10K8) media, and cells were left to grow at 1% O2 or 21% O2 for 24 hr. Total cellular protein were then harvested using a 9M urea lysis buffer, and subjected to LC-MS/MS analysis. MS data are available via ProteomeXchange (identifier PXD003037).
+Global protein synthesis measurements
+Global protein synthesis was measured by puromycin (Gibco, Life Technologies) incorporation (1 μg/ml) for 30 min followed by immunoblot analysis with an anti-puromycin antibody (Kerafast).
+RNA interference (RNAi)
+siRNA (GE Dharmacon) were transfected at a final concentration of 100 nM using Effectene (Qiagen). shRNA (GE Dharmacon) were stably introduced as previously described.
+Statistical analysis
+All experiments were performed at least three independent times, unless otherwise stated. Student’s t-tests were performed on immunoblot and qRT-PCR measurements (mean ± SEM). Pearson correlation coefficients (ρ) were calculated for RNA-Seq and pSILAC analyses. Cohen’s Kappa coefficients (κ) were calculated to assess concordance between changes in Te, Rss, and pS.
+Additional details are provided in Supplemental Experimental Procedures.

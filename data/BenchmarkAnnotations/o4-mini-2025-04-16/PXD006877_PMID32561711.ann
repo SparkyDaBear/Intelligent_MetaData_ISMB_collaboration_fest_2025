@@ -1,0 +1,59 @@
+Instrument: Easy-nLC II connected to an LTQ Orbitrap-Velos mass spectrometer  
+Instrument: Easy‐nLC 1200 system coupled to a Q Exactive Plus mass spectrometer  
+Instrument: nanoACQUITY gradient UPLC pump system coupled to an LTQ Orbitrap Elite mass spectrometer  
+Instrument: nanoACQUITY gradient UPLC pump system (Waters) and an LTQ Orbitrap Elite mass spectrometer  
+Instrument: UltiMate 3000 RSLCnano system  
+Instrument: Q Exactive Plus mass spectrometer  
+Instrument: Q Exactive HF mass spectrometer coupled to an RSLC system (Ultimate 3000, Dionex, Sunnyvale, CA)  
+Instrument: TripleTOF 5600+ mass spectrometer  
+Instrument: LTQ Orbitrap XL  
+Instrument: LTQ Orbitrap Elite mass spectrometer  
+CleavageAgent: trypsin  
+CleavageAgent: GluC  
+CleavageAgent: trypsin and/or GluC  
+CleavageAgent: Trypsin and GluC  
+FractionationMethod: strong cation exchange chromatography (SCX)  
+FractionationMethod: cesium chloride fractionation  
+FractionationMethod: high‐pH/reversed‐phase separation  
+FractionationMethod: FASP protocol  
+FractionIdentifier: nine fractions  
+NumberOfFractions: 14  
+NumberOfFractions: eight  
+NumberOfFractions: four  
+EnrichmentMethod: α-Flag chromatography  
+EnrichmentMethod: C18 reverse phase mini‐column  
+ReductionReagent: tris‐(2‐carboxyethyl) phosphine (TCEP)  
+ReductionReagent: β-mercaptoethanol (2% (v/v) final concentration)  
+AlkylationReagent: methyl methanethiosulfonate (MMTS)  
+AlkylationReagent: 2-iodoacetamide (30 mM)  
+Treatment: 20 min with the oxidizing agent (2.5 mM NaOCl)  
+Treatment: mock (ddH2O)  
+Treatment: reduced (−Trp) LonB levels  
+Treatment: nearly physiological (+Trp) LonB levels  
+SampleTreatment: solubilized in buffer (7 M urea, 2 M thiourea and 4% (w/v) CHAPS)  
+SampleTreatment: extracted with TRIzol  
+SampleTreatment: mixed at a 1:1 ratio  
+SampleTreatment: sonication  
+SampleTreatment: solubilization with sodium taurodeoxycholate (0.006% (w/v))  
+Label: 13C/15N-lysine (+8 Da)  
+Label: 13C-arginine (+6 Da)  
+Label: lysine + 8  
+Label: arginine + 6  
+Label: proline + 5  
+Modification: Cysteine carbamidomethylation  
+Modification: methionine oxidation  
+Modification: diglycyl-lysine  
+Modification: methylthio  
+Modification: N-terminal acetylation  
+Modification: diglycine remnant on lysines  
+ConcentrationOfCompound: 100 μg ml−1 1X Flag peptide  
+ConcentrationOfCompound: 0.3 mM  
+ConcentrationOfCompound: 2.5 mM NaOCl  
+GeneticModification: ΔartA  
+GeneticModification: twin arginine was mutated to a twin lysine  
+GeneticModification: conditional LonB mutant (HVLON3)  
+NumberOfBiologicalReplicates: biological triplicate  
+NumberOfBiologicalReplicates: duplicate  
+NumberOfBiologicalReplicates: n = 4 biological replicates  
+NumberOfBiologicalReplicates: six biological replicates  
+NumberOfBiologicalReplicates: two biological replicates  

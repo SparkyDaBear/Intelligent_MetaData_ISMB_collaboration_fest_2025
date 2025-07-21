@@ -1,0 +1,13 @@
+AssayName: affinity-purification mass spectrometry (AP-MS)  
+AssayName: affinity purification-mass spectrometry analysis  
+CellLine: HEK293T cells  
+Instrument: KingFisher Flex Purification System (Thermo Scientific)  
+Instrument: ThermoMixer C incubator  
+Instrument: Easy-nLC 1200 (Thermo)  
+Instrument: Q-Exactive Plus mass spectrometer (Thermo)  
+BiologicalReplicate: at least three biological replicates  
+Temperature: 37°C  
+SamplingTime: 20–24 hours  
+SamplingTime: more than 38 hours  
+ConcentrationOfCompound: 10% Fetal Bovine Serum (Gibco, Life Technologies)  
+ConcentrationOfCompound: 1% Penicillin-Streptomycin (Corning)

@@ -1,0 +1,37 @@
+SourceName: CSF  
+SourceName: plasma  
+AssayName: SDS-PAGE  
+FractionationMethod: mixed mode reversed phase-anion exchange  
+EnrichmentMethod: hydrazide-based glycopeptide capture  
+AssayName: Orbitrap LC-MS/MS analysis  
+NumberOfBiologicalReplicates: 21 individuals  
+NumberOfBiologicalReplicates: 20 of the patients  
+Instrument: LTQ Orbitrap Velos Pro mass spectrometer  
+Instrument: Dionex Ultimate NCS-3000 LC system  
+IonizationType: nano spray Flex ion source  
+FlowRateChromatogram: 5 μl/min  
+FlowRateChromatogram: 280 nl/min  
+GradientTime: 0–61.5 min ramp from 8–38% B  
+GradientTime: 61.5–64.5 min ramp from 38–90% B  
+GradientTime: 64.5–69.5 min 90% B  
+GradientTime: 12 min  
+AcquisitionMethod: Data dependent acquisition  
+FragmentationMethod: collision-induced dissociation (CID)  
+CollisionEnergy: normalized collision energy of 35%  
+PrecursorMassTolerance: Precursor mass tolerance was 10 ppm  
+FragmentMassTolerance: fragment mass tolerance 0.7 Da  
+NumberOfMissedCleavages: maximum number of missed cleavages by trypsin was 2  
+Modification: carbamidomethylation of cystein  
+Modification: oxidized methionine  
+Modification: deamidation of asparagine  
+NumberOfFractions: 83 gel slices  
+NumberOfFractions: total number of 66 fractions  
+CleavageAgent: trypsin  
+CleavageAgent: Trypsin porcine (Promega, Madison, WI)  
+Temperature: 95¦°C  
+Temperature: 37¦°C  
+Time: 16 h  
+Time: one hour  
+Time: 5 min  
+ReductionReagent: Tris(2-carboxyethyl)phosphine (TCEP)  
+AlkylationReagent: up to 20 mm iodoacetamine (IAA)

@@ -1,0 +1,48 @@
+AssayName: single sample liquid chromatography-tandem mass spectrometry (LC-MS/MS)  
+AcquisitionMethod: data dependent acquisition (DDA)  
+AcquisitionMethod: data independent acquisition (DIA)  
+AssayName: peptide fractionation with label-free quantification (LF)  
+Label: TMT 6-plex  
+Specimen: frozen lung squamous cell carcinomas  
+Specimen: adjacent tissues  
+ConcentrationOfCompound: 20 mM HEPES, pH 8.0  
+ConcentrationOfCompound: 9 M urea  
+ConcentrationOfCompound: 1 mM sodium orthovanadate  
+ConcentrationOfCompound: 2.5 mM sodium pyrophosphate  
+ConcentrationOfCompound: 1 mM β-glycerophosphate  
+ReductionReagent: DTT  
+ConcentrationOfCompound: 4.5 mM DTT  
+AlkylationReagent: iodoacetamide  
+ConcentrationOfCompound: 11 mM iodoacetamide  
+CleavageAgent: trypsin  
+SampleTreatment: trypsin digestion  
+Temperature: 60 °C  
+Temperature: room temperature  
+Time: 20 minutes  
+Time: 15 minutes  
+Time: overnight  
+ConcentrationOfCompound: 600 µg  
+ConcentrationOfCompound: 100 µg  
+ConcentrationOfCompound: 500 ng  
+Compound: ammonium formate  
+ConcentrationOfCompound: 20 mM ammonium formate, pH 10  
+Instrument: Dionex Ultimate3000 UPLC  
+FlowRateChromatogram: 0.2 ml/min  
+Instrument: nanoflow ultra high performance liquid chromatograph (RSLC, Dionex, Sunnyvale, CA)  
+Instrument: electrospray quadrupole-orbital ion trap mass spectrometer (QExactive Plus, Thermo, San Jose, CA)  
+FlowRateChromatogram: 300 nl/min  
+CollisionEnergy: normalized collision energy set to 28  
+SpikedCompound: PRTC, Pierce #88320  
+ConcentrationOfCompound: 10 fmol of each peptide per injection  
+Time: 2 days each  
+Time: 24 days  
+CollisionEnergy: normalized collision energy value was set to 30  
+SpikedCompound: Twenty-five femtomoles of PRTC  
+PrecursorMassTolerance: 15 ppm mass tolerance  
+Modification: carbamidomethylation (cysteine)  
+Modification: oxidation (methionine)  
+Modification: pyroglutamic acid (glutamic acid)  
+NumberOfMissedCleavages: no limitation on missed cleavages  
+NumberOfMissedCleavages: Two missed tryptic cleavages  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 0.05 Da

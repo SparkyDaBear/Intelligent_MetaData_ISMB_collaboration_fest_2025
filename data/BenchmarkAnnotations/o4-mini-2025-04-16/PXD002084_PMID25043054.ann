@@ -1,0 +1,11 @@
+SourceName: TCGA Biospecimen Core Resource (BCR)
+Organism: NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ mice
+Age: 8 week old
+SourceName: Jackson Labs, Bar Harbor, Maine
+OrganismPart: Normal colon biopsies
+SamplingTime: between July 2006 and October 2010
+AssayName: multidimensional liquid chromatography-tandem mass spectrometry
+SupplementaryFile: raw and mzML files
+Disease: breast cancer
+TumorSite: colon and rectal tumors
+Specimen: colorectal tumor samples

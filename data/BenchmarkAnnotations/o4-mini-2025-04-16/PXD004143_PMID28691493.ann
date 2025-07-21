@@ -1,0 +1,39 @@
+Specimen: fresh-frozen post-mortem human brain  
+OrganismPart: dorsolateral prefrontal cortex; broadman area 9  
+NumberOfSamples: two human post-mortem brain samples  
+ReductionReagent: 1 mM dithiothreitol (DTT)  
+AlkylationReagent: 5 mM iodoacetamide (IAA)  
+CleavageAgent: 1:200 (w/w) lysyl endopeptidase (LysC; Wako)  
+CleavageAgent: 1:50 (w/w) trypsin (Promega)  
+Instrument: Sonic Dismembrator, Fisher Scientific  
+Instrument: Agilent 1100 HPLC system  
+Instrument: Dionex UltiMate 3000 RSLCnano system (ThermoFisher Scientific)  
+Instrument: Thermo Orbitrap Fusion mass spectrometer (ThermoFisher Scientific)  
+Instrument: high-resolution Q-Exactive Orbitrap  
+Instrument: Q-Exactive-Plus hybrid quadrupole-orbitrap mass spectrometer (ThermoFisher Scientific)  
+Instrument: Illumina HiSeq 2000 instrument  
+IonizationType: nanoelectrospray ion source  
+EnrichmentMethod: Electrostatic Repulsion-Hydrophilic Interaction Chromatography (ERLIC)  
+FlowRateChromatogram: 300 nl/min  
+FlowRateChromatogram: 0.3 ml/min  
+GradientTime: 66-min gradient  
+GradientTime: 120-min gradient  
+GradientTime: 250-min gradient  
+AssayName: bottom-up proteomics  
+AssayName: high-resolution mass spectrometry-based proteomics  
+AssayName: label-free ion intensity measurements  
+AssayName: parallel reaction monitoring (PRM)  
+Temperature: 37°C  
+Temperature: 4°C  
+Time: 30 min  
+Time: 4 h  
+Time: overnight  
+SamplingTime: 5 sec  
+ConcentrationOfCompound: 8M urea  
+ConcentrationOfCompound: 50 mM Tris-HCl  
+ConcentrationOfCompound: 0.6% (v/v)  
+PrecursorMassTolerance: ±10 ppm  
+FragmentMassTolerance: 0.05 Da  
+NumberOfMissedCleavages: 2  
+CollisionEnergy: 30% collision energy  
+FragmentationMethod: HCD

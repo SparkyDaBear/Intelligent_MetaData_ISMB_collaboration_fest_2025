@@ -1,0 +1,20 @@
+ABSTRACT:
+Summary
+Mammalian cells harbor more than a thousand RNA-binding proteins (RBPs), with half of these employing unknown modes of RNA binding. We developed RBDmap to determine the RNA-binding sites of native RBPs on a proteome-wide scale. We identified 1,174 binding sites within 529 HeLa cell RBPs, discovering numerous RNA-binding domains (RBDs). Catalytic centers or protein-protein interaction domains are in close relationship with RNA-binding sites, invoking possible effector roles of RNA in the control of protein function. Nearly half of the RNA-binding sites map to intrinsically disordered regions, uncovering unstructured domains as prevalent partners in protein-RNA interactions. RNA-binding sites represent hot spots for defined posttranslational modifications such as lysine acetylation and tyrosine phosphorylation, suggesting metabolic and signal-dependent regulation of RBP function. RBDs display a high degree of evolutionary conservation and incidence of Mendelian mutations, suggestive of important functional roles. RBDmap thus yields profound insights into native protein-RNA interactions in living cells.
+Graphical Abstract
+Highlights
+Experimental generation of an atlas of RNA-binding sites (RBS) in human cells
+RBS overlap with enzymatic cores and protein-protein interaction sites
+About half of the total RBS map to disordered protein regions
+RBS are enriched for phosphorylation, acetylation, and methylation sites
+Many recently discovered RNA-binding proteins (RBPs) do not show architectural similarities with classical RBPs, and their modes of interaction with RNA were unclear. We developed and employed RBDmap as a method for the comprehensive determination of the RNA-interacting sites of RBPs, identifying more than a thousand such sites. These data yield unprecedented insight into RNA-protein interactions in cells with implications for numerous biological contexts.
+METHODS:
+Experimental Procedures
+RBDmap
+Initial UV crosslinking and oligo(dT) purification followed the mRNA interactome capture protocol. Complete proteolytic digestions were performed with LysC or ArgC for 8 hr at 37°C. Polyadenylated RNA and crosslinked peptides were diluted in 20 mM Tris-HCl, 500 mM LiCl, 1 mM DTT, and 0.5 mM EDTA and recaptured on oligo(dT) beads. The supernatant was processed for MS (released peptides). oligo(dT) beads were washed as in). All fractions were treated with trypsin and labeled with stable isotopes in vitro. Peptides were analyzed on a liquid chromatography-tandem MS (LC-MS/MS) platform. The R-scripts used for the analyses can be found in the R/Bioconductor data-package RBDmapHeLa (http://www.bioconductor.org). RBDmap data can be accessed under http://www-huber.embl.de/users/befische/RBDmap.
+MS, Protein Identification, and Quantification
+Proteins were processed following standard protocols, and the resulting peptides were labeled with stable isotopes in vitro, fractionated, and analyzed on a nano-HPLC system (Proxeon) or nano-Acquity UPLC system (Waters) coupled directly to an LTQ Orbitrap Velos (Thermo Fisher Scientific).
+Data Analysis
+A complete description of data analysis can be found in the Supplemental Information.
+Fluorescence-Based Method to Measure RNA-Binding In Vivo and PNK Assay
+Tet-on HeLa cells expressing eGFP fusion proteins were generated as described elsewhere. Upon induction, cells were UV irradiated and subjected to small scale RNA interactome capture. Eluates were measured in a plate reader. For PNK assays, cell monolayers were irradiated with 150 mJ/cm2 UV254. After cell lysis and RNase treatment, FLAG-HA tagged proteins were immunoprecipitated with an anti-FLAG antibody coupled to magnetic beads (M8823, Sigma Aldrich) and processed as in. More detailed information can be found in the Supplemental Information.

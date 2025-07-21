@@ -1,0 +1,107 @@
+AssayName: Tandem Mass Tag (TMT) isobaric labeling  
+AssayName: synchronous precursor selection-based MS3 (SPS-MS3) mass spectrometry  
+NumberOfSamples: n=80  
+Disease: Alzheimer’s disease (AD)  
+Disease: Parkinson’s disease (PD)  
+Disease: co-morbid AD/PD cases  
+OrganismPart: frontal cortex  
+OrganismPart: anterior cingulate gyrus  
+AssayName: TMT 10-plex assay  
+OrganismPart: dorsolateral prefrontal frontal cortex (Frontal Cortex, Brodmann Area 9)  
+OrganismPart: anterior cingulate gyrus (Cingulate, Brodmann Area 24)  
+SourceName: Emory Alzheimer’s Disease Research Center (ADRC) brain bank  
+Disease: co-morbid AD and PD (AD/PD)  
+NumberOfSamples: 40 samples  
+NumberOfBiologicalReplicates: n=10 per control, PD, AD and AD/PD groupings  
+ConcentrationOfCompound: 8 M urea  
+ConcentrationOfCompound: 100 mM NaHPO4  
+Compound: HALT protease and phosphatase inhibitor cocktail  
+Instrument: Bullet Blender  
+MaterialType: stainless steel beads (0.9 to 2.0 mm blend)  
+Temperature: 4 °C  
+Time: 2 full 5 min cycles  
+SampleTreatment: sonicated for 3 cycles consisting of 5 s of active sonication at 30% amplitude followed by 15 s on ice  
+SampleTreatment: centrifuged for 5 min at 15 000 g  
+AssayName: bicinchoninic acid (BCA) assay  
+AssayName: SDS-PAGE  
+ReductionReagent: dithiothreitol (DTT)  
+ConcentrationOfCompound: 1 mM dithiothreitol (DTT)  
+Temperature: room temperature  
+Time: 30 min  
+AlkylationReagent: iodoacetamide (IAA)  
+ConcentrationOfCompound: 5 mM iodoacetamide (IAA)  
+SampleTreatment: alkylation in the dark for another 30 min  
+ConcentrationOfCompound: 50 mM triethylammonium bicarbonate (TEAB)  
+CleavageAgent: Lysyl endopeptidase (Wako)  
+FactorValue: 1:100 (w/w)  
+CleavageAgent: Trypsin (Promega)  
+FactorValue: 1:50 (w/w)  
+Time: overnight  
+Time: 12 h  
+Compound: formic acid (FA)  
+ConcentrationOfCompound: 1% formic acid (FA)  
+Compound: triflouroacetic acid (TFA)  
+ConcentrationOfCompound: 0.1% triflouroacetic acid (TFA)  
+EnrichmentMethod: C18 Sep-Pak column  
+Compound: methanol  
+ConcentrationOfCompound: 80% acetonitrile  
+ConcentrationOfCompound: 0.1% TFA  
+ConcentrationOfCompound: 50% acetonitrile  
+PooledSample: global internal standard (GIS)  
+AssayName: 10-plex TMT kits (ThermoFisher)  
+PooledSample: TMT channels 126  
+PooledSample: TMT channels 131  
+ConcentrationOfCompound: 100 mM TEAB  
+FactorValue: 41 μL anhydrous acetonitrile  
+Time: 1 h  
+Compound: hydroxylamine  
+ConcentrationOfCompound: 5% hydroxylamine  
+FactorValue: 8 μl  
+AssayName: LC-MS/MS  
+FractionationMethod: Electrostatic repulsion-hydrophilic interaction chromatography (ERLIC) fractionation  
+ConcentrationOfCompound: 90% acetonitrile  
+ConcentrationOfCompound: 0.1% acetic acid  
+Separation: PolyWAX LP column (20 cm by 3.2 mm packed with 300 Å 5 μm beads)  
+Instrument: Agilent 1100 HPLC system  
+GradientTime: 45 min  
+ConcentrationOfCompound: 50% ERLIC buffer B  
+ConcentrationOfCompound: 30% ACN  
+ConcentrationOfCompound: 0.1% FA  
+NumberOfFractions: 44  
+NumberOfFractions: 21  
+FractionIdentifier: Final fractions 1 to 20  
+FractionIdentifier: fraction 21  
+FractionIdentifier: fractions 41 to 44  
+FactorValue: 40 μL  
+Separation: 25 cm long 75 μm ID fused silica columns (New Objective, Woburn, MA) packed in-house with 1.9 μm Reprosil-Pur C18-AQ resin (Dr Maisch)  
+FactorValue: 2 μL (2 μg equivalent)  
+Instrument: Dionex RSLCnano UPLC  
+Instrument: Orbitrap Fusion mass spectrometer  
+IonizationType: nano-electrospray ion source  
+GradientTime: 105 min  
+ConcentrationOfCompound: 3 to 30% Buffer B  
+GradientTime: 20 min  
+ConcentrationOfCompound: 30 to 60% Buffer B  
+GradientTime: 5 min  
+ConcentrationOfCompound: 60 to 99% Buffer B  
+FlowRateChromatogram: 300 nl  
+GradientTime: 15 min  
+ConcentrationOfCompound: 99% B  
+FlowRateChromatogram: 500 nl/min  
+ConcentrationOfCompound: 1% B  
+FlowRateChromatogram: 350 nl/min  
+FragmentationMethod: synchronous precursor selection (SPS)-MS3 analysis  
+IonizationType: positive ion data dependent mode  
+CollisionEnergy: 35% normalized collision energy  
+FragmentationMethod: collision-induced dissociation (CID)-MS2 fragmentation  
+FragmentationMethod: higher-energy collision dissociation (HCD) fragmentation  
+CollisionEnergy: 65% normalized collision energy  
+TechnicalReplicate: technical replicate  
+NumberOfMissedCleavages: two missed cleavages  
+CleavageAgent: trypsin enzyme  
+Modification: TMT tags on lysine residues and peptide N-termini (+ 229.162932 Da)  
+Modification: carbamidomethylation of cysteine residues (+ 57.02146 Da)  
+Modification: oxidation of methionine residues (+ 15.99492 Da)  
+Modification: deamidation of asparagine and glutamine (+0.984 Da)  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 0.6 daltons

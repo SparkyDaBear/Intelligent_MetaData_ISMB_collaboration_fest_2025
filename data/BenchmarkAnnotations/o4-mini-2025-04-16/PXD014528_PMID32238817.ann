@@ -1,0 +1,81 @@
+CellLine: E14Tg2a ESCs  
+ConcentrationOfCompound: 10% fetal calf serum  
+ConcentrationOfCompound: 2 nM l-glutamine  
+ConcentrationOfCompound: 1 mM Na-Pyruvate  
+ConcentrationOfCompound: 0.1 mM non-essential amino acids  
+Compound: penicillin/streptomycin  
+ConcentrationOfCompound: 55 µM 2-mercaptoethanol  
+Compound: LIF  
+ConcentrationOfCompound: 1000 U/ml  
+Compound: MEK inhibitor PD0325901  
+ConcentrationOfCompound: 1 μM  
+Compound: GSK3 inhibitor CHIR99021  
+ConcentrationOfCompound: 3 μM  
+ConcentrationOfCompound: 20 ng/ml Activin-A  
+ConcentrationOfCompound: 12 ng/ml bFGF  
+ConcentrationOfCompound: 1% knock-out serum replacement  
+Compound: Fibronectin  
+ConcentrationOfCompound: 10 μg/ml  
+Compound: cycloheximide  
+ConcentrationOfCompound: 100 µg/ml  
+ConcentrationOfCompound: 5 mM Tris-HCl (pH 7.5)  
+ConcentrationOfCompound: 2.5 mM MgCl2  
+ConcentrationOfCompound: 1.5 mM KCl  
+ConcentrationOfCompound: 1× protease inhibitor cocktail (EDTA-free; Roche)  
+ConcentrationOfCompound: 2 mM DTT  
+ConcentrationOfCompound: 200 U/ml RNaseIn  
+ConcentrationOfCompound: 0.5% (v/w) Triton X-100  
+ConcentrationOfCompound: 0.5% (v/w) sodium deoxycholate  
+Instrument: FOXO JR Fractionator  
+Compound: RNase I  
+ConcentrationOfCompound: 1000 U RNase I  
+Compound: SuperaseIn  
+ConcentrationOfCompound: 34% sucrose  
+ConcentrationOfCompound: 2× acid phenol  
+Compound: chloroform  
+Temperature: −20 °C  
+Compound: NaOAc  
+Compound: GlycoBlue  
+Separation: denaturing 15% polyacrylamide-urea gel  
+ConcentrationOfCompound: 10 mM Tris (pH 7)  
+ConcentrationOfCompound: 10 pmol of RNA  
+EnrichmentMethod: subtractive hybridization  
+Instrument: HiSeq-2000 platform  
+ConcentrationOfCompound: Four micrograms of RNA  
+EnrichmentMethod: rRNA depletion using the Ribo-ZeroTM Gold kit  
+Instrument: HiSeq-2000 Illumina sequencer  
+ConcentrationOfCompound: 4% SDS  
+ConcentrationOfCompound: 0.1 M HEPES pH 7.6  
+ConcentrationOfCompound: 0.1 M DTT  
+CleavageAgent: trypsin/LysC combination  
+EnrichmentMethod: StageTips  
+Instrument: Orbitrap LC-MS  
+NumberOfMissedCleavages: Two missed cleavages  
+Compound: TRIzol  
+Compound: iQ SYBR green supermix  
+Compound: RIPA buffer  
+FractionationMethod: Twelve percent SDS-PAGE gels  
+MaterialType: PVDF membrane  
+ConcentrationOfCompound: 5% non-fat milk  
+Compound: RNF126  
+ConcentrationOfCompound: 1:500  
+Compound: BHMT  
+ConcentrationOfCompound: 1:500  
+Compound: NQO1  
+ConcentrationOfCompound: 1:500  
+Compound: KRAS  
+ConcentrationOfCompound: 1:500  
+Compound: S100A6  
+ConcentrationOfCompound: 1:1000  
+Compound: OCT4  
+ConcentrationOfCompound: 1:1000  
+Compound: ESRRB  
+ConcentrationOfCompound: 1:1000  
+Compound: GAPDH  
+ConcentrationOfCompound: 1:1000  
+Compound: ACTB  
+ConcentrationOfCompound: 1:1000  
+Compound: HRP-swine-anti-rabbit  
+Compound: HRP-rabbit anti mouse  
+Compound: ECL kit  
+Instrument: ImageQuant LAS 4000 system

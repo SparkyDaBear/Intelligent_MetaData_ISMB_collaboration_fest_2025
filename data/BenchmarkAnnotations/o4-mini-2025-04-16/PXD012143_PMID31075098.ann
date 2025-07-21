@@ -1,0 +1,34 @@
+Organism: P. falciparum  
+SourceName: human erythrocytes  
+ConcentrationOfCompound: 0.5% Albumax type II  
+ConcentrationOfCompound: 50 μM hypoxanthine  
+ConcentrationOfCompound: 2 mM L-glutamine  
+FractionationMethod: centrifugation on a 70% Percoll (GE Healthcare) cushion  
+SampleTreatment: treated with sorbitol  
+Time: 1–2 h  
+Time: 2–4 h  
+Compound: RAP  
+ConcentrationOfCompound: 100 nM RAP  
+Compound: DMSO  
+ConcentrationOfCompound: 1% v/v DMSO  
+Compound: 4-[7-[(dimethylamino)methyl]-2-(4-fluorphenyl)imidazo[1,2-α]pyridine-3-yl]pyrimidin-2-amine  
+ConcentrationOfCompound: 1.5 μM  
+Time: 3 h  
+Instrument: HPM100 high-pressure freezer  
+Instrument: Tecnai T12 120-kV field emission gun electron microscope  
+Instrument: Orbitrap Fusion Lumos  
+Instrument: U3000 RSLCnano system  
+AssayName: Phosphoproteomics  
+CleavageAgent: LysC  
+CleavageAgent: trypsin  
+ReductionReagent: dithiothreitol  
+AlkylationReagent: iodoacetamide  
+ConcentrationOfCompound: 10 mM dithiothreitol  
+ConcentrationOfCompound: 20 mM iodoacetamide  
+GradientTime: 3-h gradient run  
+Temperature: 40°C  
+EnrichmentMethod: sequential metal oxide affinity chromatography (SMOAC)  
+Label: Tandem Mass Tag 10plex isobaric reagent kit  
+Separation: 50-cm, 75-μm I.D. EASY-Spray Pepmap column  
+NumberOfMissedCleavages: two missed cleavages  
+Organism: Homo sapiens

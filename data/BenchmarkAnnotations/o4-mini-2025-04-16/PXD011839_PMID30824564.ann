@@ -1,0 +1,55 @@
+SourceName: plasma samples  
+SourceName: blood plasma sample  
+SampleTreatment: denatured, reduced, alkylated, and digested  
+ReductionReagent: SDC reduction and alkylation buffer  
+AlkylationReagent: SDC reduction and alkylation buffer  
+CleavageAgent: trypsin/LysC mix  
+ConcentrationOfCompound: 0.05 (μg/μl)  
+Temperature: 4°C  
+Temperature: 95°C  
+Time: 10 min  
+Time: 5 min  
+Temperature: room temperature  
+Temperature: 37°C  
+Time: 4 h  
+Time: 15 min  
+Instrument: EASY‐nLC 1200 system  
+IonizationType: nano‐electrospray ion source  
+Instrument: Q Exactive HF Orbitrap  
+Separation: Purified peptides were separated on 40‐cm HPLC columns (ID: 75 μm; in‐house packed into the tip with ReproSil‐Pur C18‐AQ 1.9 μm resin (Dr. Maisch GmbH))  
+AssayName: LC‐MS/MS analysis  
+GradientTime: 45‐min gradients  
+PooledSample: pooled samples from all healthy individuals, NAFLD patients, and liver cirrhosis patients separately  
+Depletion: serial depletion with a top6 (Multiple Affinity Removal Column Human 6; Agilent) and top14 depletion kits (Seppro Protein Depletion; Sigma‐Aldrich)  
+Separation: separated by the Spider Fractionator (Kulak et al, 2017)  
+NumberOfFractions: 24 fractions  
+GradientTime: linear 35‐min gradient of 3–30% of buffer B (0.1% formic acid, 5% DMSO, 80% (v/v) acetonitrile)  
+GradientTime: 7‐min increase to 75% of buffer B  
+GradientTime: 1‐min increase to 98% of buffer B  
+GradientTime: 2‐min wash of 98% buffer B  
+FlowRateChromatogram: 450 nl/min  
+Temperature: 60°C  
+AssayName: Top15 data‐dependent MS/MS scan method  
+AssayName: BoxCar scan method  
+FragmentationMethod: higher‐energy collisional dissociation (HCD)  
+CollisionEnergy: normalized collision energy of 27 eV  
+AssayName: data‐independent acquisition (DIA) method  
+CollisionEnergy: Normalized stepped collision energy was set to 25, 27.5, 30  
+Organism: C57Bl6/J mice  
+Age: 8‐week‐old  
+Sex: male  
+Strain: C57Bl6/J mice  
+Compound: GLP‐1/GIP co‐agonist  
+Compound: GLP‐1  
+Compound: GIP  
+ConcentrationOfCompound: 10 nmol/kg  
+Time: 15 days  
+NumberOfSamples: 48  
+Disease: NAFLD  
+Disease: cirrhosis  
+Disease: T2D  
+NumberOfTechnicalReplicates: three technical replicates  
+NumberOfMissedCleavages: 2  
+Modification: cysteine carbamidomethylation  
+Modification: oxidation on methionine  
+Modification: N‐terminal acetylation

@@ -1,0 +1,45 @@
+NumberOfSamples: 65 colorectal cancer (CRC) cell lines  
+NumberOfSamples: 90 CRC patients  
+NumberOfSamples: 1,074 CRC tumours  
+CellLine: SW480  
+CellLine: C10  
+CellLine: CaCo‐2  
+CellLine: CC07  
+CellLine: HDC‐135  
+CellLine: HDC‐143  
+CellLine: SK‐CO‐1  
+CellLine: T84  
+CellLine: RKO  
+CellLine: LS 180  
+CellLine: HDC‐111  
+CellLine: HT55  
+CellLine: OXCO‐1  
+CellLine: C125‐PM  
+Temperature: 37°C  
+Temperature: 4°C  
+ConcentrationOfCompound: 1% Pen‐Strep  
+ConcentrationOfCompound: 100 units/ml  
+ConcentrationOfCompound: 100 μg/ml  
+ConcentrationOfCompound: 10% foetal bovine serum  
+SourceName: SLI EU‐000F Batch 503005  
+ReductionReagent: DTT  
+ConcentrationOfCompound: 10 mM DTT  
+AlkylationReagent: chloroacetamide  
+ConcentrationOfCompound: 55 mM chloroacetamide  
+CleavageAgent: trypsin  
+Instrument: Orbitrap Velos mass spectrometer  
+Instrument: Orbitrap Elite mass spectrometer  
+Instrument: Dionex Ultimate 3000 HPLC system  
+Instrument: Eksigent nanoLC‐Ultra 1D+  
+AcquisitionMethod: data‐dependent acquisition  
+IonizationType: positive ion mode  
+FragmentationMethod: higher‐energy collisional dissociation (HCD)  
+CollisionEnergy: 30% normalised collision energy  
+PrecursorMassTolerance: 4.5 ppm  
+FragmentMassTolerance: 20 ppm  
+Separation: reverse‐phase gradient  
+FlowRateChromatogram: 300 nl/min  
+GradientTime: 96 min  
+MS2MassAnalyzer: Orbitrap  
+EnrichmentMethod: Kinobeads gamma (KBγ) pulldowns  
+AssayName: nanoflow LC‐MS/MS

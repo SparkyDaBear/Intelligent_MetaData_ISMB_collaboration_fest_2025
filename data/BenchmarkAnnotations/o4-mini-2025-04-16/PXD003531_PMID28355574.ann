@@ -1,0 +1,27 @@
+AssayName: single-shot mass-spectrometry-based phosphoproteomics  
+Age: 45–75 years  
+Sex: women  
+Specimen: peritoneal fluid (ascites)  
+Specimen: tumor biopsy specimens  
+OrganismPart: healthy ovarian cortical tissues  
+OrganismPart: fimbriae  
+CellType: primary epithelial cells  
+MaterialType: collagen-I-coated plates  
+SampleTreatment: 4% paraformaldehyde (PFA)  
+Time: 2 hr  
+Temperature: room temperature  
+Time: 1 hr  
+AssayName: Immunofluorescence  
+AssayName: immunoblotting  
+AssayName: cell proliferation assay  
+AssayName: IHC Staining  
+AssayName: TMA analysis  
+SampleTreatment: denaturation buffer  
+FactorValue: 700 µg protein  
+CleavageAgent: endoproteinase Lys-C  
+CleavageAgent: sequencing grade modified trypsin  
+Separation: reversed-phase Sep-Pak C18 cartridges  
+ConcentrationOfCompound: 50% acetonitrile  
+Instrument: EASY-nLC system (Proxeon)  
+Instrument: Q-Exactive mass spectrometer (Thermo Fisher Scientific)  
+CellLine: OVCAR3 cells

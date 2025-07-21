@@ -1,0 +1,49 @@
+AssayName: label-free; MS (Mass Spectrometry)-based phosphoproteomic approach  
+AssayName: Western-blot analysis  
+AssayName: LC-MS/MS  
+
+Instrument: Easy-nLC 1000 liquid chromatography system  
+Instrument: Q-Exactive Plus  
+
+IonizationType: nano-electrospray ion source  
+MS2MassAnalyzer: Orbitrap analyzer  
+CollisionEnergy: normalized collision energy of 27%  
+FlowRateChromatogram: 500 nL/min  
+
+ReductionReagent: 5 mM DTT (DL-Dithiothreitol) reduction  
+AlkylationReagent: 20 mM IAA (indole-3-acetic acid) alkylation  
+CleavageAgent: trypsin  
+NumberOfMissedCleavages: Two missed cleavage  
+
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 50 mmu  
+
+EnrichmentMethod: TiO2 beads  
+
+Modification: Oxidation (M)  
+Modification: Acetyl (Protein-N term)  
+Modification: Phospho (S/T/Y)  
+Modification: Carbamidomethyl (C)  
+
+Organism: young rice seedlings  
+Organism: Nipponbare young seedlings  
+Age: Fourteen-day-old  
+
+SampleTreatment: ABA treatment  
+Compound: abscisic acid (ABA)  
+ConcentrationOfCompound: 100 µM ABA  
+
+NumberOfBiologicalReplicates: three biological replicates  
+
+Temperature: 28 °C  
+Temperature: 37 °C  
+
+Time: 14 h daytime  
+Time: 10 h night time  
+Time: 2 h  
+SamplingTime: 3 h  
+SamplingTime: 12 h  
+
+Separation: linear 5%–35% acetonitrile gradient  
+
+SupplementaryFile: PXD004939

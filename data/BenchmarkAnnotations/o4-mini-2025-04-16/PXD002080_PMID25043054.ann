@@ -1,0 +1,11 @@
+Specimen: colon and rectal tumors  
+SourceName: TCGA Biospecimen Core Resource (BCR)  
+Age: 8 week old  
+Organism: NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ mice  
+Disease: Basal and Luminal-B breast cancer intrinsic subtypes  
+Specimen: Patient-derived xenograft tumors  
+OrganismPart: Normal colon biopsies  
+SamplingTime: between July 2006 and October 2010  
+AssayName: multidimensional liquid chromatography-tandem mass spectrometry  
+AssayName: LC-MS/MS analysis  
+SupplementaryFile: raw and mzML files

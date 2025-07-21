@@ -1,0 +1,17 @@
+Strain: NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ mice  
+Age: 8 week old  
+SourceName: Jackson Labs, Bar Harbor, Maine  
+SourceName: TCGA Biospecimen Core Resource (BCR)  
+SourceName: CPTAC Data Coordinating Center  
+SourceName: Cancer Genome Atlas (TCGA)  
+Specimen: Normal colon biopsies  
+Specimen: colorectal tumor samples  
+SamplingTime: between July 2006 and October 2010  
+SampleTreatment: tryptic peptide digests  
+AssayName: multidimensional liquid chromatography-tandem mass spectrometry  
+AssayName: LC-MS/MS analysis  
+SupplementaryFile: raw and mzML files  
+SupplementaryFile: complete protein assembly datasets  
+Disease: breast cancer  
+Experiment: TCGA cohort  
+FactorValue: spectral count data

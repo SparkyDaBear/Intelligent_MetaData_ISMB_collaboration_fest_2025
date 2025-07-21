@@ -1,0 +1,93 @@
+AcquisitionMethod: data-independent acquisition (DIA)
+AcquisitionMethod: data-dependent acquisition (DDA)
+AssayName: single-shot LC-MS analysis
+CellLine: HeLa cells
+CellLine: RPE1 cells
+Strain: BY4742 wild-type cells
+AnatomicSiteTumor: cervix carcinoma
+Sex: female
+PooledSample: 1:1 HeLa mixture of phosphopeptides and dephosphorylated peptides
+NumberOfTechnicalReplicates: technical triplicates
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+EnrichmentMethod: Ti-IMAC
+MaterialType: Ti-IMAC magnetic beads
+MaterialType: protein LoBind 96-well plates
+MaterialType: reversed-phase Sep-Pak C18 cartridge
+MaterialType: C18 StageTips
+MaterialType: SpikeMix PTM-kit 52 1001098
+MaterialType: SpikeMix PTM-kit 54 1001100
+MaterialType: MS PhosphoMix 1 Light MSP1L
+MaterialType: MS PhosphoMix 2 Light MSP2L
+MaterialType: MS PhosphoMix 3 Light MSP3L
+MaterialType: in-house packed 15 cm, 75 μm ID capillary column with 1.9 μm Reprosil-Pur C18 beads (Dr. Maisch, Ammerbuch, Germany)
+MaterialType: Waters Acquity CSH C18 1.7 µm 1 × 150 mm column
+MaterialType: 250 × 4.6 mm C18 Waters BEH X-Bridge peptide separation technology (PST) 3.6 mM column
+MaterialType: Phenomenex Kinetex Evo 2.6 mM column
+Separation: high-pH reversed-phase chromatography
+Instrument: NanoDrop 2000C
+Instrument: Heidolph Titramax 1000
+Instrument: magnetic stand (Thermo Scientific, # AM10027)
+Instrument: Ultimate 3000 ultra-high performance liquid chromatography (UHPLC) (Dionex, Sunnyvale, CA, USA)
+Instrument: EASY-nLC 1200 system (ThermoFisher Scientific, San Jose, CA)
+Instrument: integrated column oven (PRSO-V1, Sonation, Biberach, Germany)
+Instrument: Ultimate 3000 HPLC system (Dionex)
+FlowRateChromatogram: 100 ml/min
+FlowRateChromatogram: 1 ml/min
+FlowRateChromatogram: 350 nL/min
+FlowRateChromatogram: 30 µl/min
+NumberOfFractions: 10
+NumberOfFractions: 46
+Time: 15 min
+Time: 10 min
+Time: 20 min
+Time: 20 s
+Time: 60 min
+Time: 50 min
+Time: 5 min
+Time: 3 min
+Time: overnight
+Temperature: 37 °C
+Temperature: 95 °C
+Temperature: 60 °C
+Temperature: 4 °C
+Temperature: 85 °C
+Temperature: 40 °C
+Temperature: 275 °C
+Compound: fetal bovine serum
+ConcentrationOfCompound: 10% fetal bovine serum
+Compound: penicillin
+ConcentrationOfCompound: 100 U/ml penicillin
+Compound: streptomycin
+ConcentrationOfCompound: 100 μg/ml streptomycin
+Compound: guanidine hydrochloride
+ConcentrationOfCompound: 6 M guanidine hydrochloride
+Compound: tris(2-carboxyethyl)phosphine
+ConcentrationOfCompound: 5 mM tris(2-carboxyethyl)phosphine
+Compound: chloroacetamide
+ConcentrationOfCompound: 10 mM chloroacetamide
+Compound: Tris pH 8.5
+ConcentrationOfCompound: 100 mM Tris pH 8.5
+Compound: acetonitrile
+ConcentrationOfCompound: 40% acetonitrile
+ConcentrationOfCompound: 60% acetonitrile
+ConcentrationOfCompound: 80% acetonitrile
+ConcentrationOfCompound: 5% ACN
+Compound: ethanol
+ConcentrationOfCompound: 70% ethanol
+Compound: ammonia
+ConcentrationOfCompound: 1% ammonia
+Compound: glycolic acid
+ConcentrationOfCompound: 1 M glycolic acid
+Compound: trifluoroacetic acid (TFA)
+ConcentrationOfCompound: 5% TFA
+ConcentrationOfCompound: 1% TFA
+Compound: ammonium hydroxide
+ConcentrationOfCompound: 50 mM ammonium hydroxide
+Compound: ammonium bicarbonate
+ConcentrationOfCompound: 2.5 mM ammonium bicarbonate
+Compound: rAPid alkaline phosphatase
+ConcentrationOfCompound: 1 μl per 2 mg protein starting material
+Compound: water
+Compound: EGF
+ConcentrationOfCompound: 125 ng/ml EGF

@@ -1,0 +1,47 @@
+Specimen: skeletal muscle  
+NumberOfSamples: 58 healthy persons  
+Age: 20 to 87 years  
+AssayName: quantitative proteomic analysis  
+Experiment: Genetic and Epigenetic Study of Aging and Laboratory Testing (GESTALT)  
+BMI: BMI less than 30 kg/m2  
+Compound: protease inhibitor cocktail  
+ConcentrationOfCompound: 8 M Urea  
+ConcentrationOfCompound: 2M Thiourea  
+ConcentrationOfCompound: 4% CHAPS  
+ConcentrationOfCompound: 1% Triton X-100  
+ConcentrationOfCompound: 50 mM Tris, pH 8.5  
+SampleTreatment: methanol/chloroform extraction protocol  
+ConcentrationOfCompound: 150 mM NaCl  
+ReductionReagent: 50 mM DTT  
+AlkylationReagent: 100 mM iodoacetamide  
+Temperature: 36°C  
+Time: 1 hr  
+Time: 18 hr  
+CleavageAgent: trypsin/LysC mixture (Promega)  
+FactorValue: 1:50 (w/w) enzyme to protein ratio  
+Instrument: Agilent 1260 Bio-inert HPLC system  
+Label: Tandem Mass Tags (TMT) labeling  
+SpikedCompound: 200 femtomole of bacterial beta-galactosidase digest (SCIEX)  
+FractionationMethod: High-pH RPLC fractionation  
+Instrument: UltiMate 3000 Nano LC Systems  
+Instrument: Q Exactive HF mass spectrometer (Thermo Scientific, San Jose, CA)  
+MaterialType: 35 cm capillary column (3 μm C18 silica, Hamilton, HxSil cat# 79139) with 150 um ID  
+FlowRateChromatogram: 650 nl/min  
+Separation: linear organic gradient  
+GradientTime: 100 min  
+NumberOfFractions: 99  
+NumberOfFractions: 33  
+GradientTime: 205 min  
+ConcentrationOfCompound: 0.1% formic acid in water  
+ConcentrationOfCompound: 0.1% formic acid in acetonitrile  
+Temperature: +280°C  
+CollisionEnergy: 30% normalized high collision energy  
+Time: 40 s  
+Label: TMT6plex lysine and n-terminus  
+Modification: carbamidomethyl cysteine  
+Modification: deamidation of asparagine and glutamate  
+Modification: carbamylation of lysine and n-terminus  
+Modification: oxidized methionine  
+PrecursorMassTolerance: 20 ppm  
+FragmentMassTolerance: 0.08 Da  
+NumberOfMissedCleavages: two

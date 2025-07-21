@@ -1,0 +1,28 @@
+ReductionReagent: 4.5 mM DTT  
+Temperature: 60 °C  
+Time: 20 min  
+AlkylationReagent: 11 mM iodoacetamide  
+Temperature: room temperature  
+Time: 15 min  
+CleavageAgent: trypsin  
+Temperature: 37 °C  
+Time: overnight  
+AcquisitionMethod: data independent acquisition (DIA)  
+Label: TMT reagents  
+SpikedCompound: Twenty-five femtomoles of standard peptides (PRTC)  
+Instrument: Dionex Ultimate3000 RSLC UPLC  
+Separation: bRPLC separation  
+FlowRateChromatogram: 0.6 ml/min  
+Instrument: RSLC, Dionex, Sunnyvale, CA  
+Instrument: Q Exactive Plus, Thermo, San Jose, CA  
+IonizationType: electrospray  
+FlowRateChromatogram: 300 nl/min  
+GradientTime: 90 min gradient  
+CollisionEnergy: normalized collision energy 30  
+PrecursorMassTolerance: 10 p.p.m.  
+FragmentMassTolerance: 0.5 m/z  
+Modification: 229 Da on lysine and N-terminal (TMT label)  
+Modification: 57 Da on cysteines (carboamidomethylation)  
+Modification: 16 Da on methionine (oxidation)  
+Modification: −17 Da on N-terminal Glutamine residues (pyroglutamine)  
+NumberOfFractions: Twelve concatenated fractions

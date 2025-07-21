@@ -1,0 +1,22 @@
+AssayName: Mass spectrometry  
+EnrichmentMethod: immunoaffinity purification  
+Separation: nanoflow uHPLC  
+Instrument: UltiMate 3000 RSLCnano System  
+GradientTime: 90 minutes  
+ConcentrationOfCompound: 2.4 to 32.0% acetonitrile  
+Instrument: LTQ Orbitrap XL mass spectrometer  
+FragmentationMethod: collision-induced dissociation fragmentation method  
+NumberOfTechnicalReplicates: five  
+Modification: Oxidized methionine  
+AssayName: label-free quantitation  
+AssayName: immunohistochemistry  
+Instrument: Lab Vision Autostainer  
+ConcentrationOfCompound: 1:200  
+SampleTreatment: formalin-fixed, paraffin-embedded tissue sections  
+Instrument: EPS 221  
+Instrument: ABI 433A  
+Temperature: room temperature  
+Time: 30 min  
+Temperature: 4°C  
+Separation: density gradient centrifugation  
+Separation: magnetic cell sorting

@@ -1,0 +1,73 @@
+CellLine: YDFR-C  
+CellLine: DP-C  
+CellLine: M12-C  
+CellLine: M16-C  
+CellLine: YDFR-CB  
+CellLine: DP-CB  
+CellLine: M12-CB  
+CellLine: M16-CB  
+MaterialType: RPMI 1640 (1X with l-Glutamine; Gibco, Thermo Fischer Scientific, Austria)  
+MaterialType: heat inactivated fetal calf serum (FCS1, Sigma-Aldrich, Austria)  
+MaterialType: Penicillin and Streptomycin (Sigma-Aldrich)  
+MaterialType: T25 polystyrene cell culture flasks with cell growth surface for adherent cells (Sarstedt, Austria)  
+MaterialType: Trypsin-EDTA solution 0.25% (Sigma-Aldrich)  
+MaterialType: PBS  
+MaterialType: ethanol (EtOH, abs. 99%; AustroAlco, Austria)  
+MaterialType: Tris-EDTA, NP-40 buffer  
+MaterialType: 30 mg/ml StrataX solid phase extraction (SPE) columns (Phenomenex, Torrance, CA)  
+MaterialType: MS grade water  
+MaterialType: methanol (MeOH abs.; VWR International, Vienna, Austria)  
+MaterialType: formic acid (FA; Sigma-Aldrich)  
+MaterialType: reconstitution buffer (H2O/ACN/MeOH + 0,2% FA − 65:31.5:3.5)  
+MaterialType: 80% MeOH  
+MaterialType: ammonium acetate (NH4OAc; pH = 7; Sigma-Aldrich)  
+MaterialType: dichloromethane  
+MaterialType: 30% formic acid  
+MaterialType: mobile phase A (97.9% H2O, 2% acetonitrile, 0.1% formic acid)  
+MaterialType: C18 2 cm × 100 μm precolumn (Thermo Fisher Scientific)  
+MaterialType: Pepmap100 analytical column (Thermo Fisher Scientific)  
+MaterialType: Kinetex® C18 - column (2.6 μm C18 100 Å, LC Column 150 × 2.1 mm; Phenomenex®)  
+MaterialType: Eluent A contains H2O + 0.2% FA  
+MaterialType: Eluent B ACN:MeOH (90:10) + 0.2% FA  
+MaterialType: water with 0.2% formic acid  
+MaterialType: methanol with 0.2% formic acid  
+Instrument: CASY TT Cell Counter and Analyzer (OMNI Life Science GmbH & Co. KG, Bremen, Germany)  
+Instrument: MOXI Z Mini Automated Cell Counter (ORFLO Technologies)  
+Instrument: Dionex UltiMate 3000 RSLCnano LC system  
+Instrument: QExactive Orbitrap MS (Thermo Fisher Scientific)  
+Instrument: Thermo Scientific Vanquish (UHPLC) system  
+Instrument: Q Exactive HF Quadrupole-Orbitrap mass spectrometer (Thermo Fisher Scientific)  
+Instrument: 1290 Infitiny UHPLC System (Agilent Technologies)  
+Instrument: QqQ 6490 (Agilent technologies)  
+Organism: Male athymic nude mice (BALB/c background)  
+Strain: BALB/c  
+AnatomicSiteTumor: right thigh  
+OrganismPart: brain  
+Temperature: 37 °C  
+Temperature: −70 °C  
+Temperature: −20 °C  
+Temperature: 253 °C  
+Temperature: 40 °C  
+CleavageAgent: Trypsin/Lys-C (MS grade; Promega Corporation, Madison, WI)  
+ReductionReagent: dithiothreitol  
+AlkylationReagent: iodacetamid  
+FractionationMethod: cytoplasmic and nuclear fraction  
+GradientTime: 43 min  
+GradientTime: 95 min  
+GradientTime: 20 min  
+FlowRateChromatogram: 300 nL/min  
+FlowRateChromatogram: 200 μl/min  
+FlowRateChromatogram: 0.3 μl/min  
+CollisionEnergy: 30%  
+CollisionEnergy: 24%  
+PrecursorMassTolerance: 50 ppm  
+PrecursorMassTolerance: 25 ppm  
+Modification: carbamidomethylation  
+Modification: oxidation of methionine  
+Modification: acetylation of the protein C terminus  
+NumberOfMissedCleavages: 2  
+IonizationType: negative ionization  
+IonizationType: positive ion mode  
+Compound: N-Ethylmaleimide (NEM, Sigma-Aldrich)  
+Compound: Tris(2-carboxyethyl)phosphine hydrochloride (TCEP; pH = 7; Sigma-Aldrich)  
+Compound: N-Ethyl-D5-Maleimide (D5-NEM, Sigma-Aldrich)

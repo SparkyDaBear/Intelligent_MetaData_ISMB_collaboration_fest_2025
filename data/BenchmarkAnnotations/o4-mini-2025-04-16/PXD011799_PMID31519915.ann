@@ -1,0 +1,40 @@
+Instrument: FACS Calibur  
+Instrument: FACS Aria III  
+ReductionReagent: Dithiothreitol (DTT)  
+AlkylationReagent: iodoacetamide  
+CleavageAgent: trypsin (1:50; Trypsin Gold, Promega)  
+Label: 10plex tandem mass tag (TMT) reagents  
+FractionationMethod: Off-line high-pH reversed phase fractionations  
+Separation: Waters Xbridge BEH130 C18 3.5-µm 4.6 × 250 mm column  
+NumberOfFractions: 12 fractions  
+EnrichmentMethod: Sep-Pak C18 SPE cartridges  
+EnrichmentMethod: modified TiO2 batch protocol  
+EnrichmentMethod: C18 StageTips  
+Instrument: Ultimate 3000 HPLC  
+Instrument: Ultimate 3000 RSLC nano-flow chromatography system  
+Separation: PepMapAcclaim C18, 2 cm × 0.1 mm, 5 μm  
+Separation: PepMapAcclaim C18, 50 cm × 0.75 mm, 2 μm  
+FlowRateChromatogram: 0.8 ml/min  
+FlowRateChromatogram: 230 nl/min  
+GradientTime: 2 h  
+AssayName: data-dependent acquisition mode  
+CollisionEnergy: normalized collision energy (NCE) of 42%  
+FragmentationMethod: high-energy collision dissociation  
+Instrument: Orbitrap Fusion Lumos mass spectrometer equipped with EASY-Spray™ source  
+ConcentrationOfCompound: 100 mM Tris/HCL pH 7.6  
+ConcentrationOfCompound: 2% sodium dodecyl sulfate (SDS)  
+ConcentrationOfCompound: 1 mM sodium vanadate  
+ConcentrationOfCompound: 1 mM NaF  
+ConcentrationOfCompound: 8 M urea  
+ConcentrationOfCompound: 50 mM triethylammonium bicarbonate (TEAB)  
+ConcentrationOfCompound: 100 mM TEAB buffer  
+ConcentrationOfCompound: 0.3 M NH4OH  
+ConcentrationOfCompound: 70% MeCN  
+ConcentrationOfCompound: 3% TFA  
+ConcentrationOfCompound: 1% MeCN  
+ConcentrationOfCompound: 0.1% TFA  
+Compound: trifluoroacetic acid (TFA)  
+Compound: NH4OH  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 0.01 Da  
+NumberOfMissedCleavages: 1 missed cleavage

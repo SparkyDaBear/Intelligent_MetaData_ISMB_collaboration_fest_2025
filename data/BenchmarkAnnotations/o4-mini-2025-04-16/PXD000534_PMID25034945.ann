@@ -1,0 +1,33 @@
+Instrument: Typhoon 9400 (Amersham Biosciences)  
+Instrument: UltraFlexTM II instrument (Bruker Daltonics, Bremen, Germany)  
+Instrument: Ultimate 3000 RSLCnano system (Dionex, Idstein, Germany)  
+Instrument: LTQ Orbitrap Elite (Thermo Scientific)  
+CleavageAgent: trypsin  
+AlkylationReagent: propionamide  
+PrecursorMassTolerance: 5 ppm  
+FragmentMassTolerance: 0.4 Da  
+AssayName: 2D-DIGE  
+AssayName: label-free proteomics  
+AssayName: MALDI-TOF-MS  
+AssayName: LC-MS/MS  
+AssayName: immunohistochemistry  
+SampleTreatment: fixed in buffered formalin and paraffin embedded  
+SampleTreatment: snap-frozen  
+FlowRateChromatogram: flow rate of 30 μl/min  
+FlowRateChromatogram: 400 nl/min  
+Temperature: 60 °C  
+Separation: gradient from 5% to 40% solvent B over 98 min  
+Separation: 4–20% SDS-PAGE gel (TGXTM precast gels, Bio-Rad)  
+SourceName: University Hospital of Essen, Department of General, Visceral and Transplantation Surgery, Germany  
+Compound: cyanine dyes  
+ConcentrationOfCompound: 400 pmol cyanine dyes per 50 μg of protein  
+PooledSample: mixture of all samples  
+OrganismPart: non-tumorous liver tissue  
+OrganismPart: CCC tumor tissue  
+CellType: hepatocytes  
+CellType: cholangiocytes  
+Sex: females  
+Sex: males  
+Age: 28 to 81 years  
+Age: between 42 and 78  
+MS2MassAnalyzer: linear ion trap

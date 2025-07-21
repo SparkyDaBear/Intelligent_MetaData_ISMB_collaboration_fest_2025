@@ -1,0 +1,21 @@
+ABSTRACT:
+Summary
+Cancer cells acquire pathological phenotypes through accumulation of mutations that perturb signaling networks. However, global analysis of these events is currently limited. Here, we identify six types of network-attacking mutations (NAMs), including changes in kinase and SH2 modulation, network rewiring, and the genesis and extinction of phosphorylation sites. We developed a computational platform (ReKINect) to identify NAMs and systematically interpreted the exomes and quantitative (phospho-)proteomes of five ovarian cancer cell lines and the global cancer genome repository. We identified and experimentally validated several NAMs, including PKCγ M501I and PKD1 D665N, which encode specificity switches analogous to the appearance of kinases de novo within the kinome. We discover mutant molecular logic gates, a drift toward phospho-threonine signaling, weakening of phosphorylation motifs, and kinase-inactivating hotspots in cancer. Our method pinpoints functional NAMs, scales with the complexity of cancer genomes and cell signaling, and may enhance our capability to therapeutically target tumor-specific networks.
+Graphical Abstract
+Highlights
+Mutations perturbing signaling networks are systematically classified and interpreted
+Several such functional mutations are identified in cancer and experimentally validated
+The results suggest that a single point mutant can have profound signaling effects
+Systematic interpretation of genomic data may assist future precision-medicine efforts
+A systematic classification of genomic variants in cancer reveals the many ways in which signaling networks can be perturbed, including rewiring and the creation or destruction of phosphorylation sites.
+METHODS:
+Experimental Procedures
+Building Comprehensive Sets of Sequences: Kinome, SH2ome, and Phosphorylation Sites
+We built comprehensive sets of sequences covering all human kinase proteins, 120 SH2 domains, and a broad set of known human phosphorylation sites. With these sets, we performed domain-centered sequence alignments using ClustalW and Omega followed by subsequent manual refinement. These alignments were then deployed by identifying functional residues on them and mapping these residues back to the wild-type version of the mutant sequences analyzed with ReKINect. Similarly, phosphorylation site peptides were matched to the wild-type variants of all mutations, so that the distance between each mutation and its closest phosphorylation sites could be determined.
+Collecting a Global Repository of Somatic Cancer Mutations
+We compiled a global set of publicly available somatic cancer mutations from COSMIC v67 and generated the FASTA files required by ReKINect containing both the wild-type and mutant versions of all coding missense variants, using purpose-made Python scripts and ENSEMBL’s VEP resource.
+Computing Minimum Distance to Substrate from PDB Files
+Minimum distances to substrates were computed as described in the accompanying article and further detailed in the Supplemental Experimental Procedures.
+Protein Kinase Specificity Assays
+Kinases and mutants were expressed by transient transfection of encoding plasmids in HEK293T cells, purified by FLAG affinity purification, and PSPL experiments were performed as described. Further details can be found in the Supplemental Experimental Procedures.
+Further details about the maintenance of cell lines, preparation of sequencing, mass spectrometry, and RNAi screening samples and their computational analysis can similarly be found in the Supplemental Experimental Procedures.

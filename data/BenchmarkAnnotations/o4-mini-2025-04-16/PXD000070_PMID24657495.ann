@@ -1,0 +1,54 @@
+Organism: P. falciparum strain 3D7  
+SourceName: O + human erythrocytes  
+SampleTreatment: 0.1% Saponin lysis buffer  
+ConcentrationOfCompound: 4% SDS  
+ConcentrationOfCompound: 0.1 M DTT  
+ConcentrationOfCompound: 0.1 M Tris pH 8  
+ConcentrationOfCompound: 0.5 mM PMSF  
+ConcentrationOfCompound: 2 μg/ml Aprotinin/Leupeptin  
+ConcentrationOfCompound: 20 μM ZnCl  
+ConcentrationOfCompound: 25 mM Sodium fluoride  
+Temperature: 97 °C  
+Time: 5 min  
+Instrument: SpeedVac (Thermo Scientific)  
+CleavageAgent: Trypsin Gold (Promega)  
+AlkylationReagent: iodoacetamide  
+Experiment: FASP procedure  
+Time: 4 h  
+Temperature: 37 °C  
+ConcentrationOfCompound: 1.8 M  
+ConcentrationOfCompound: 100 mM ammonium bicarbonate  
+ConcentrationOfCompound: 0.4% TFA  
+MaterialType: Sep-Pak® Light C18 cartridge (Waters)  
+ConcentrationOfCompound: 50% acetonitrile  
+ConcentrationOfCompound: 0.1% TFA  
+MaterialType: Phos-Select beads (Sigma)  
+MaterialType: TopTip (Glygen)  
+Time: 1 h  
+Temperature: room temperature  
+NumberOfTechnicalReplicates: two IMAC purifications  
+NumberOfFractions: 6 aliquots  
+Instrument: Ultimate 3000 nano/Capillary LC System (Dionex)  
+Instrument: LTQ Orbitrap Velos hybrid mass spectrometer (Thermo Scientific)  
+IonizationType: nanospray ion source  
+MaterialType: micro-Precolumn cartridge (C18 Pepmap 100, LC Packings)  
+GradientTime: 320 min  
+Separation: RP gradient  
+MaterialType: Acclaim PepMap100 C18 analytical column (3 μm, 75 μm id × 50 cm) (Dionex)  
+FlowRateChromatogram: 0.3 μl/min  
+AcquisitionMethod: standard data dependent acquisition mode  
+FragmentationMethod: CID or ETD fragmentation  
+NumberOfTechnicalReplicates: Triplicate DT experiments  
+NumberOfTechnicalReplicates: triplicate DDNL experiments  
+AssayName: direct LC–MS/MS analyses  
+GradientTime: 4-hour LC gradients  
+CleavageAgent: trypsin  
+NumberOfMissedCleavages: 3  
+PrecursorMassTolerance: 10 ppm  
+FragmentMassTolerance: 0.5 Da  
+Modification: Acetyl (Protein N-term)  
+Modification: Oxidation (M)  
+Modification: Deamidated (NQ)  
+Modification: Carbamidomethyl (C)  
+Modification: Phospho (ST)  
+SourceName: combined Human (IPI, 2010) and P. falciparum (GeneDB) sequence database

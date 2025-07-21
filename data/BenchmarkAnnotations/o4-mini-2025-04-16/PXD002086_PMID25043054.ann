@@ -1,0 +1,12 @@
+SourceName: TCGA Biospecimen Core Resource (BCR)
+SourceName: Jackson Labs, Bar Harbor, Maine
+Age: 8 week old
+Organism: NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ mice
+Specimen: Patient-derived xenograft tumors
+Specimen: Normal colon biopsies
+Specimen: colorectal tumor samples
+Specimen: TCGA tumor samples
+Specimen: Xenograft QC samples
+AssayName: multidimensional liquid chromatography-tandem mass spectrometry
+AssayName: LC-MS/MS analysis
+SupplementaryFile: raw and mzML files

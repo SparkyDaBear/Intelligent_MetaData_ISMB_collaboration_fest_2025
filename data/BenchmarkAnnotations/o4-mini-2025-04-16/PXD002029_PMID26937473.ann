@@ -1,0 +1,41 @@
+Instrument: Q Exactive Plus mass spectrometer  
+Instrument: UltiMate 3000 UHPLC system (Dionex, Sunnyvale, CA, USA)  
+Instrument: NanoDrop 1000 UV–vis Spectrophotometer (Thermo Scientific, Waltham, MA, USA)  
+Instrument: Bullet Blender Gold  
+AssayName: high throughput gel free quantitative proteomics  
+AssayName: UPLC-nanoESI MS/MS setup  
+SampleTreatment: directly frozen biopsies (DF)  
+SampleTreatment: RNAlater biopsies  
+SampleTreatment: immediately (iFFPE) stabilized in 4% formalin  
+SampleTreatment: stored for 30 min (sFFPE) at ambient temperature before stabilization with 4% formalin  
+NumberOfSamples: 24 colon mucosa biopsies  
+Organism: Homo sapiens  
+OrganismPart: colon mucosa biopsies  
+ReductionReagent: 12 mM tris(2-carboxyethyl)phosphine  
+AlkylationReagent: 50 mM chloroacetamide  
+CleavageAgent: trypsin  
+CollisionEnergy: normalized collision energy of 27  
+PrecursorMassTolerance: mass window of m/z 1.6  
+FlowRateChromatogram: flow rate of 300 nL/min  
+GradientTime: 180 min ramp gradient  
+IonizationType: nanospray ionization  
+Modification: carbamidomethyl (C)  
+Modification: protein N-terminal acetylation  
+Modification: deamidation (NQ)  
+Modification: oxidation (M)  
+Modification: peptide N-terminal formylation  
+Temperature: −80 °C  
+Temperature: room temperature  
+Temperature: 95 °C  
+Temperature: 37 °C  
+Temperature: 4 °C  
+Temperature: 40 °C  
+Time: 30 min  
+Time: 24 h  
+Time: one month  
+Time: one week  
+Time: three weeks  
+Time: 10 min  
+Time: 60 min  
+Time: overnight  
+Time: 2 min

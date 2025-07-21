@@ -1,0 +1,37 @@
+AssayName: flow cytometric fingerprinting  
+AssayName: metaproteomics  
+AssayName: metabolomics  
+SampleTreatment: 2% formaldehyde [stock: 8% formaldehyde pH 7, diluted with PBS (6 mM Na2HPO4, 1.8 mM NaH2PO4, and 145 mM NaCl with bi-distilled water, pH 7)] for 30 min  
+Staining: 0.24 µM 4′,6-di-amidino-2-phenyl-indole (DAPI, Sigma-Aldrich, St-Louis, USA)  
+Strain: Anaerostipes caccae (DSMZ 14662)  
+Strain: Bacteroides thetaiotaomicron (DSMZ 2079)  
+Strain: Bifidobacterium longum (NCC 2705)  
+Strain: Blautia producta (DSMZ 2950)  
+Strain: Clostridium butyricum (DSMZ 10702)  
+Strain: Clostridium ramosum (DSMZ 1402)  
+Strain: Escherichia coli K-12 (MG1655)  
+Strain: Lactobacillus plantarum (DSMZ 20174)  
+Instrument: Q Exactive HF mass spectrometer  
+Instrument: QTRAP®5500  
+Separation: C18-reverse-phase trapping column (C18 PepMap100, 300 µm × 5 mm, particle size 5 µm, nano viper, Thermo Fischer Scientific, Waltham, MA, USA)  
+Separation: C18-reverse-phase analytical column (Acclaim PepMap® 100, 75 µm × 25 cm, particle size 3 µm, nanoViper, Thermo Fischer Scientific)  
+Separation: sodium dodecyl sulfate poly acryl amid one-dimensional gel electrophorese (SDS–PAGE)  
+EnrichmentMethod: ZipTip® treatment  
+CleavageAgent: Trypsin (Full)  
+NumberOfMissedCleavages: Max. Missed Cleavage: 2  
+PrecursorMassTolerance: precursor mass tolerance: 10 ppm  
+FragmentMassTolerance: fragment mass tolerance: 0.02 Da  
+FlowRateChromatogram: 0.35 mL/min  
+FactorValue: 0.04 h−1  
+FactorValue: 0.08 h−1  
+FactorValue: 0.02 h−1  
+SamplingTime: every 24 h starting the day after inoculation (d1)  
+Compound: butyrate  
+Compound: methyl butyrate  
+Compound: isobutyrate  
+Compound: valerate  
+Compound: isovalerate  
+Temperature: 4 °C  
+Temperature: −80 °C  
+Temperature: 60 °C  
+Temperature: 40 °C

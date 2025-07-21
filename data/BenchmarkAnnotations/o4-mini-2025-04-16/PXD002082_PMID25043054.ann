@@ -1,0 +1,11 @@
+SourceName: TCGA Biospecimen Core Resource (BCR)
+Organism: NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ mice
+Age: 8 week old
+SourceName: Jackson Labs, Bar Harbor, Maine
+Specimen: Normal colon biopsies
+SamplingTime: between July 2006 and October 2010
+CleavageAgent: tryptic peptide digests
+AssayName: multidimensional liquid chromatography-tandem mass spectrometry
+AssayName: LC-MS/MS analysis
+SupplementaryFile: raw and mzML files
+SourceName: CPTAC Data Coordinating Center
