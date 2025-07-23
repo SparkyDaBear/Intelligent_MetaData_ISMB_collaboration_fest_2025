@@ -10,6 +10,7 @@ There are two parts to this hackathon. In the first part you will attempt to rep
 Build a custom model or pipeline that meets, or surpasses, the performance of the GPT-o4-mini benchmark on gold-standard SDRF annotations.  
 
 - **Core Task**: Automatically identify every text span in a publication that corresponds to metadata annotations, and assign each span to one of our 71 predefined annotation categories.
+   - An example of how to apply the latest GPT model available from OpenAI can be found in the [Example use of GPT to annotate publications](#example-use-of-gpt-to-annotate-publications) section of the [Other Technical Information](Other-technical-information) portion at the end of this page.  
 
 - **Bonus Goal**: Go beyond span-level tagging and generate a fully populated SDRF file (tab-delimited format), ready for downstream analysis.
 
@@ -210,6 +211,123 @@ An SDRF-Proteomics file is a single table where each row represents one sample�
 
 More details about specific annotation types can be found here: [SDRF_Proteomics_Specification_v1.0.0.pdf](../documents/SDRF_Proteomics_Specification_v1.0.0.pdf)     
 Note: Most of the sample characteristics and comments above are detailed in this .pdf file but not all. These are an expanded set of annotated tags we use to ensure we get as much metadata from the manuscript as possible and some may not be applicable on a per sample basis (such as NumberBiologicalReplicates).  
+  
+## Example use of GPT to annotate publications 
+### `extract_sdrf_metadata.py` — Documentation
+This short python script takes in text files and sends them to GPTs latest o4-mini model for annotation with the prompt provided by the user as a text file. You can read detailed documentation and examples below.  
+
+### Overview
+
+This script batch-extracts SDRF-style metadata from plain-text manuscripts using the OpenAI Chat Completions API.
+Given a **prompt file** (your extraction instructions) and either a **single `.txt` file** or a **directory of `.txt` files**, it will:
+
+1. Send each manuscript plus your prompt to the model.
+2. Save the model’s response to an output directory named after the model.
+
+---
+
+### Requirements
+
+* Python ≥ 3.8
+* Packages: `openai`, `argparse` (stdlib), `logging` (stdlib), `glob` (stdlib), `numpy` (installed but not used), `os` (stdlib)
+
+Install the OpenAI SDK:
+
+```bash
+pip install openai>=1.0.0
+```
+
+---
+### Authentication
+You will need to go to the OpenAI website to set up your [API key](https://platform.openai.com/api-keys). You should get enough inital tokens to do some training during the hackathon.  
+
+**Do NOT hard-code your API key.**
+Set it as an environment variable instead:
+
+```bash
+export OPENAI_API_KEY="sk-..."   # Linux/macOS
+setx OPENAI_API_KEY "sk-..."     # Windows PowerShell (restart shell)
+```
+
+Then initialize the client with `OpenAI()` (no explicit key) or read from `os.environ`.
+
+---
+
+### Command-Line Usage
+
+```bash
+python src/data/GPT_Extraction.py --inpath data/CleanText/Training/PXD000070_PMID24657495_PMC4047622_clean_text.txt --prompt data/prompt/Hari_prompt.txt --outpath tempOutput/
+```
+
+#### Arguments
+
+| Flag        | Required | Type | Description                                                                                |
+| ----------- | -------- | ---- | ------------------------------------------------------------------------------------------ |
+| `--inpath`  | yes      | str  | Path to a **.txt file** or a **directory** containing `.txt` files.                        |
+| `--prompt`  | yes      | str  | Path to the prompt file used as the system message to steer extraction.                    |
+| `--outpath` | yes      | str  | Root directory where results are written. A subfolder named after `MODEL` will be created. |
+
+---
+
+### Output
+
+For each processed input file `foo.txt`, a result file is written to:
+
+```
+{outpath}/{MODEL}/foo.txt_GPTextract.txt
+```
+
+The file contains the raw model response (i.e., your extracted SDRF metadata).
+
+---
+
+### Logging & Console Output
+
+* Basic `print` statements announce progress, file paths, and success messages.
+---
+
+### Function Reference
+
+#### `CallGPT(text, prompt, client, MODEL) -> str`
+
+**Purpose:** Wraps a Chat Completions call.
+**Parameters:**
+
+* `text`: Manuscript content to analyze.
+* `prompt`: System prompt guiding the extraction.
+* `client`: An instantiated `OpenAI` client.
+* `MODEL`: Model name string.
+
+**Returns:** The assistant message content (string).
+**Errors:** Catches any exception from the API call, logs it, and returns a string prefixed with `"Error:"`.
+
+---
+
+### Error Handling Notes
+
+* Raises `ValueError` if:
+
+  * The prompt file is missing.
+  * `--inpath` is a directory with no `.txt` files.
+* API errors are caught and returned as text; you may want to `sys.exit(1)` instead.
+
+---
+
+### Example
+
+```bash
+python extract_sdrf_metadata.py \
+  --inpath data/manuscripts/ \
+  --prompt prompts/sdrf_extraction_prompt.txt \
+  --outpath results/
+```
+
+Outputs will appear in `results/o4-mini-2025-04-16/`.
+
+---
+
+**End of Documentation** ✅
+
 
 ## References and Resources
 [1] Perez-Riverol Y; European Bioinformatics Community for Mass Spectrometry. Toward a Sample Metadata Standard in Public Proteomics Repositories. J Proteome Res. 2020 Oct 2;19(10):3906-3909. doi: 10.1021/acs.jproteome.0c00376. Epub 2020 Sep 22. PMID: 32786688; PMCID: PMC7116434. [link](https://pmc.ncbi.nlm.nih.gov/articles/PMC7116434/?utm_source=chatgpt.com)  

@@ -1,0 +1,98 @@
+Extract SDRF-Proteomics metadata entities from scientific manuscripts.
+
+TASK: Identify and extract metadata entities using exact text spans from the manuscript.
+
+VALID LABELS: AcquisitionMethod, Age, AlkylationReagent, AnatomicSiteTumor, AncestryCategory, AssayName, Bait, BMI, BiologicalReplicate, CellLine, CellPart, CellType, CleavageAgent, CollisionEnergy, Compound, ConcentrationOfCompound, Depletion, DevelopmentalStage, Disease, DiseaseTreatment, EnrichmentMethod, Experiment, FactorValue, FlowRateChromatogram, FractionationMethod, FractionIdentifier, FractionationFraction, FragmentationMethod, FragmentMassTolerance, GeneticModification, Genotype, GradientTime, GrowthRate, Instrument, IonizationType, Label, MaterialType, Modification, MS2MassAnalyzer, NumberOfMissedCleavages, NumberOfFractions, NumberOfTechnicalReplicates, NumberOfSamples, NumberOfBiologicalReplicates, Organism, OrganismPart, OriginSiteDisease, PrecursorMassTolerance, PooledSample, ReductionReagent, SamplingTime, SampleTreatment, Separation, Sex, SourceName, Specimen, SpikedCompound, Staining, Strain, SupplementaryFile, SyntheticPeptide, TumorCellularity, TumorGrade, TumorSize, TumorSite, TumorStage, Time, Temperature, Treatment, TechnicalReplicate.
+
+ANNOTATION SCOPE:
+- Extract ONLY from: Title, Abstract, Methods/Materials sections
+- Methods sections include any text with keywords: "digested", "mass spectrometry", "sample preparation", "enrichment", "LC-MS", "proteomics", "peptide", "protein extraction"
+- IGNORE: Introduction, Results, Discussion, References, Figure captions, Tables
+
+EXTRACTION PROCESS (TWO-ROUND VERIFICATION):
+
+ROUND 1 - Liberal Extraction:
+1. Read through the ENTIRE manuscript systematically
+2. Extract ALL potential SDRF entities from target sections (be liberal - include anything that might be relevant)
+3. Assign preliminary labels to each potential entity
+4. Include complete phrases as they appear in text
+5. Don't worry about duplicates or uncertain matches at this stage
+6. Create comprehensive initial list
+
+ROUND 2 - Strict Review & Filtering:
+1. Re-examine each Round 1 extraction critically
+2. Remove any uncertain or ambiguous matches
+3. Verify each label assignment is correct and specific
+4. Fix any incorrect label assignments
+5. Remove duplicates (same label + same text span)
+6. Ensure every extraction uses exact text from manuscript
+7. Remove any extractions that don't clearly match SDRF categories
+8. Keep only high-confidence extractions
+
+FINAL OUTPUT:
+- Output only the high-confidence extractions that survived Round 2 filtering
+- Every line must follow format: "Label: ExactTextSpan"
+- No duplicates, no uncertain matches, no formatting errors
+
+FINAL VALIDATION CHECKLIST:
+Before submitting, verify:
+- Every line has format 'Label: Text'
+- All labels are from the valid SDRF list
+- No duplicate extractions exist
+- All text spans are exactly as written in manuscript
+- Only high-confidence matches are included
+
+EXTRACTION RULES:
+1. Extract ONLY exact phrases as they appear in text - NO paraphrasing, inference, or interpretation
+2. Preserve original capitalization, punctuation, and spacing exactly
+3. Include complete spans as written (e.g., if text says "Orbitrap Fusion Lumos", extract the full phrase)
+4. EVERY extraction must have a valid SDRF label - no unlabeled text
+5. Use most specific applicable label from the provided list
+6. Do NOT add context, explanations, or interpretations
+7. Do NOT infer missing information or fill gaps
+8. If exact text doesn't clearly match a label, skip it entirely
+
+
+LABEL-SPECIFIC CLARIFICATIONS:
+
+Instrument: Only annotate when the text includes the exact name or model of the mass spectrometer (e.g., "Orbitrap Fusion Lumos", "Q Exactive HF", "TripleTOF 5600").
+
+❌ Do NOT label general phrases like “mass spectrometry-based approach”, “MS analysis”, or “mass spectrometry” as Instrument.
+
+✅ These general phrases may be valid under AssayName if they describe the experimental strategy.
+CRITICAL: Extract text EXACTLY as written. Do not:
+- Normalize terminology (e.g., 'LC-MS/MS' stays 'LC-MS/MS', not 'liquid chromatography')
+- Correct spelling or grammar
+- Add missing articles or prepositions
+- Combine separate mentions into one
+- Make any textual modifications whatsoever
+
+EXAMPLES:
+✓ GOOD:
+- Text: "C57BL/6 mice" → Extract: Organism: C57BL/6 mice
+- Text: "liver tissue samples" → Extract: OrganismPart: liver tissue samples
+- Text: "Orbitrap Fusion Lumos mass spectrometer" → Extract: Instrument: Orbitrap Fusion Lumos mass spectrometer
+
+✗ NEVER DO:
+- Change text: "C57BL/6 mice" → "mouse" (NO normalization)
+- Add context: "liver" → "liver tissue" (NO inference)
+- Interpret: "MS analysis" → "mass spectrometry analysis" (NO expansion)
+- Extract without labels: "phosphoproteins" (MUST be "Label: phosphoproteins")
+- Repeat duplicates: Extract "Compound 2" 20 times (extract once per unique span)
+- Skip sections: Read the entire target text, not just the beginning
+
+OUTPUT FORMAT:
+Every extracted entity MUST follow this exact format:
+Label: ExactTextSpan
+
+REQUIRED FORMAT RULES:
+- Each line must start with a valid SDRF label followed by a colon
+- NO lines without labels
+- NO bare text without corresponding labels
+- Report each unique text span only once (no repetitions)
+- If you cannot assign a confident label to text, do not extract it
+
+DUPLICATE HANDLING:
+- Extract each unique phrase only ONCE per label type
+- If "Compound 2" appears 10 times, report it only once as "AssayName: Compound 2"
+- Scan the ENTIRE text systematically - do not stop after finding a few entities
