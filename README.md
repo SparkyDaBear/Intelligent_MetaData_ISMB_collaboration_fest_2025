@@ -213,7 +213,7 @@ More details about specific annotation types can be found here: [SDRF_Proteomics
 Note: Most of the sample characteristics and comments above are detailed in this .pdf file but not all. These are an expanded set of annotated tags we use to ensure we get as much metadata from the manuscript as possible and some may not be applicable on a per sample basis (such as NumberBiologicalReplicates).  
   
 ## Example use of GPT to annotate publications 
-### `extract_sdrf_metadata.py` — Documentation
+### `GPT_Extraction.py` — Documentation
 This short python script takes in text files and sends them to GPTs latest o4-mini model for annotation with the prompt provided by the user as a text file. You can read detailed documentation and examples below.  
 
 ### Overview
