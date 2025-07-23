@@ -33,7 +33,7 @@ Assess how well your trained model generalizes by applying it to completely unse
 - **Core Tasks**: 
    1. In [BRAT](https://brat.nlplab.org/), manually annotate the Abstract and Methods sections of 10 recently published proteomics papers using our 30-category schema. 
       - For more details about how BRAT works see their [introduction](https://brat.nlplab.org/introduction.html) and [manual](https://brat.nlplab.org/manual.html). 
-      - You do not need to install anything and can access the Unseen publications for annotation: [ISMB Collaberation Fest Unseen Annotation Platform](https://puzzle-diploma-decline-votes.trycloudflare.com/index.xhtml#/).
+      - You do not need to install anything and can access the Unseen publications for annotation: [ISMB Collaberation Fest Unseen Annotation Platform](https://cambridge-weak-low-keyword.trycloudflare.com/index.xhtml#/).
          - Read the tutorial popup and then click "OK".  
          - In the file browser that should be present navigate to ISMB/ and select one of the folders named Unseen_CleanText_Copy#. 
          - Each folder contains the same publications to annotate. 
