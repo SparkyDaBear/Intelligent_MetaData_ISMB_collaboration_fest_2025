@@ -10,7 +10,7 @@ There are two parts to this hackathon. In the first part you will attempt to rep
 Build a custom model or pipeline that meets, or surpasses, the performance of the GPT-o4-mini benchmark on gold-standard SDRF annotations.  
 
 - **Core Task**: Automatically identify every text span in a publication that corresponds to metadata annotations, and assign each span to one of our 71 predefined annotation categories.
-   - An example of how to apply the latest GPT model available from OpenAI can be found in the [Example use of GPT to annotate publications](#example-use-of-gpt-to-annotate-publications) section of the [Other Technical Information](other-technical-information) portion at the end of this page.  
+   - An example of how to apply the latest GPT model available from OpenAI can be found in the [Example use of GPT to annotate publications](#example-use-of-gpt-to-annotate-publications) section of the [Other Technical Information](#other-technical-information) portion at the end of this page.  
 
 - **Bonus Goal**: Go beyond span-level tagging and generate a fully populated SDRF file (tab-delimited format), ready for downstream analysis.
 
