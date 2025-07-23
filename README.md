@@ -11,14 +11,14 @@ Build a custom model or pipeline that meets, or surpasses, the performance of th
 
 - **Core Task**: Automatically identify every text span in a publication that corresponds to metadata annotations, and assign each span to one of our 71 predefined annotation categories.
 
+- **Bonus Goal**: Go beyond span-level tagging and generate a fully populated SDRF file (tab-delimited format), ready for downstream analysis.
+
 - **Evaluation**: Compute the precision, recall, F1-score for your model results compared to the SDRF. You can test the performance of your model using the interactive python notebooks located [src/data/Performance/](src/data/Performance/).   
    * To test the results of a model/algorithm that outputs a minimal-annotation files use the [src/data/Performance/MinimalAnnotation_Performance_relative2_SDRF.ipynb](src/data/Performance/MinimalAnnotation_Performance_relative2_SDRF.ipynb) Jupyter notebook.  
    * To test the results of a model/algorithm that outputs a full SDRF file use the [src/data/Performance/Predicted-SDRF_Performance_relative2_GS-SDRF.ipynb](src/data/Performance/Predicted-SDRF_Performance_relative2_GS-SDRF.ipynb) Jupyter notebook.  
         
-
 - **Success Metric**: Your solution should match or outperform GPT-o4-mini on a held-out test set of annotated SDRF files.
 
-- **Bonus Goal**: Go beyond span-level tagging and generate a fully populated SDRF file (tab-delimited format), ready for downstream analysis.
 
 **Data Provided**  
 We have provided the following three key datasets 
@@ -30,7 +30,20 @@ We have provided the following three key datasets
 ## **Part #2 Apply the trained model to unseen data**
 Assess how well your trained model generalizes by applying it to completely unseen examples and benchmarking its performance against the training results.
 
-- **Core Tasks**: In [BRAT](https://brat.nlplab.org/introduction.html), manually annotate the Abstract and Methods sections of 10 recently published proteomics papers using our 30-category schema. Run your model on these new annotations to generate predicted spans and categories.
+- **Core Tasks**: 
+   1. In [BRAT](https://brat.nlplab.org/), manually annotate the Abstract and Methods sections of 10 recently published proteomics papers using our 30-category schema. 
+      - For more details about how BRAT works see their [introduction](https://brat.nlplab.org/introduction.html) and [manual](https://brat.nlplab.org/manual.html). 
+      - You do not need to install anything and can access the Unseen publications for annotation: [ISMB Collaberation Fest Unseen Annotation Platform](http://192.168.1.4/index.xhtml#/).
+         - Read the tutorial popup and then click "OK".  
+         - In the file browser that should be present navigate to ISMB/ and select one of the folders named Unseen_CleanText_Copy#. 
+         - Each folder contains the same publications to annotate. 
+         - If someone else has already started annotating the publications in a directory please do not over write their annotations and fine a clean directory. 
+         - Hover your cursor over the brat logo in the upper right corner untill the login button apears. (Username: ISMB; password: 2025)
+         - Once logged in you can annotate each document by highlighting text spans and choosing from one of the [annotation types](data/AnnotatedTypes.txt).  
+         - You can download your annotations by hovering over the top left banner until the Data button appears and gives you the option to Export the collection with your annotations.  
+   2.  Run your model on these new annotations to generate predicted spans and categories.
+
+- **Bonus Goal**: Use both the [PRIDE](https://www.ebi.ac.uk/pride/)/[proteomexchange](https://www.proteomexchange.org/) with the publication to generate [lesSDRF](https://lessdrf.streamlit.app/) annotation files for the Unseen publications. 
 
 - **Evaluation**: Compute the precision, recall, F1-score for your model results compared to the SDRF. You can test the performance of your model using the interactive python notebooks located [src/data/Performance/](src/data/Performance/).   
    * To test the results of a model/algorithm that outputs a minimal-annotation files use the [src/data/Performance/MinimalAnnotation_Performance_relative2_SDRF.ipynb](src/data/Performance/MinimalAnnotation_Performance_relative2_SDRF.ipynb) Jupyter notebook.  
@@ -203,3 +216,4 @@ Note: Most of the sample characteristics and comments above are detailed in this
 [2] [www.psidev.info/sdrf-sample-data-relationship-format](www.psidev.info/sdrf-sample-data-relationship-format)  
 [3] [https://github.com/CompOmics](https://github.com/CompOmics)  
 [4] [https://github.com/bigbio/proteomics-sample-metadata](https://github.com/bigbio/proteomics-sample-metadata)  
+[5] Claeys, T., Van Den Bossche, T., Perez-Riverol, Y. et al. lesSDRF is more: maximizing the value of proteomics data through streamlined metadata annotation. Nat Commun 14, 6743 (2023). https://doi.org/10.1038/s41467-023-42543-5
