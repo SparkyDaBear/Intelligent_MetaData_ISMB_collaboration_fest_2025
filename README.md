@@ -1,5 +1,5 @@
 # **Metadata Extraction from Mass Spetrometry Proteomics Publications**
-
+![NSF-NCEMS](images/NCEMS_logo.svg)
 ## **Problem Statement**  
 Reproducibility and data reusability in life-science research hinge on structured experimental metadata. However, most publications embed sample‐to‐parameter relationships in free-text methods and supplemental tables, making large-scale mining arduous. This challenge invites participants to build models or prompts that, given the plain-text of a scientific article, either reconstruct its Sample Data Relation File (SDRF) or at the very least identify the named entities present: a table whose rows represent individual samples and whose columns correspond to annotation classes (e.g., organism, instrument, strain, ect..). An effective solution will accelerate systematic meta-analysis across thousands of publications.
 
